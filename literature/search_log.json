@@ -1,0 +1,852 @@
+{
+  "schema_version": "2.0",
+  "updated_on": "2026-11-02",
+  "scope": "Retained queries from targeted discovery/reconciliation on 2026-10-29 and access/update passes on 2026-10-31 and 2026-11-02. Not a complete reconstruction of every earlier exploratory lookup.",
+  "query_service": "General web search interface; provider not exposed. Direct retrieval services are listed separately.",
+  "databases_not_claimed_searched": [
+    "Scopus",
+    "Web of Science",
+    "Dimensions",
+    "comprehensive Google Scholar search"
+  ],
+  "direct_retrieval_services": [
+    "Springer Nature",
+    "ScienceDirect",
+    "PMLR",
+    "NeurIPS proceedings",
+    "IJCAI proceedings",
+    "ACL Anthology",
+    "arXiv",
+    "author and institutional repositories",
+    "author-linked GitHub repository README"
+  ],
+  "screening_counts_available": false,
+  "source_role_counts": {
+    "survey": 7,
+    "methodological_or_theoretical": 26,
+    "foundational": 4,
+    "dataset": 4
+  },
+  "query_records": [
+    {
+      "query": "\"A review of generative autoencoder frameworks and their latent modeling strategies\"",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "behera2026"
+      ],
+      "outcome": "Publisher excerpts located; full-body retrieval returned 403.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Variational Deep Embedding with Regularized Student-t Mixture Model\"",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "kobayashi2019"
+      ],
+      "outcome": "Publisher abstract and author publication listing; full chapter unavailable.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Variational inference for Student-t models\" Tipping Lawrence 2005 pdf",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "tipping2005"
+      ],
+      "outcome": "Publisher excerpts and author list found; no full journal PDF.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Structured Recognition\" variational autoencoder Student t",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [],
+      "outcome": "No additional source included from this query; later exact-title retrieval used.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"VAE with a VampPrior\" Tomczak Welling",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "vampprior2018"
+      ],
+      "outcome": "Official PMLR v84 page and PDF inspected; initial v80 guessed path failed and was corrected.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Deep Unsupervised Clustering with Gaussian Mixture Variational Autoencoders\"",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "gmvae2016"
+      ],
+      "outcome": "Author and arXiv records; v2 PDF inspected.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Structured Recognition for Generative Models\" Yu",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "srvae2022"
+      ],
+      "outcome": "NeurIPS record and arXiv body inspected.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Robust mixture modelling using the t distribution\" Peel McLachlan",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "peel2000"
+      ],
+      "outcome": "Publisher metadata and author-indexed text; direct author PDF timed out.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Composing graphical models with neural networks\" 2016",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "svae2016"
+      ],
+      "outcome": "NeurIPS record and paper inspected.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Robust Statistical Modeling Using the t Distribution\" Lange Little Taylor 1989",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "lange1989"
+      ],
+      "outcome": "Publisher metadata and institutional PDF; PDF text encoding impaired.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"A Database for Handwritten Text Recognition Research\" Hull 1994",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "usps1994"
+      ],
+      "outcome": "Publisher blocked by verification page; dataset provider citation and release metadata inspected.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Fashion-MNIST\" Xiao Rasul Vollgraf 2017",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "fashion2017"
+      ],
+      "outcome": "arXiv record inspected.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Auto-Encoding Variational Bayes\" \"ICLR 2014\" site:iclr.cc",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "kingma2014"
+      ],
+      "outcome": "Official conference program verifies publication identity.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Gradient-based learning applied to document recognition\" site:leon.bottou.org",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "mnist1998"
+      ],
+      "outcome": "Author publication record verifies metadata.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Variational Deep Embedding\" \"Kobayashi\" pdf site:prinlab.org",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "kobayashi2019"
+      ],
+      "outcome": "Author list found; no new full text.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Variational inference for Student-t models\" pdf site:inverseprobability.com",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "tipping2005"
+      ],
+      "outcome": "Author journal record has abstract and no full-text link.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "site:dl.acm.org/doi/10.1145/3689036 \"57\" \"69\"",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [],
+      "outcome": "No usable result in this exact query; broader DOI query used later.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"A review of generative autoencoder frameworks\" \"Mousumi\" \"Prasenjit\"",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "behera2026"
+      ],
+      "outcome": "Publisher authorship statement verifies names; excerpts remain bounded.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"variational deep clustering\" \"Student\" robustness",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [],
+      "outcome": "No additional source retained from returned mixed-query result set.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"variational autoencoder\" \"prior\" \"clustering\" \"Dirichlet\"",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "dirvae2019",
+        "vmm2025"
+      ],
+      "outcome": "Alternative-prior candidates followed to primary preprints; task-specific variants not extracted.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Gaussian\" \"Student-t\" \"reverse KL\" dimension asymptotic",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [],
+      "outcome": "No additional direct collision retained; absence of a hit is not absence of a theorem.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"Student-t\" \"variational\" \"degrees of freedom\" \"dimension\" bias",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [],
+      "outcome": "Related estimation and optimization results surfaced; no priority certification or exhaustive screening.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "\"10.1145/3689036\" \"ACM\" \"2025\"",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "zhou2025"
+      ],
+      "outcome": "Publisher-indexed final body and author institutional metadata verify 2024 online/2025 issue distinction.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "site:iclr.cc 2016 \"Importance Weighted Autoencoders\"",
+      "executed_on": "2026-10-29",
+      "retained_or_rechecked_keys": [
+        "iwae2016"
+      ],
+      "outcome": "Official ICLR conference list verifies the 2016 publication; arXiv v4 body inspected.",
+      "service": "general web search through provided search interface; underlying provider not exposed"
+    },
+    {
+      "query": "Behera Dey 2026 variational autoencoder review Applied Soft Computing",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "Kobayashi 2019 VaDE-RT robust variational deep embedding Student t",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "Tipping Lawrence 2005 variational inference robust probabilistic principal component analysis pdf",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"Variational inference for Student-t models\" pdf",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"Variational Deep Embedding with Regularized\" pdf",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"A review of generative autoencoder frameworks\" pdf",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"Variational Deep Embedding\" \"Kobayashi\" arxiv",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"Student-t models\" \"Tipping\" \"pdf\" -MLP -survey -process -review",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"115933\" \"Behera\" pdf",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"Variational inference for Student-t models\" \"Lawrence\" filetype:pdf",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"Variational Deep Embedding with Regularized\" -eurekamag -dblp",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"generative autoencoder frameworks\" \"Behera\" -scribd -linkedin -eurekamag",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"Kobayashi\" \"VaDE-RT\" -eurekamag",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"tipping\" \"lawrence\" \"2005\" \"student\" site:eprints.whiterose.ac.uk",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"A review of generative autoencoder frameworks\" site:arxiv.org",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "Taisuke Kobayashi publications 2019 ICANN student mixture",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"Variational inference for Student-t models\" \"download\"",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"generative autoencoder frameworks\" \"preprint\"",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"regularized student\" Kobayashi pdf",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "Taisuke Kobayashi NAIST homepage publications",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "Variational inference Student-t models Tipping Lawrence 2005",
+      "domains": [
+        "miketipping.com",
+        "inverseprobability.com",
+        "researchgate.net",
+        "sheffield.ac.uk",
+        "eprints.whiterose.ac.uk",
+        "proceedings.neurips.cc"
+      ],
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "generative autoencoder frameworks Behera Dey",
+      "domains": [
+        "arxiv.org",
+        "nitrkl.ac.in",
+        "researchgate.net"
+      ],
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"Variational Deep Embedding\" site:naist.repo.nii.ac.jp",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"Variational Deep Embedding\" site:researchmap.jp",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"Variational Deep Embedding with Regularized\" site:researchgate.net",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"A review of generative autoencoder frameworks\" site:ethesis.nitrkl.ac.in",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"10.1016/j.neucom.2005.02.016\" pdf",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"variational inference\" \"Student-t models\" site:microsoft.com",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"978-3-030-30508-6_36\" pdf",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "\"A review of generative autoencoder frameworks\" repository",
+      "executed_on": "2026-10-31",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "behera2026",
+        "kobayashi2019",
+        "tipping2005"
+      ],
+      "outcome": "Targeted access follow-up; no final full text obtained. See source-specific access_followup.json; the list of keys names the follow-up scope, not papers returned by every query."
+    },
+    {
+      "query": "Chowdhury 2025 variational autoencoder prior posterior mixture ScienceDirect",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "chowdhury2025"
+      ],
+      "outcome": "Journal publisher excerpts and author repository identified across targeted queries; complete journal text unavailable. Thesis locator could not be retrieved. Individual queries were not treated as exhaustive screens."
+    },
+    {
+      "query": "Kobayashi 2019 Variational Deep Embedding with Regularized Student-t Mixture Model PDF",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "kobayashi2019"
+      ],
+      "outcome": "Publisher abstract and author/institution locators rechecked; final full text unavailable."
+    },
+    {
+      "query": "Tipping Lawrence 2005 Variational inference Student-t models robust Bayesian interpolation generalized component analysis PDF",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "tipping2005"
+      ],
+      "outcome": "Publisher excerpts and author records rechecked; author precursor located but final 2005 article unavailable."
+    },
+    {
+      "query": "\"Chowdhury\" \"2025\" \"prior\" \"posterior\" \"variational\" mixture",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "chowdhury2025"
+      ],
+      "outcome": "Journal publisher excerpts and author repository identified across targeted queries; complete journal text unavailable. Thesis locator could not be retrieved. Individual queries were not treated as exhaustive screens."
+    },
+    {
+      "query": "\"Variational inference for Student-t models\" \"pdf\" Tipping Lawrence",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "tipping2005"
+      ],
+      "outcome": "Publisher excerpts and author records rechecked; author precursor located but final 2005 article unavailable."
+    },
+    {
+      "query": "\"Variational Deep Embedding with Regularized Student-t\" pdf",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "kobayashi2019"
+      ],
+      "outcome": "Publisher abstract and author/institution locators rechecked; final full text unavailable."
+    },
+    {
+      "query": "\"Mixtures of posterior and prior variational autoencoders\" pdf",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "chowdhury2025"
+      ],
+      "outcome": "Journal publisher excerpts and author repository identified across targeted queries; complete journal text unavailable. Thesis locator could not be retrieved. Individual queries were not treated as exhaustive screens."
+    },
+    {
+      "query": "\"Chowdhury\" \"Mixtures\" \"VAE\" arxiv",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "chowdhury2025"
+      ],
+      "outcome": "Journal publisher excerpts and author repository identified across targeted queries; complete journal text unavailable. Thesis locator could not be retrieved. Individual queries were not treated as exhaustive screens."
+    },
+    {
+      "query": "\"Variational inference for Student-t models\" site:inverseprobability.com",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "tipping2005"
+      ],
+      "outcome": "Publisher excerpts and author records rechecked; author precursor located but final 2005 article unavailable."
+    },
+    {
+      "query": "\"Mixtures of posterior and prior\" Chowdhury filetype:pdf",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "chowdhury2025"
+      ],
+      "outcome": "Journal publisher excerpts and author repository identified across targeted queries; complete journal text unavailable. Thesis locator could not be retrieved. Individual queries were not treated as exhaustive screens."
+    },
+    {
+      "query": "\"Chowdhury\" \"variational\" \"thesis\" 2025",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "chowdhury2025"
+      ],
+      "outcome": "Journal publisher excerpts and author repository identified across targeted queries; complete journal text unavailable. Thesis locator could not be retrieved. Individual queries were not treated as exhaustive screens."
+    },
+    {
+      "query": "\"Kobayashi\" \"VaDE-RT\" arxiv",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "kobayashi2019"
+      ],
+      "outcome": "Publisher abstract and author/institution locators rechecked; final full text unavailable."
+    },
+    {
+      "query": "\"Tipping\" \"Lawrence\" \"2005\" \"123\" \"141\" pdf",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "tipping2005"
+      ],
+      "outcome": "Publisher excerpts and author records rechecked; author precursor located but final 2005 article unavailable."
+    },
+    {
+      "query": "\"28012298\" Chowdhury",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "chowdhury2025"
+      ],
+      "outcome": "No usable scientific source added from the returned results."
+    },
+    {
+      "query": "\"Mixtures of Variational Autoencoders for Cluster Analysis\" Wellington",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "chowdhury2025"
+      ],
+      "outcome": "Journal publisher excerpts and author repository identified across targeted queries; complete journal text unavailable. Thesis locator could not be retrieved. Individual queries were not treated as exhaustive screens."
+    },
+    {
+      "query": "\"Variational inference for Student-t models\" site:sciencedirect.com/science/article",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "tipping2005"
+      ],
+      "outcome": "Publisher excerpts and author records rechecked; author precursor located but final 2005 article unavailable."
+    },
+    {
+      "query": "\"Variational Deep Embedding with Regularized\" site:arxiv.org",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "kobayashi2019"
+      ],
+      "outcome": "Publisher abstract and author/institution locators rechecked; final full text unavailable."
+    },
+    {
+      "query": "\"Mixtures of posterior and prior\" \"Gaussian\" \"Bernoulli\"",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "chowdhury2025"
+      ],
+      "outcome": "Journal publisher excerpts and author repository identified across targeted queries; complete journal text unavailable. Thesis locator could not be retrieved. Individual queries were not treated as exhaustive screens."
+    },
+    {
+      "query": "\"Mixtures of posterior and prior\" \"Section 2\" \"EM\"",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "chowdhury2025"
+      ],
+      "outcome": "Journal publisher excerpts and author repository identified across targeted queries; complete journal text unavailable. Thesis locator could not be retrieved. Individual queries were not treated as exhaustive screens."
+    },
+    {
+      "query": "\"Mixtures of posterior and prior variational autoencoders\" -site:researchgate.net -site:sciencedirect.com -site:eurekamag.com",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "chowdhury2025"
+      ],
+      "outcome": "Journal publisher excerpts and author repository identified across targeted queries; complete journal text unavailable. Thesis locator could not be retrieved. Individual queries were not treated as exhaustive screens."
+    },
+    {
+      "query": "\"Variational Deep Embedding\" \"Kobayashi\" site:naist.jp",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "kobayashi2019"
+      ],
+      "outcome": "Publisher abstract and author/institution locators rechecked; final full text unavailable."
+    },
+    {
+      "query": "\"Variational inference for Student-t models\" site:microsoft.com",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "tipping2005"
+      ],
+      "outcome": "Publisher excerpts and author records rechecked; author precursor located but final 2005 article unavailable."
+    },
+    {
+      "query": "\"Tipping\" \"Lawrence\" \"generalised component analysis\" filetype:pdf -site:researchgate.net -site:sciencedirect.com",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "tipping2005"
+      ],
+      "outcome": "Publisher excerpts and author records rechecked; author precursor located but final 2005 article unavailable."
+    },
+    {
+      "query": "\"Mixtures of posterior and prior variational autoencoders\" \"657\" \"131524\"",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "chowdhury2025"
+      ],
+      "outcome": "Journal publisher excerpts and author repository identified across targeted queries; complete journal text unavailable. Thesis locator could not be retrieved. Individual queries were not treated as exhaustive screens."
+    },
+    {
+      "query": "\"Student-t Variational Autoencoder for Robust Density Estimation\" arxiv Gaussian encoder prior",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "takahashi2018"
+      ],
+      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)\u2013(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
+    },
+    {
+      "query": "\"Takahashi\" \"2018\" \"Student-t\" \"q\" \"Gaussian\" encoder",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "takahashi2018"
+      ],
+      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)\u2013(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
+    },
+    {
+      "query": "site:ijcai.org/proceedings/2018/0374.pdf \"isotropic\" \"encoder\"",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "takahashi2018"
+      ],
+      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)\u2013(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
+    },
+    {
+      "query": "site:ijcai.org/proceedings/2018/0374.pdf \"prior\" \"standard normal\"",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "takahashi2018"
+      ],
+      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)\u2013(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
+    },
+    {
+      "query": "\"Student-t Variational Autoencoder for Robust Density Estimation\" \"Gaussian\" \"encoder\" \"prior\"",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "takahashi2018"
+      ],
+      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)\u2013(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
+    },
+    {
+      "query": "\"Student-t Variational Autoencoder for Robust Density Estimation\" \"q\u03c6\"",
+      "executed_on": "2026-11-02",
+      "service": "general web search through provided search interface; underlying provider not exposed",
+      "retained_or_rechecked_keys": [
+        "takahashi2018"
+      ],
+      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)\u2013(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
+    }
+  ]
+}

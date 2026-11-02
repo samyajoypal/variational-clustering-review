@@ -28,10 +28,10 @@ The output directory must be new. The generator verifies the completed analysis 
 | `tests/` | Mathematical, metric, data-integrity and checkpoint-continuation tests |
 | `results/` | Complete seed-level scores, contingencies, diagnostics, numerical tables and figures |
 | `protocols/` | Concise experimental specifications |
-| `literature/` | Scholarly bibliographic metadata |
+| `literature/` | Source roles, inspected versions, retained searches and bibliographic metadata |
 | `provenance/` | Public checksums, original-to-export bindings, upstream pins and data receipts |
 
-[Reproduction guide](REPRODUCIBILITY.md) · [Data](DATA.md) · [Result index](RESULTS.md) · [Validation](VALIDATION.md) · [Third-party notices](THIRD_PARTY_NOTICES.md)
+[Reproduction guide](REPRODUCIBILITY.md) · [Data](DATA.md) · [Results](RESULTS.md) · [File index](RESULTS_INDEX.json) · [Validation](VALIDATION.md) · [Third-party notices](THIRD_PARTY_NOTICES.md)
 
 ## Run tests
 

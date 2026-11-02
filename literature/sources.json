@@ -1,0 +1,1607 @@
+{
+  "schema_version": "2.0",
+  "updated_on": "2026-11-02",
+  "scope": "Focused critical synthesis of distributional assumptions, recognition restrictions and robustness in variational clustering.",
+  "exhaustive": false,
+  "systematic_review_completed": false,
+  "priority_certified": false,
+  "count": 41,
+  "source_role_counts": {
+    "survey": 7,
+    "methodological_or_theoretical": 26,
+    "foundational": 4,
+    "dataset": 4
+  },
+  "count_interpretation": "Roles of retained references, not screening, exclusion or complete-search counts. Dataset references are excluded from the methodological-source count.",
+  "version_rule": "Link versions of one method. Publication identity follows verified final metadata; technical claims follow the explicitly inspected version. Do not silently treat a precursor, thesis or preprint as the final article.",
+  "records": [
+    {
+      "citation_key": "asperti2021",
+      "title": "A Survey on Variational Autoencoders from a Green AI Perspective",
+      "authors": [
+        "Andrea Asperti",
+        "Davide Evangelista",
+        "Elena Loli Piccolomini"
+      ],
+      "year": 2021,
+      "venue": "SN Computer Science 2, 301",
+      "publication_status": "published",
+      "url": "https://link.springer.com/article/10.1007/s42979-021-00702-9",
+      "doi": "10.1007/s42979-021-00702-9",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://link.springer.com/article/10.1007/s42979-021-00702-9",
+        "https://arxiv.org/abs/2103.01071"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Closest survey overlap",
+      "prior_or_distribution_location": "Generation quality and compute; VAE failure modes; includes mixture models.",
+      "inference_family": "Comparative mathematical and implementation discussion.",
+      "robustness_target": "Generation, inactive variables and computational efficiency.",
+      "source_claim": "Provides mathematical descriptions, implementations and quantitative comparisons of selected VAE variants.",
+      "review_inference_or_limitation": "A critical VAE review with experiments is already established; clustering-specific inference/robustness synthesis is narrower.",
+      "section_locators": [
+        "Introduction",
+        "VAE failure modes",
+        "Clustering, GMM and Two Stage",
+        "Experimental setting"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "survey",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "fortuin2022",
+      "title": "Priors in Bayesian Deep Learning: A Review",
+      "authors": [
+        "Vincent Fortuin"
+      ],
+      "year": 2022,
+      "venue": "International Statistical Review 90(3), 563--591",
+      "publication_status": "published",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/insr.12502",
+      "doi": "10.1111/insr.12502",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1111/insr.12502"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Closest survey overlap",
+      "prior_or_distribution_location": "Distributional, structural and learned priors across VAEs, GPs and Bayesian networks.",
+      "inference_family": "Discusses approximate-posterior choices alongside prior changes.",
+      "robustness_target": "Prior specification and predictive modeling.",
+      "source_claim": "Reviews VAE prior families and aggregate-posterior-based prior learning.",
+      "review_inference_or_limitation": "Prior/encoder compatibility is established context; it cannot itself be claimed as a new observation.",
+      "section_locators": [
+        "Introduction",
+        "3 Priors in variational autoencoders",
+        "3.1",
+        "3.2",
+        "5.2"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "survey",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "berahmand2024",
+      "title": "Autoencoders and their applications in machine learning: a survey",
+      "authors": [
+        "Kamal Berahmand",
+        "Fatemeh Daneshfar",
+        "Elaheh Sadat Salehi",
+        "Yuefeng Li",
+        "Yue Xu"
+      ],
+      "year": 2024,
+      "venue": "Artificial Intelligence Review 57, 28",
+      "publication_status": "published",
+      "url": "https://link.springer.com/article/10.1007/s10462-023-10662-6",
+      "doi": "10.1007/s10462-023-10662-6",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://link.springer.com/article/10.1007/s10462-023-10662-6"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Closest survey overlap",
+      "prior_or_distribution_location": "Broad autoencoder taxonomy including robust and generative families.",
+      "inference_family": "VAE recognition/ELBO discussion within broader architecture coverage.",
+      "robustness_target": "Denoising, corruption and application performance.",
+      "source_claim": "Organizes autoencoders by principles and structure and reviews their applications and limitations.",
+      "review_inference_or_limitation": "Its broad robustness discussion is not equivalent to a guarantee for latent mixture assignment.",
+      "section_locators": [
+        "Introduction and contributions",
+        "3 taxonomy",
+        "3.2 robust autoencoders",
+        "3.3.1 variational autoencoders",
+        "selected application discussion"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "survey",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "ren2022",
+      "title": "Deep Clustering: A Comprehensive Survey",
+      "authors": [
+        "Yazhou Ren",
+        "Jingyu Pu",
+        "Zhimeng Yang",
+        "Jie Xu",
+        "Guofeng Li",
+        "Xiaorong Pu",
+        "Philip S. Yu",
+        "Lifang He"
+      ],
+      "year": 2022,
+      "venue": "arXiv:2210.04142v1",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2210.04142",
+      "doi": null,
+      "version_inspected": "arXiv v1 (2022-10-09); latest arXiv history checked",
+      "source_urls": [
+        "https://arxiv.org/abs/2210.04142",
+        "https://arxiv.org/html/2210.04142v1"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Closest survey overlap",
+      "prior_or_distribution_location": "Data-source and architecture taxonomy; VAE mixture priors among methods.",
+      "inference_family": "VaDE, GMVAE, LTVAE and VAEIC descriptions.",
+      "robustness_target": "Clustering across single-view, semi-supervised, multiview and transfer settings.",
+      "source_claim": "Organizes methods by data source, prior knowledge and architecture.",
+      "review_inference_or_limitation": "The inspected arXiv history still contains v1 only; no later journal equivalence is asserted.",
+      "section_locators": [
+        "Contents and introduction",
+        "III-C VAE-based deep clustering",
+        "VII future directions"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "survey",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "lu2024",
+      "title": "A survey on deep clustering: from the prior perspective",
+      "authors": [
+        "Yiding Lu",
+        "Haobin Li",
+        "Yunfan Li",
+        "Yijie Lin",
+        "Xi Peng"
+      ],
+      "year": 2024,
+      "venue": "Vicinagearth 1, 4",
+      "publication_status": "published",
+      "url": "https://link.springer.com/article/10.1007/s44336-024-00001-w",
+      "doi": "10.1007/s44336-024-00001-w",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://link.springer.com/article/10.1007/s44336-024-00001-w"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Closest survey overlap",
+      "prior_or_distribution_location": "Six kinds of prior knowledge, including distribution and augmentation priors.",
+      "inference_family": "Method formulations and benchmark comparisons.",
+      "robustness_target": "Clustering performance under different prior assumptions.",
+      "source_claim": "Provides a prior-based taxonomy and five-dataset comparison; Table 4 distinguishes split protocols.",
+      "review_inference_or_limitation": "Neither a prior perspective nor attention to train/test comparability is new framing.",
+      "section_locators": [
+        "Introduction",
+        "3.2 distribution prior",
+        "4.1-4.3 evaluation",
+        "6 future directions"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "survey",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "behera2026",
+      "title": "A review of generative autoencoder frameworks and their latent modeling strategies",
+      "authors": [
+        "Mousumi Behera",
+        "Prasenjit Dey"
+      ],
+      "year": 2026,
+      "venue": "Applied Soft Computing 202, 115933",
+      "publication_status": "published",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1568494626013815",
+      "doi": "10.1016/j.asoc.2026.115933",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1568494626013815",
+        "https://www.sciencedirect.com/science/article/abs/pii/S1568494626013815"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Closest survey overlap",
+      "prior_or_distribution_location": "Latent regulation across deterministic, probabilistic, adversarial and diffusion autoencoders.",
+      "inference_family": "Accessible excerpts discuss latent uncertainty and objectives.",
+      "robustness_target": "Stability, robustness, failure modes and application trade-offs.",
+      "source_claim": "Accessible publisher text describes cross-model comparison and application case studies.",
+      "review_inference_or_limitation": "Full body unavailable (403); no absence claim concerning detailed Student/inference analysis is supported.",
+      "section_locators": [
+        "Publisher-indexed abstract",
+        "publisher-indexed introduction and section excerpts"
+      ],
+      "access_level": "publisher_abstract_and_excerpts",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "survey",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "zhou2025",
+      "title": "A Comprehensive Survey on Deep Clustering: Taxonomy, Challenges, and Future Directions",
+      "authors": [
+        "Sheng Zhou",
+        "Hongjia Xu",
+        "Zhuonan Zheng",
+        "Jiawei Chen",
+        "Zhao Li",
+        "Jiajun Bu",
+        "Jia Wu",
+        "Xin Wang",
+        "Wenwu Zhu",
+        "Martin Ester"
+      ],
+      "year": 2025,
+      "venue": "ACM Computing Surveys 57(3), Article 69, 1--38",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1145/3689036",
+      "doi": "10.1145/3689036",
+      "version_inspected": "final publisher-indexed sections (online 2024-11-11; issue March 2025); author PDF separately identified",
+      "source_urls": [
+        "https://doi.org/10.1145/3689036",
+        "https://arxiv.org/abs/2206.07579",
+        "https://mn.cs.tsinghua.edu.cn/xinwang/PDF/papers/2024_A%20Comprehensive%20Survey%20on%20Deep%20Clustering%20Taxonomy%20Challenges%20and%20Future%20Directions.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Closest survey overlap",
+      "prior_or_distribution_location": "Representation/clustering-module interactions.",
+      "inference_family": "Multistage, generative, iterative and simultaneous categories.",
+      "robustness_target": "Initialization, imbalance, overlapping clusters and global modeling.",
+      "source_claim": "Reviews module designs, methods, datasets, metrics, software and open problems.",
+      "review_inference_or_limitation": "Publisher-indexed final sections inspected; author PDF has an older manuscript header and is not presumed identical.",
+      "section_locators": [
+        "Introduction",
+        "5 taxonomy",
+        "6 datasets and metrics",
+        "8 challenges"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "survey",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "kingma2014",
+      "title": "Auto-Encoding Variational Bayes",
+      "authors": [
+        "Diederik P. Kingma",
+        "Max Welling"
+      ],
+      "year": 2014,
+      "venue": "ICLR 2014",
+      "publication_status": "published",
+      "url": "https://arxiv.org/abs/1312.6114",
+      "doi": null,
+      "version_inspected": "arXiv v11 (2022-12-10); ICLR 2014 acceptance verified",
+      "source_urls": [
+        "https://arxiv.org/abs/1312.6114",
+        "https://arxiv.org/html/1312.6114v11",
+        "https://iclr.cc/archive/2014/old-site/conference-proceedings.html"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Foundational amortized variational objective",
+      "prior_or_distribution_location": "Standard Gaussian latent example; Bernoulli or Gaussian decoder.",
+      "inference_family": "Neural Gaussian recognition; reparameterized ELBO.",
+      "robustness_target": "Inference and scalable learning.",
+      "source_claim": "Introduces amortized recognition and stochastic reparameterized lower-bound optimization.",
+      "review_inference_or_limitation": "The general VAE framework does not require a Gaussian prior; the Gaussian example is a design choice.",
+      "section_locators": [
+        "Sections 2.2--2.4",
+        "Section 3",
+        "Appendices B--C"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "foundational",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "vade2017",
+      "title": "Variational Deep Embedding: An Unsupervised and Generative Approach to Clustering",
+      "authors": [
+        "Zhuxi Jiang",
+        "Yin Zheng",
+        "Huachun Tan",
+        "Bangsheng Tang",
+        "Hanning Zhou"
+      ],
+      "year": 2017,
+      "venue": "IJCAI, 1965--1972",
+      "publication_status": "published",
+      "url": "https://ijcai.org/proceedings/2017/273",
+      "doi": "10.24963/ijcai.2017/273",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://ijcai.org/proceedings/2017/273"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Generative Gaussian-mixture baseline",
+      "prior_or_distribution_location": "Categorical/Gaussian-mixture latent prior.",
+      "inference_family": "Gaussian encoder and cluster responsibilities; ELBO.",
+      "robustness_target": "Clustering and generation.",
+      "source_claim": "Combines a latent GMM with a neural decoder for unsupervised clustering.",
+      "review_inference_or_limitation": "Source-recipe ports and matched comparisons answer different questions; this extraction imports no reported scores.",
+      "section_locators": [
+        "Sections 3--4",
+        "Appendix ELBO derivation"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "dec2016",
+      "title": "Unsupervised Deep Embedding for Clustering Analysis",
+      "authors": [
+        "Junyuan Xie",
+        "Ross Girshick",
+        "Ali Farhadi"
+      ],
+      "year": 2016,
+      "venue": "ICML, PMLR 48:478--487",
+      "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v48/xieb16.html",
+      "doi": null,
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://proceedings.mlr.press/v48/xieb16.html"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Adjacent assignment-learning comparator",
+      "prior_or_distribution_location": "Student-t similarity kernel in deterministic embedding; no generative t prior.",
+      "inference_family": "Sharpened-target KL and iterative embedding/centroid optimization.",
+      "robustness_target": "Clustering accuracy.",
+      "source_claim": "Jointly refines embedding and assignments after autoencoder initialization.",
+      "review_inference_or_limitation": "A Student assignment kernel does not make DEC a Student-prior VAE.",
+      "section_locators": [
+        "Section 3",
+        "Equations 1--3",
+        "Section 4"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "idec2017",
+      "title": "Improved Deep Embedded Clustering with Local Structure Preservation",
+      "authors": [
+        "Xifeng Guo",
+        "Long Gao",
+        "Xinwang Liu",
+        "Jianping Yin"
+      ],
+      "year": 2017,
+      "venue": "IJCAI, 1753--1759",
+      "publication_status": "published",
+      "url": "https://ijcai.org/proceedings/2017/243",
+      "doi": "10.24963/ijcai.2017/243",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://ijcai.org/proceedings/2017/243"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Reconstruction-preserving assignment comparator",
+      "prior_or_distribution_location": "Student assignment kernel; deterministic autoencoder.",
+      "inference_family": "Target KL plus reconstruction.",
+      "robustness_target": "Feature-structure preservation and clustering.",
+      "source_claim": "Retains reconstruction during clustering refinement to constrain representation changes.",
+      "review_inference_or_limitation": "Its reconstruction scale and target-update protocol affect comparison with probabilistic objectives.",
+      "section_locators": [
+        "Sections 2--3",
+        "Section 4 experimental settings"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "gmvae2016",
+      "title": "Deep Unsupervised Clustering with Gaussian Mixture Variational Autoencoders",
+      "authors": [
+        "Nat Dilokthanakul",
+        "Pedro A. M. Mediano",
+        "Marta Garnelo",
+        "Matthew C. H. Lee",
+        "Hugh Salimbeni",
+        "Kai Arulkumaran",
+        "Murray Shanahan"
+      ],
+      "year": 2016,
+      "venue": "arXiv:1611.02648v2",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/1611.02648",
+      "doi": null,
+      "version_inspected": "v2 (2017-01-13); first posted 2016-11-08",
+      "source_urls": [
+        "https://arxiv.org/abs/1611.02648",
+        "https://arxiv.org/pdf/1611.02648v2"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Mixture-VAE degeneracy antecedent",
+      "prior_or_distribution_location": "Hierarchical Gaussian-mixture latent model.",
+      "inference_family": "Amortized Gaussian factors and categorical assignments.",
+      "robustness_target": "Cluster degeneracy under regularization.",
+      "source_claim": "Diagnoses over-regularization and studies a minimum-information constraint.",
+      "review_inference_or_limitation": "Cluster degeneracy is an older failure mechanism; it should not be conflated with tail-driven inference penalties.",
+      "section_locators": [
+        "Sections 2--3",
+        "Appendix A"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately.",
+      "subsequent_recheck": {
+        "date": "2026-11-02",
+        "source_url": "https://arxiv.org/html/1611.02648v2",
+        "section_locators": [
+          "Section 3.2",
+          "Section 3.4",
+          "Appendix A"
+        ],
+        "verification": "Separate continuous Gaussian factors and a conditional categorical distribution; Gaussian/Bernoulli observation models in Appendix A.",
+        "entire_paper_read": false
+      }
+    },
+    {
+      "citation_key": "vampprior2018",
+      "title": "VAE with a VampPrior",
+      "authors": [
+        "Jakub M. Tomczak",
+        "Max Welling"
+      ],
+      "year": 2018,
+      "venue": "AISTATS, PMLR 84:1214--1223",
+      "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v84/tomczak18a.html",
+      "doi": null,
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://proceedings.mlr.press/v84/tomczak18a.html",
+        "https://proceedings.mlr.press/v84/tomczak18a/tomczak18a.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Learned-prior alternative",
+      "prior_or_distribution_location": "Mixture of encoder distributions at learned pseudo-inputs.",
+      "inference_family": "Coupled learned prior/encoder; hierarchical extension.",
+      "robustness_target": "Latent usage and generative fit.",
+      "source_claim": "Connects learned mixture priors to aggregate posterior matching.",
+      "review_inference_or_limitation": "Pseudo-components need not be semantic clusters; density improvement does not establish contamination robustness.",
+      "section_locators": [
+        "Section 2",
+        "Sections 3--4"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "flows2015",
+      "title": "Variational Inference with Normalizing Flows",
+      "authors": [
+        "Danilo Jimenez Rezende",
+        "Shakir Mohamed"
+      ],
+      "year": 2015,
+      "venue": "ICML, PMLR 37:1530--1538",
+      "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v37/rezende15.html",
+      "doi": null,
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://proceedings.mlr.press/v37/rezende15.html",
+        "https://proceedings.mlr.press/v37/rezende15.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Flexible-recognition alternative",
+      "prior_or_distribution_location": "General latent model; transforms the inference density.",
+      "inference_family": "Invertible transformations of a base density.",
+      "robustness_target": "Approximation fidelity.",
+      "source_claim": "Constructs richer amortized posterior families using change-of-variables densities.",
+      "review_inference_or_limitation": "Flow expressiveness alone does not establish tail calibration or clustering robustness; transformations impose computational constraints.",
+      "section_locators": [
+        "Sections 3--4",
+        "Equations 5--12"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "takahashi2018",
+      "title": "Student-t Variational Autoencoder for Robust Density Estimation",
+      "authors": [
+        "Hiroshi Takahashi",
+        "Tomoharu Iwata",
+        "Yuki Yamanaka",
+        "Masanori Yamada",
+        "Satoshi Yagi"
+      ],
+      "year": 2018,
+      "venue": "IJCAI, 2696--2702",
+      "publication_status": "published",
+      "url": "https://www.ijcai.org/proceedings/2018/374",
+      "doi": "10.24963/ijcai.2018/374",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://www.ijcai.org/proceedings/2018/374"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Separates likelihood robustness from prior robustness",
+      "prior_or_distribution_location": "Student-t observation decoder obtained by variance marginalization.",
+      "inference_family": "Gaussian recognition as specified in equations (3)\u2013(6); decoder variance marginalized in Section 4.2.",
+      "robustness_target": "Decoder residual sensitivity and density estimation.",
+      "source_claim": "Uses Bayesian treatment of decoder variance to improve training stability.",
+      "review_inference_or_limitation": "This is not evidence that a Student latent mixture alone produces robust assignments.",
+      "section_locators": [
+        "Publisher abstract",
+        "Equations (1)\u2013(6), page 2697",
+        "Section 4.1\u20134.2, page 2698"
+      ],
+      "access_level": "publisher_abstract_and_selected_indexed_fulltext_sections",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately.",
+      "subsequent_recheck": {
+        "date": "2026-11-02",
+        "source_url": "https://www.ijcai.org/proceedings/2018/0374.pdf",
+        "section_locators": [
+          "Publisher-indexed equations (1)\u2013(6), page 2697",
+          "Publisher-indexed Section 4.1\u20134.2, page 2698"
+        ],
+        "verification": "Gaussian latent prior and Gaussian recognition; decoder variance marginalization. Indexed primary text inspected; direct PDF fetch failed.",
+        "entire_paper_read": false
+      }
+    },
+    {
+      "citation_key": "kobayashi2019",
+      "title": "Variational Deep Embedding with Regularized Student-t Mixture Model",
+      "authors": [
+        "Taisuke Kobayashi"
+      ],
+      "year": 2019,
+      "venue": "ICANN, LNCS 11729:443--455",
+      "publication_status": "published",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-30508-6_36",
+      "doi": "10.1007/978-3-030-30508-6_36",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://link.springer.com/chapter/10.1007/978-3-030-30508-6_36",
+        "https://prinlab.org/en/publication/"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Direct early Student-mixture embedding antecedent",
+      "prior_or_distribution_location": "Regularized Student-mixture latent prior.",
+      "inference_family": "Approximations to sampling and KL; exact recognition unverified.",
+      "robustness_target": "Motion-classification outliers and latent continuity.",
+      "source_claim": "Proposes VaDE-RT and regularization toward a standard normal reference.",
+      "review_inference_or_limitation": "Subscription abstract only; neither exact factorization nor absence of a theorem can be inferred.",
+      "section_locators": [
+        "Publisher abstract"
+      ],
+      "access_level": "abstract_only",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "boenninghoff2020",
+      "title": "Variational Autoencoder with Embedded Student-t Mixture Model for Authorship Attribution",
+      "authors": [
+        "Benedikt Boenninghoff",
+        "Steffen Zeiler",
+        "Robert Nickel",
+        "Dorothea Kolossa"
+      ],
+      "year": 2020,
+      "venue": "COLING, 519--529",
+      "publication_status": "published",
+      "url": "https://aclanthology.org/2020.coling-main.45/",
+      "doi": "10.18653/v1/2020.coling-main.45",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://aclanthology.org/2020.coling-main.45/"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Gaussian/scale-factorized t-mixture VAE antecedent",
+      "prior_or_distribution_location": "Student-mixture prior via Gaussian--Gamma hierarchy.",
+      "inference_family": "Gaussian encoder with local class/precision factors.",
+      "robustness_target": "Tail flexibility in supervised authorship attribution.",
+      "source_claim": "Learns component tail behavior and uses encoder uncertainty in latent distances.",
+      "review_inference_or_limitation": "The experimental task is supervised classification; its scores are not unsupervised-clustering benchmarks.",
+      "section_locators": [
+        "Model and variational-inference sections",
+        "Experimental task definition"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately.",
+      "subsequent_recheck": {
+        "date": "2026-11-02",
+        "source_url": "https://aclanthology.org/2020.coling-main.45.pdf",
+        "section_locators": [
+          "Section 2.2",
+          "Section 2.3"
+        ],
+        "verification": "Gaussian observation model in equation (8); supervised authorship application.",
+        "entire_paper_read": false
+      }
+    },
+    {
+      "citation_key": "yang2022",
+      "title": "Clustering Analysis via Deep Generative Models With Mixture Models",
+      "authors": [
+        "Lin Yang",
+        "Wentao Fan",
+        "Nizar Bouguila"
+      ],
+      "year": 2022,
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems 33(1):340--350",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1109/TNNLS.2020.3027761",
+      "doi": "10.1109/TNNLS.2020.3027761",
+      "version_inspected": "January 2022 issue; online 2020-10-13",
+      "source_urls": [
+        "https://doi.org/10.1109/TNNLS.2020.3027761"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Direct Student-encoder clustering antecedent",
+      "prior_or_distribution_location": "Student-mixture prior and Student decoder in VaGAN-SMM.",
+      "inference_family": "Student recognition with encoder-dependent location, scale and df.",
+      "robustness_target": "Outlier clustering and generation.",
+      "source_claim": "Combines the variational mixture model with WGAN-GP.",
+      "review_inference_or_limitation": "Gaussian-encoder restriction results do not directly cover this recognition family; objective and decoder also differ.",
+      "section_locators": [
+        "Section IV-C, Equations 27--37",
+        "Two-page supplement"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "local_source_paths": [
+        "Resource/Clustering_Analysis_via_Deep_Generative_Models_With_Mixture_Models.pdf"
+      ],
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "t3vae2024",
+      "title": "t3-Variational Autoencoder: Learning Heavy-tailed Data with Student's t and Power Divergence",
+      "authors": [
+        "Juno Kim",
+        "Jaehyuk Kwon",
+        "Mincheol Cho",
+        "Hyunjong Lee",
+        "Joong-Ho Won"
+      ],
+      "year": 2024,
+      "venue": "ICLR 2024",
+      "publication_status": "published",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/5526c73e3ff4f2a34009e13d15f52fcb-Paper-Conference.pdf",
+      "doi": null,
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2024/file/5526c73e3ff4f2a34009e13d15f52fcb-Paper-Conference.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Heavy-tailed generative/recognition alternative",
+      "prior_or_distribution_location": "Student prior, encoder and decoder; shared precision in joint construction.",
+      "inference_family": "Student recognition; gamma-power divergence objective.",
+      "robustness_target": "Low-density generative coverage.",
+      "source_claim": "Develops an approximately tractable gamma-loss and heavy-tailed generation experiments.",
+      "review_inference_or_limitation": "Gamma-loss is not an ordinary likelihood ELBO; shared-noise exact posteriors do not describe independent Gaussian noise.",
+      "section_locators": [
+        "Sections 3.1--3.3",
+        "Equations 16, 21",
+        "Appendix B.2"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "prot2026",
+      "title": "Pro-t-VAE: Closed-Form Student's t Mixtures for Robust Prototype Discovery",
+      "authors": [
+        "Zhikang Xu",
+        "Jiarui Xing",
+        "Jian Wang"
+      ],
+      "year": 2026,
+      "venue": "arXiv:2610.14894v1",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2610.14894",
+      "doi": null,
+      "version_inspected": "v1 (2026-10-10); author reports NeurIPS acceptance; proceedings not independently verified",
+      "source_urls": [
+        "https://arxiv.org/abs/2610.14894",
+        "https://arxiv.org/html/2610.14894v1"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Closest recent practical t-mixture comparator",
+      "prior_or_distribution_location": "Component-specific Student-mixture prior.",
+      "inference_family": "Gaussian latent factor; separate Gamma precision and categorical factors.",
+      "robustness_target": "Noisy prototype discovery.",
+      "source_claim": "Derives analytic augmented regularization and evaluates corruption; Eq. 10 contains categorical entropy.",
+      "review_inference_or_limitation": "An analytic augmented KL does not eliminate variational-family restriction. Paper, recovered recipe and our port are distinct objects.",
+      "section_locators": [
+        "Section 3, Equations 6--10",
+        "Section 4.1"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately.",
+      "subsequent_recheck": {
+        "date": "2026-11-02",
+        "source_url": "https://arxiv.org/html/2610.14894v1",
+        "section_locators": [
+          "Abstract",
+          "Introduction"
+        ],
+        "verification": "October 2026 preprint identity and proposed Student-mixture framework rechecked; previous selected Section 3 extraction retained.",
+        "entire_paper_read": false
+      }
+    },
+    {
+      "citation_key": "svae2016",
+      "title": "Composing graphical models with neural networks for structured representations and fast inference",
+      "authors": [
+        "Matthew James Johnson",
+        "David Duvenaud",
+        "Alexander B. Wiltschko",
+        "Ryan P. Adams",
+        "Sandeep R. Datta"
+      ],
+      "year": 2016,
+      "venue": "Advances in Neural Information Processing Systems 29",
+      "publication_status": "published",
+      "url": "https://papers.nips.cc/paper_files/paper/2016/hash/7d6044e95a16761171b130dcb476a43e-Abstract.html",
+      "doi": null,
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://papers.nips.cc/paper_files/paper/2016/hash/7d6044e95a16761171b130dcb476a43e-Abstract.html",
+        "https://papers.nips.cc/paper/2016/file/7d6044e95a16761171b130dcb476a43e-Paper.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Recognition-potential antecedent",
+      "prior_or_distribution_location": "Structured graphical latent prior.",
+      "inference_family": "Neural local evidence potentials and message passing.",
+      "robustness_target": "Structured inference efficiency.",
+      "source_claim": "Combines recognition potentials with structured model factors.",
+      "review_inference_or_limitation": "Prior multiplied by a learned potential is established; a Student-specific use needs a narrower contribution.",
+      "section_locators": [
+        "Sections 2--3"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "srvae2022",
+      "title": "Structured Recognition for Generative Models with Explaining Away",
+      "authors": [
+        "Changmin Yu",
+        "Hugo Soulat",
+        "Neil Burgess",
+        "Maneesh Sahani"
+      ],
+      "year": 2022,
+      "venue": "Advances in Neural Information Processing Systems 35",
+      "publication_status": "published",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/003a96110b7134d678cb675c6aea6c7d-Abstract-Conference.html",
+      "doi": null,
+      "version_inspected": "NeurIPS 2022; arXiv v2 (2022-11-10)",
+      "source_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/003a96110b7134d678cb675c6aea6c7d-Abstract-Conference.html",
+        "https://arxiv.org/html/2209.05212v2"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Joint recognition-factor antecedent",
+      "prior_or_distribution_location": "Structured latent priors, including GMM and GPFA.",
+      "inference_family": "Joint recognition factors retain observation-induced dependencies.",
+      "robustness_target": "Posterior dependence and structured representation.",
+      "source_claim": "Generalizes recognition factors to capture explaining-away correlations.",
+      "review_inference_or_limitation": "The published general principle overlaps a Gaussian-site remedy; an undocumented repository branch is not publication evidence.",
+      "section_locators": [
+        "Section 3, Equation 6",
+        "Sections 3.2--3.3",
+        "Appendix B.2"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "tipping2005",
+      "title": "Variational inference for Student-t models: Robust Bayesian interpolation and generalised component analysis",
+      "authors": [
+        "Michael E. Tipping",
+        "Neil D. Lawrence"
+      ],
+      "year": 2005,
+      "venue": "Neurocomputing 69(1--3):123--141",
+      "publication_status": "published",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231205001694",
+      "doi": "10.1016/j.neucom.2005.02.016",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0925231205001694",
+        "https://inverseprobability.com/publications/tipping-variational05.html",
+        "https://inverseprobability.com/publications/files/gca.pdf",
+        "https://inverseprobability.com/publications/files/robustBayesian.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Early variational tail-shape learning",
+      "prior_or_distribution_location": "Student noise or independent Student sources.",
+      "inference_family": "Gaussian--Gamma variational construction.",
+      "robustness_target": "Robust interpolation and source-shape identification.",
+      "source_claim": "Jointly learns distribution shapes and model parameters.",
+      "review_inference_or_limitation": "Journal body unavailable; author precursors support broader antecedence, not a whole-article exclusion of our theorem.",
+      "section_locators": [
+        "Publisher abstract",
+        "Indexed Sections 6--10"
+      ],
+      "access_level": "publisher_abstract_and_excerpts",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "jylanki2011",
+      "title": "Robust Gaussian Process Regression with a Student-t Likelihood",
+      "authors": [
+        "Pasi Jylanki",
+        "Jarno Vanhatalo",
+        "Aki Vehtari"
+      ],
+      "year": 2011,
+      "venue": "Journal of Machine Learning Research 12:3227--3257",
+      "publication_status": "published",
+      "url": "https://www.jmlr.org/papers/v12/jylanki11a.html",
+      "doi": null,
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://www.jmlr.org/papers/v12/jylanki11a.html",
+        "https://www.jmlr.org/papers/volume12/jylanki11a/jylanki11a.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Prior warning about variational tail estimation",
+      "prior_or_distribution_location": "Student observation likelihood; GP latent function.",
+      "inference_family": "Factorizing VB, Laplace, EP and MCMC compared.",
+      "robustness_target": "Predictive uncertainty and robust df estimation.",
+      "source_claim": "Section 3.3 reports underestimation of uncertainty and less robust df estimates for factorizing VB.",
+      "review_inference_or_limitation": "Qualitative variational damage to learned tails is established; a dimension-specific theorem needs separate justification.",
+      "section_locators": [
+        "Section 3.3, printed page 3232",
+        "Comparative experiments"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "peel2000",
+      "title": "Robust mixture modelling using the t distribution",
+      "authors": [
+        "D. Peel",
+        "G. J. McLachlan"
+      ],
+      "year": 2000,
+      "venue": "Statistics and Computing 10:339--348",
+      "publication_status": "published",
+      "url": "https://link.springer.com/article/10.1023/A:1008981510081",
+      "doi": "10.1023/A:1008981510081",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://link.springer.com/article/10.1023/A:1008981510081",
+        "https://people.smp.uq.edu.au/GeoffMcLachlan/pm_sc00.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Classical t-mixture robustness foundation",
+      "prior_or_distribution_location": "Multivariate Student mixture.",
+      "inference_family": "ECM with local precision weights.",
+      "robustness_target": "Atypical observations and mixture fitting.",
+      "source_claim": "Describes t-mixture estimation and noisy-clustering examples.",
+      "review_inference_or_limitation": "Downweighting atypical points is established; it does not establish every parameter or neural assignment is robust.",
+      "section_locators": [
+        "Abstract",
+        "Author PDF introduction and estimation sections"
+      ],
+      "access_level": "abstract_and_author_indexed_excerpts",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "foundational",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "lange1989",
+      "title": "Robust Statistical Modeling Using the t Distribution",
+      "authors": [
+        "Kenneth L. Lange",
+        "Roderick J. A. Little",
+        "Jeremy M. G. Taylor"
+      ],
+      "year": 1989,
+      "venue": "Journal of the American Statistical Association 84(408):881--896",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1080/01621459.1989.10478852",
+      "doi": "10.1080/01621459.1989.10478852",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://doi.org/10.1080/01621459.1989.10478852",
+        "https://escholarship.org/uc/item/27s1d3h7"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Classical robustness foundation",
+      "prior_or_distribution_location": "Multivariate Student error models.",
+      "inference_family": "Likelihood and EM-based estimation.",
+      "robustness_target": "Robust parameter estimation.",
+      "source_claim": "Uses df as an adjustable tail parameter in statistical models.",
+      "review_inference_or_limitation": "The classical modeling setting does not by itself guarantee robustness of an entire learned VAE.",
+      "section_locators": [
+        "Publisher abstract",
+        "Institutional PDF metadata"
+      ],
+      "access_level": "abstract_and_metadata",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "foundational",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "yacoby2020",
+      "title": "Characterizing and Avoiding Problematic Global Optima of Variational Autoencoders",
+      "authors": [
+        "Yaniv Yacoby",
+        "Weiwei Pan",
+        "Finale Doshi-Velez"
+      ],
+      "year": 2020,
+      "venue": "AABI, PMLR 118:1--17",
+      "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v118/yacoby20a.html",
+      "doi": null,
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://proceedings.mlr.press/v118/yacoby20a.html",
+        "https://proceedings.mlr.press/v118/yacoby20a/yacoby20a.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Generative-model selection bias antecedent",
+      "prior_or_distribution_location": "VAE latent models.",
+      "inference_family": "Restricted Gaussian inference and ELBO decomposition.",
+      "robustness_target": "Generative fit versus inference simplicity.",
+      "source_claim": "Shows that ELBO optima can favor poorer data models with easier posteriors.",
+      "review_inference_or_limitation": "Generic inference-induced model bias is not a new claim; our diagnostic isolates a specific tail/dimension mechanism.",
+      "section_locators": [
+        "Introduction",
+        "Equation 2",
+        "Section 1, Case 1"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "matthews2016",
+      "title": "On Sparse Variational Methods and the Kullback-Leibler Divergence between Stochastic Processes",
+      "authors": [
+        "Alexander G. de G. Matthews",
+        "James Hensman",
+        "Richard E. Turner",
+        "Zoubin Ghahramani"
+      ],
+      "year": 2016,
+      "venue": "AISTATS, PMLR 51:231--239",
+      "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v51/matthews16.html",
+      "doi": null,
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://proceedings.mlr.press/v51/matthews16.html",
+        "https://proceedings.mlr.press/v51/matthews16.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Conditional-prior preservation antecedent",
+      "prior_or_distribution_location": "Stochastic-process priors with inducing augmentation.",
+      "inference_family": "Prior conditional times an inducing-variable variational marginal.",
+      "robustness_target": "Variational consistency under augmentation.",
+      "source_claim": "Marginal consistency alone need not preserve the variational problem.",
+      "review_inference_or_limitation": "Conditional-prior cancellation is established; finite-dimensional Student applications need explicit assumptions.",
+      "section_locators": [
+        "Equations 1--2",
+        "Augmented index sets section"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "marginal2026",
+      "title": "Generalized Guarantees for Variational Inference in the Presence of Even and Elliptical Symmetry",
+      "authors": [
+        "Charles C. Margossian",
+        "Isaac E. Rankin",
+        "Lawrence K. Saul"
+      ],
+      "year": 2026,
+      "venue": "arXiv:2511.01064v3",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2511.01064",
+      "doi": null,
+      "version_inspected": "v3 (2026-05-30); three authors",
+      "source_urls": [
+        "https://arxiv.org/abs/2511.01064",
+        "https://arxiv.org/html/2511.01064v3"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Direct theorem antecedent",
+      "prior_or_distribution_location": "Even and elliptical targets, including Student.",
+      "inference_family": "General f-divergence minimization; Gaussian family included.",
+      "robustness_target": "Recovery of symmetry center and scatter structure.",
+      "source_claim": "Theorem 2 and Eq. 24 supply centered/proportional-scatter reduction and scalar stationarity.",
+      "review_inference_or_limitation": "These steps are cited lemmas, not original results here; examined statements do not certify novelty of further dimension arguments.",
+      "section_locators": [
+        "Section 2, Table 1",
+        "Theorem 2",
+        "Equation 24",
+        "Appendix A.3"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "margossian2025",
+      "title": "Variational Inference for Uncertainty Quantification: an Analysis of Trade-offs",
+      "authors": [
+        "Charles C. Margossian",
+        "Loucas Pillaud-Vivien",
+        "Lawrence K. Saul"
+      ],
+      "year": 2025,
+      "venue": "Journal of Machine Learning Research 26(202):1--41",
+      "publication_status": "published",
+      "url": "https://jmlr.org/papers/v26/24-0878.html",
+      "doi": null,
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://jmlr.org/papers/v26/24-0878.html",
+        "https://jmlr.org/papers/volume26/24-0878/24-0878.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Gaussian approximation uncertainty antecedent",
+      "prior_or_distribution_location": "Gaussian and non-Gaussian targets.",
+      "inference_family": "Gaussian variational approximations under multiple divergences.",
+      "robustness_target": "Variance and uncertainty trade-offs.",
+      "source_claim": "Section 6.2 and Fig. 7 study two-dimensional Student targets numerically.",
+      "review_inference_or_limitation": "Gaussian-to-Student uncertainty mismatch is established; this evidence is not a growing-dimension tail-selection theorem.",
+      "section_locators": [
+        "Section 6.2",
+        "Figure 7"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "onoue2026",
+      "title": "Closed-Form Coordinate Ascent Variational Inference for Student-t Process Regression with Student-t Likelihood",
+      "authors": [
+        "Keisuke Onoue",
+        "Takatomi Kubo",
+        "Kazushi Ikeda"
+      ],
+      "year": 2026,
+      "venue": "AISTATS, PMLR 300:1756--1764",
+      "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v300/onoue26a.html",
+      "doi": null,
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://proceedings.mlr.press/v300/onoue26a.html",
+        "https://raw.githubusercontent.com/mlresearch/v300/main/assets/onoue26a/onoue26a.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Coupled Gaussian--Gamma inference antecedent",
+      "prior_or_distribution_location": "Student process and likelihood.",
+      "inference_family": "Coupled normal/precision family with covariance proportional to inverse precision.",
+      "robustness_target": "Robust regression and tractable structured inference.",
+      "source_claim": "Develops coordinate updates retaining latent/precision dependence.",
+      "review_inference_or_limitation": "Coupling itself is established; the proposed site has generally non-Gamma precision marginal and precision-dependent mean.",
+      "section_locators": [
+        "Structured approximation and coordinate-update sections",
+        "Supplementary derivations"
+      ],
+      "access_level": "selected_full_text_carried_forward",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "mnist1998",
+      "title": "Gradient-Based Learning Applied to Document Recognition",
+      "authors": [
+        "Yann LeCun",
+        "Leon Bottou",
+        "Yoshua Bengio",
+        "Patrick Haffner"
+      ],
+      "year": 1998,
+      "venue": "Proceedings of the IEEE 86(11):2278--2324",
+      "publication_status": "published",
+      "url": "https://leon.bottou.org/papers/lecun-98h",
+      "doi": "10.1109/5.726791",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://leon.bottou.org/papers/lecun-98h",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/ref.html"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Dataset origin citation",
+      "prior_or_distribution_location": "Not applicable.",
+      "inference_family": "Not applicable.",
+      "robustness_target": "Dataset provenance.",
+      "source_claim": "Foundational document-recognition paper and MNIST citation.",
+      "review_inference_or_limitation": "Our train/validation split is an explicit protocol choice, not a claim of reproducing the paper protocol.",
+      "section_locators": [
+        "Author publication metadata",
+        "LIBSVM reference YL98a"
+      ],
+      "access_level": "metadata_and_dataset_provider",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "dataset",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "fashion2017",
+      "title": "Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms",
+      "authors": [
+        "Han Xiao",
+        "Kashif Rasul",
+        "Roland Vollgraf"
+      ],
+      "year": 2017,
+      "venue": "arXiv:1708.07747v2",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/1708.07747",
+      "doi": null,
+      "version_inspected": "v2 (2017-09-15)",
+      "source_urls": [
+        "https://arxiv.org/abs/1708.07747"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Dataset origin citation",
+      "prior_or_distribution_location": "Not applicable.",
+      "inference_family": "Not applicable.",
+      "robustness_target": "Dataset provenance.",
+      "source_claim": "Defines ten-category 28-by-28 images with 60,000 training and 10,000 test examples.",
+      "review_inference_or_limitation": "Benchmark class labels are evaluation metadata, not unsupervised training targets.",
+      "section_locators": [
+        "Abstract",
+        "Dataset description"
+      ],
+      "access_level": "abstract_and_metadata",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "dataset",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "usps1994",
+      "title": "A Database for Handwritten Text Recognition Research",
+      "authors": [
+        "J. J. Hull"
+      ],
+      "year": 1994,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence 16(5):550--554",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1109/34.291440",
+      "doi": "10.1109/34.291440",
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://doi.org/10.1109/34.291440",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass.html#usps",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/ref.html"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Dataset origin citation",
+      "prior_or_distribution_location": "Not applicable.",
+      "inference_family": "Not applicable.",
+      "robustness_target": "Dataset provenance.",
+      "source_claim": "LIBSVM attributes its USPS release to this paper and lists 7,291/2,007 examples and 256 features.",
+      "review_inference_or_limitation": "Exact prepared files and hashes, rather than the paper citation alone, identify the benchmark release.",
+      "section_locators": [
+        "LIBSVM USPS entry",
+        "LIBSVM reference JJH94a"
+      ],
+      "access_level": "dataset_provider_metadata; publisher verification page",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "dataset",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "reuters2004",
+      "title": "RCV1: A New Benchmark Collection for Text Categorization Research",
+      "authors": [
+        "David D. Lewis",
+        "Yiming Yang",
+        "Tony G. Rose",
+        "Fan Li"
+      ],
+      "year": 2004,
+      "venue": "Journal of Machine Learning Research 5:361--397",
+      "publication_status": "published",
+      "url": "https://jmlr.org/papers/v5/lewis04a.html",
+      "doi": null,
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://jmlr.org/papers/v5/lewis04a.html"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Dataset origin citation",
+      "prior_or_distribution_location": "Not applicable.",
+      "inference_family": "Not applicable.",
+      "robustness_target": "Dataset provenance.",
+      "source_claim": "Describes the RCV1 text categorization benchmark.",
+      "review_inference_or_limitation": "Our single-root Reuters-10K subset and train-only TF-IDF are an inductive protocol, not historical DEC feature equivalence.",
+      "section_locators": [
+        "Dataset paper metadata",
+        "Prepared-data protocol"
+      ],
+      "access_level": "metadata_and_dataset_protocol",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "dataset",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "dirvae2019",
+      "title": "Dirichlet Variational Autoencoder",
+      "authors": [
+        "Weonyoung Joo",
+        "Wonsung Lee",
+        "Sungrae Park",
+        "Il-Chul Moon"
+      ],
+      "year": 2019,
+      "venue": "arXiv:1901.02739v1",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/1901.02739",
+      "doi": null,
+      "version_inspected": "v1 (2019-01-09); later journal identity not merged without full comparison",
+      "source_urls": [
+        "https://arxiv.org/abs/1901.02739",
+        "https://arxiv.org/html/1901.02739v1",
+        "https://www.sciencedirect.com/science/article/pii/S0031320320303174"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Non-Euclidean-support prior alternative",
+      "prior_or_distribution_location": "Dirichlet latent prior on a simplex.",
+      "inference_family": "Gamma-based inference with approximate inverse-CDF sampling.",
+      "robustness_target": "Latent usage and representation quality.",
+      "source_claim": "Separates decoder-weight and latent-value collapse in its empirical analysis.",
+      "review_inference_or_limitation": "Simplex geometry addresses a different question from radial tail robustness; classification scores are not clustering evidence.",
+      "section_locators": [
+        "Section 3",
+        "Section 4.2",
+        "Appendix B"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately.",
+      "subsequent_recheck": {
+        "date": "2026-11-02",
+        "source_url": "https://arxiv.org/html/1901.02739v1",
+        "section_locators": [
+          "Section 3",
+          "Appendix B"
+        ],
+        "verification": "Normalized Gamma representation and inverse-CDF approximation; simplex dependence.",
+        "entire_paper_read": false
+      }
+    },
+    {
+      "citation_key": "vmm2025",
+      "title": "The VampPrior Mixture Model",
+      "authors": [
+        "Andrew A. Stirn",
+        "David A. Knowles"
+      ],
+      "year": 2025,
+      "venue": "arXiv:2402.04412v3",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2402.04412",
+      "doi": null,
+      "version_inspected": "v3 (2025-03-11); initial version February 2024",
+      "source_urls": [
+        "https://arxiv.org/abs/2402.04412",
+        "https://arxiv.org/html/2402.04412v3"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Modern learned-mixture prior and cluster-count sensitivity",
+      "prior_or_distribution_location": "Bayesian GMM prior with VampPrior-derived pseudo-inputs.",
+      "inference_family": "Alternating variational and empirical-Bayes updates.",
+      "robustness_target": "Initialization and cluster-count sensitivity.",
+      "source_claim": "Extends mixture-prior fitting and evaluates clustering and single-cell integration.",
+      "review_inference_or_limitation": "Current v3 uses Bayesian-GMM wording; older DP descriptions should not silently be attributed to this version.",
+      "section_locators": [
+        "Sections 3.1--3.3",
+        "Algorithm 1",
+        "Section 4.1"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately.",
+      "subsequent_recheck": {
+        "date": "2026-11-02",
+        "source_url": "https://arxiv.org/html/2402.04412v3",
+        "section_locators": [
+          "Sections 2.1\u20132.2",
+          "Section 3 introduction",
+          "Section 5"
+        ],
+        "verification": "March 2025 version; Bayesian mixture and encoder pseudo-input construction; alternating variational inference and empirical Bayes.",
+        "entire_paper_read": false
+      }
+    },
+    {
+      "citation_key": "rezende2014",
+      "title": "Stochastic Backpropagation and Approximate Inference in Deep Generative Models",
+      "authors": [
+        "Danilo Jimenez Rezende",
+        "Shakir Mohamed",
+        "Daan Wierstra"
+      ],
+      "year": 2014,
+      "venue": "Proceedings of Machine Learning Research 32(2), 1278--1286",
+      "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v32/rezende14.html",
+      "doi": null,
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://proceedings.mlr.press/v32/rezende14.html",
+        "https://proceedings.mlr.press/v32/rezende14.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Foundational joint generative and recognition learning",
+      "prior_or_distribution_location": "Hierarchical deep latent Gaussian models.",
+      "inference_family": "Stochastic backpropagation with a learned recognition model.",
+      "robustness_target": "Scalable inference; no clustering-specific robustness claim.",
+      "source_claim": "Develops differentiable Monte Carlo learning of a variational bound for deep generative models.",
+      "review_inference_or_limitation": "Amortized recognition is a foundation rather than a robustness result; the joint objective depends on the inference family.",
+      "section_locators": [
+        "Sections 2--3",
+        "Section 4"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "foundational",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "iaf2016",
+      "title": "Improved Variational Inference with Inverse Autoregressive Flow",
+      "authors": [
+        "Diederik P. Kingma",
+        "Tim Salimans",
+        "Rafal Jozefowicz",
+        "Xi Chen",
+        "Ilya Sutskever",
+        "Max Welling"
+      ],
+      "year": 2016,
+      "venue": "Advances in Neural Information Processing Systems 29",
+      "publication_status": "published",
+      "url": "https://papers.nips.cc/paper_files/paper/2016/hash/ddeebdeefdb7e7e7a697e1c3e3d8ef54-Abstract.html",
+      "doi": null,
+      "version_inspected": "published version",
+      "source_urls": [
+        "https://papers.nips.cc/paper_files/paper/2016/hash/ddeebdeefdb7e7e7a697e1c3e3d8ef54-Abstract.html",
+        "https://papers.nips.cc/paper_files/paper/2016/file/ddeebdeefdb7e7e7a697e1c3e3d8ef54-Paper.pdf"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Flexible recognition alternative to diagonal Gaussian inference",
+      "prior_or_distribution_location": "Prior is unchanged by the general inference construction.",
+      "inference_family": "Invertible autoregressive transforms with tractable density.",
+      "robustness_target": "Posterior approximation and image likelihood.",
+      "source_claim": "Constructs an autoregressive flow enabling parallel sampling and density evaluation in high-dimensional latent inference.",
+      "review_inference_or_limitation": "Expressive recognition alone does not establish contamination robustness or nuisance-augmentation invariance.",
+      "section_locators": [
+        "Sections 2--3",
+        "Algorithm 1"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "iwae2016",
+      "title": "Importance Weighted Autoencoders",
+      "authors": [
+        "Yuri Burda",
+        "Roger Grosse",
+        "Ruslan Salakhutdinov"
+      ],
+      "year": 2016,
+      "venue": "ICLR 2016",
+      "publication_status": "published",
+      "url": "https://arxiv.org/abs/1509.00519",
+      "doi": null,
+      "version_inspected": "arXiv v4 (2016-11-07); ICLR 2016 conference acceptance verified",
+      "source_urls": [
+        "https://arxiv.org/abs/1509.00519",
+        "https://arxiv.org/html/1509.00519v4",
+        "https://www.iclr.cc/archive/www/2016.html"
+      ],
+      "verified_on": "2026-10-29",
+      "inclusion_reason": "Multiple-sample objective alternative to changing the prior",
+      "prior_or_distribution_location": "Same underlying generative architecture as the associated VAE.",
+      "inference_family": "Importance-weighted lower bound with multiple recognition samples.",
+      "robustness_target": "Bound tightness and representation usage.",
+      "source_claim": "Theorem 1 shows nondecreasing lower bounds with sample count; bounded weights suffice for its stated convergence result.",
+      "review_inference_or_limitation": "A tighter bound is not equivalent to exact finite-sample posterior inference or a clustering robustness guarantee.",
+      "section_locators": [
+        "Section 3",
+        "Theorem 1",
+        "Section 3.1"
+      ],
+      "access_level": "selected_full_text",
+      "entire_paper_read": false,
+      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+    },
+    {
+      "citation_key": "chowdhury2025",
+      "title": "Mixtures of posterior and prior variational autoencoders for representation learning and cluster analysis in latent space",
+      "authors": [
+        "Mashfiqul Huq Chowdhury",
+        "Yuichi Hirose",
+        "Stephen Marsland",
+        "Yuan Yao"
+      ],
+      "year": 2025,
+      "venue": "Neurocomputing 657, 131524",
+      "publication_status": "published",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231225021964",
+      "doi": "10.1016/j.neucom.2025.131524",
+      "version_inspected": "Published journal metadata, abstract, introduction and section excerpts indexed from the publisher; full journal body unavailable.",
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0925231225021964",
+        "https://github.com/Mashfiqul/Mixture-Posterior-Prior-VAE"
+      ],
+      "verified_on": "2026-11-02",
+      "inclusion_reason": "Closely related published alternative with mixture prior and variational posterior.",
+      "prior_or_distribution_location": "Mixtures in prior and variational posterior; observation family unavailable in inspected excerpts.",
+      "inference_family": "Mixture recognition; finer dependency factorization unavailable.",
+      "robustness_target": "Clustering, reconstruction and generation; no general robustness theorem verified.",
+      "source_claim": "Mixtures enter both prior and posterior; clustering probabilities enter the objective; EM-based fitting is evaluated on benchmarks.",
+      "review_inference_or_limitation": "A single-Gaussian versus single-Student recognition comparison does not evaluate this mixture-recognition alternative.",
+      "section_locators": [
+        "Abstract",
+        "Introduction",
+        "Mixtures of posterior and prior VAE model (excerpt)",
+        "Experiments (excerpt)",
+        "Computational time (excerpt)",
+        "Conclusions and future work (excerpt)"
+      ],
+      "access_level": "publisher_abstract_introduction_and_section_excerpts",
+      "entire_paper_read": false,
+      "evidence_origin": "Primary publisher-indexed text and author-linked repository README; no full journal PDF.",
+      "independently_reproduced_by_this_extraction": false,
+      "source_role": "methodological_or_theoretical",
+      "extraction_origin": "Targeted update 2026-11-02."
+    }
+  ]
+}

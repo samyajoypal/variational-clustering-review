@@ -1,42 +1,44 @@
 {
-  "literature_cutoff": "2026-10-29",
+  "literature_cutoff": "2026-11-02",
   "records": [
     {
+      "citation_key": "asperti2021",
+      "title": "A Survey on Variational Autoencoders from a Green AI Perspective",
       "authors": [
         "Andrea Asperti",
         "Davide Evangelista",
         "Elena Loli Piccolomini"
       ],
-      "citation_key": "asperti2021",
-      "doi": "10.1007/s42979-021-00702-9",
+      "year": 2021,
+      "venue": "SN Computer Science 2, 301",
       "publication_status": "published",
+      "url": "https://link.springer.com/article/10.1007/s42979-021-00702-9",
+      "doi": "10.1007/s42979-021-00702-9",
+      "version_inspected": "published version",
       "source_urls": [
         "https://link.springer.com/article/10.1007/s42979-021-00702-9",
         "https://arxiv.org/abs/2103.01071"
-      ],
-      "title": "A Survey on Variational Autoencoders from a Green AI Perspective",
-      "url": "https://link.springer.com/article/10.1007/s42979-021-00702-9",
-      "venue": "SN Computer Science 2, 301",
-      "version_inspected": "published version",
-      "year": 2021
+      ]
     },
     {
+      "citation_key": "fortuin2022",
+      "title": "Priors in Bayesian Deep Learning: A Review",
       "authors": [
         "Vincent Fortuin"
       ],
-      "citation_key": "fortuin2022",
-      "doi": "10.1111/insr.12502",
+      "year": 2022,
+      "venue": "International Statistical Review 90(3), 563--591",
       "publication_status": "published",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/insr.12502",
+      "doi": "10.1111/insr.12502",
+      "version_inspected": "published version",
       "source_urls": [
         "https://onlinelibrary.wiley.com/doi/full/10.1111/insr.12502"
-      ],
-      "title": "Priors in Bayesian Deep Learning: A Review",
-      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/insr.12502",
-      "venue": "International Statistical Review 90(3), 563--591",
-      "version_inspected": "published version",
-      "year": 2022
+      ]
     },
     {
+      "citation_key": "berahmand2024",
+      "title": "Autoencoders and their applications in machine learning: a survey",
       "authors": [
         "Kamal Berahmand",
         "Fatemeh Daneshfar",
@@ -44,19 +46,19 @@
         "Yuefeng Li",
         "Yue Xu"
       ],
-      "citation_key": "berahmand2024",
-      "doi": "10.1007/s10462-023-10662-6",
+      "year": 2024,
+      "venue": "Artificial Intelligence Review 57, 28",
       "publication_status": "published",
+      "url": "https://link.springer.com/article/10.1007/s10462-023-10662-6",
+      "doi": "10.1007/s10462-023-10662-6",
+      "version_inspected": "published version",
       "source_urls": [
         "https://link.springer.com/article/10.1007/s10462-023-10662-6"
-      ],
-      "title": "Autoencoders and their applications in machine learning: a survey",
-      "url": "https://link.springer.com/article/10.1007/s10462-023-10662-6",
-      "venue": "Artificial Intelligence Review 57, 28",
-      "version_inspected": "published version",
-      "year": 2024
+      ]
     },
     {
+      "citation_key": "ren2022",
+      "title": "Deep Clustering: A Comprehensive Survey",
       "authors": [
         "Yazhou Ren",
         "Jingyu Pu",
@@ -67,20 +69,20 @@
         "Philip S. Yu",
         "Lifang He"
       ],
-      "citation_key": "ren2022",
-      "doi": null,
+      "year": 2022,
+      "venue": "arXiv:2210.04142v1",
       "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2210.04142",
+      "doi": null,
+      "version_inspected": "arXiv v1 (2022-10-09); latest arXiv history checked",
       "source_urls": [
         "https://arxiv.org/abs/2210.04142",
         "https://arxiv.org/html/2210.04142v1"
-      ],
-      "title": "Deep Clustering: A Comprehensive Survey",
-      "url": "https://arxiv.org/abs/2210.04142",
-      "venue": "arXiv:2210.04142v1",
-      "version_inspected": "arXiv v1 (2022-10-09); latest arXiv history checked",
-      "year": 2022
+      ]
     },
     {
+      "citation_key": "lu2024",
+      "title": "A survey on deep clustering: from the prior perspective",
       "authors": [
         "Yiding Lu",
         "Haobin Li",
@@ -88,37 +90,37 @@
         "Yijie Lin",
         "Xi Peng"
       ],
-      "citation_key": "lu2024",
-      "doi": "10.1007/s44336-024-00001-w",
+      "year": 2024,
+      "venue": "Vicinagearth 1, 4",
       "publication_status": "published",
+      "url": "https://link.springer.com/article/10.1007/s44336-024-00001-w",
+      "doi": "10.1007/s44336-024-00001-w",
+      "version_inspected": "published version",
       "source_urls": [
         "https://link.springer.com/article/10.1007/s44336-024-00001-w"
-      ],
-      "title": "A survey on deep clustering: from the prior perspective",
-      "url": "https://link.springer.com/article/10.1007/s44336-024-00001-w",
-      "venue": "Vicinagearth 1, 4",
-      "version_inspected": "published version",
-      "year": 2024
+      ]
     },
     {
+      "citation_key": "behera2026",
+      "title": "A review of generative autoencoder frameworks and their latent modeling strategies",
       "authors": [
         "Mousumi Behera",
         "Prasenjit Dey"
       ],
-      "citation_key": "behera2026",
-      "doi": "10.1016/j.asoc.2026.115933",
+      "year": 2026,
+      "venue": "Applied Soft Computing 202, 115933",
       "publication_status": "published",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1568494626013815",
+      "doi": "10.1016/j.asoc.2026.115933",
+      "version_inspected": "published version",
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S1568494626013815",
         "https://www.sciencedirect.com/science/article/abs/pii/S1568494626013815"
-      ],
-      "title": "A review of generative autoencoder frameworks and their latent modeling strategies",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1568494626013815",
-      "venue": "Applied Soft Computing 202, 115933",
-      "version_inspected": "published version",
-      "year": 2026
+      ]
     },
     {
+      "citation_key": "zhou2025",
+      "title": "A Comprehensive Survey on Deep Clustering: Taxonomy, Challenges, and Future Directions",
       "authors": [
         "Sheng Zhou",
         "Hongjia Xu",
@@ -131,40 +133,40 @@
         "Wenwu Zhu",
         "Martin Ester"
       ],
-      "citation_key": "zhou2025",
-      "doi": "10.1145/3689036",
+      "year": 2025,
+      "venue": "ACM Computing Surveys 57(3), Article 69, 1--38",
       "publication_status": "published",
+      "url": "https://doi.org/10.1145/3689036",
+      "doi": "10.1145/3689036",
+      "version_inspected": "final publisher-indexed sections (online 2024-11-11; issue March 2025); author PDF separately identified",
       "source_urls": [
         "https://doi.org/10.1145/3689036",
         "https://arxiv.org/abs/2206.07579",
         "https://mn.cs.tsinghua.edu.cn/xinwang/PDF/papers/2024_A%20Comprehensive%20Survey%20on%20Deep%20Clustering%20Taxonomy%20Challenges%20and%20Future%20Directions.pdf"
-      ],
-      "title": "A Comprehensive Survey on Deep Clustering: Taxonomy, Challenges, and Future Directions",
-      "url": "https://doi.org/10.1145/3689036",
-      "venue": "ACM Computing Surveys 57(3), Article 69, 1--38",
-      "version_inspected": "final publisher-indexed sections (online 2024-11-11; issue March 2025); author PDF separately identified",
-      "year": 2025
+      ]
     },
     {
+      "citation_key": "kingma2014",
+      "title": "Auto-Encoding Variational Bayes",
       "authors": [
         "Diederik P. Kingma",
         "Max Welling"
       ],
-      "citation_key": "kingma2014",
-      "doi": null,
+      "year": 2014,
+      "venue": "ICLR 2014",
       "publication_status": "published",
+      "url": "https://arxiv.org/abs/1312.6114",
+      "doi": null,
+      "version_inspected": "arXiv v11 (2022-12-10); ICLR 2014 acceptance verified",
       "source_urls": [
         "https://arxiv.org/abs/1312.6114",
         "https://arxiv.org/html/1312.6114v11",
         "https://iclr.cc/archive/2014/old-site/conference-proceedings.html"
-      ],
-      "title": "Auto-Encoding Variational Bayes",
-      "url": "https://arxiv.org/abs/1312.6114",
-      "venue": "ICLR 2014",
-      "version_inspected": "arXiv v11 (2022-12-10); ICLR 2014 acceptance verified",
-      "year": 2014
+      ]
     },
     {
+      "citation_key": "vade2017",
+      "title": "Variational Deep Embedding: An Unsupervised and Generative Approach to Clustering",
       "authors": [
         "Zhuxi Jiang",
         "Yin Zheng",
@@ -172,56 +174,56 @@
         "Bangsheng Tang",
         "Hanning Zhou"
       ],
-      "citation_key": "vade2017",
-      "doi": "10.24963/ijcai.2017/273",
+      "year": 2017,
+      "venue": "IJCAI, 1965--1972",
       "publication_status": "published",
+      "url": "https://ijcai.org/proceedings/2017/273",
+      "doi": "10.24963/ijcai.2017/273",
+      "version_inspected": "published version",
       "source_urls": [
         "https://ijcai.org/proceedings/2017/273"
-      ],
-      "title": "Variational Deep Embedding: An Unsupervised and Generative Approach to Clustering",
-      "url": "https://ijcai.org/proceedings/2017/273",
-      "venue": "IJCAI, 1965--1972",
-      "version_inspected": "published version",
-      "year": 2017
+      ]
     },
     {
+      "citation_key": "dec2016",
+      "title": "Unsupervised Deep Embedding for Clustering Analysis",
       "authors": [
         "Junyuan Xie",
         "Ross Girshick",
         "Ali Farhadi"
       ],
-      "citation_key": "dec2016",
-      "doi": null,
+      "year": 2016,
+      "venue": "ICML, PMLR 48:478--487",
       "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v48/xieb16.html",
+      "doi": null,
+      "version_inspected": "published version",
       "source_urls": [
         "https://proceedings.mlr.press/v48/xieb16.html"
-      ],
-      "title": "Unsupervised Deep Embedding for Clustering Analysis",
-      "url": "https://proceedings.mlr.press/v48/xieb16.html",
-      "venue": "ICML, PMLR 48:478--487",
-      "version_inspected": "published version",
-      "year": 2016
+      ]
     },
     {
+      "citation_key": "idec2017",
+      "title": "Improved Deep Embedded Clustering with Local Structure Preservation",
       "authors": [
         "Xifeng Guo",
         "Long Gao",
         "Xinwang Liu",
         "Jianping Yin"
       ],
-      "citation_key": "idec2017",
-      "doi": "10.24963/ijcai.2017/243",
+      "year": 2017,
+      "venue": "IJCAI, 1753--1759",
       "publication_status": "published",
+      "url": "https://ijcai.org/proceedings/2017/243",
+      "doi": "10.24963/ijcai.2017/243",
+      "version_inspected": "published version",
       "source_urls": [
         "https://ijcai.org/proceedings/2017/243"
-      ],
-      "title": "Improved Deep Embedded Clustering with Local Structure Preservation",
-      "url": "https://ijcai.org/proceedings/2017/243",
-      "venue": "IJCAI, 1753--1759",
-      "version_inspected": "published version",
-      "year": 2017
+      ]
     },
     {
+      "citation_key": "gmvae2016",
+      "title": "Deep Unsupervised Clustering with Gaussian Mixture Variational Autoencoders",
       "authors": [
         "Nat Dilokthanakul",
         "Pedro A. M. Mediano",
@@ -231,56 +233,56 @@
         "Kai Arulkumaran",
         "Murray Shanahan"
       ],
-      "citation_key": "gmvae2016",
-      "doi": null,
+      "year": 2016,
+      "venue": "arXiv:1611.02648v2",
       "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/1611.02648",
+      "doi": null,
+      "version_inspected": "v2 (2017-01-13); first posted 2016-11-08",
       "source_urls": [
         "https://arxiv.org/abs/1611.02648",
         "https://arxiv.org/pdf/1611.02648v2"
-      ],
-      "title": "Deep Unsupervised Clustering with Gaussian Mixture Variational Autoencoders",
-      "url": "https://arxiv.org/abs/1611.02648",
-      "venue": "arXiv:1611.02648v2",
-      "version_inspected": "v2 (2017-01-13); first posted 2016-11-08",
-      "year": 2016
+      ]
     },
     {
+      "citation_key": "vampprior2018",
+      "title": "VAE with a VampPrior",
       "authors": [
         "Jakub M. Tomczak",
         "Max Welling"
       ],
-      "citation_key": "vampprior2018",
-      "doi": null,
+      "year": 2018,
+      "venue": "AISTATS, PMLR 84:1214--1223",
       "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v84/tomczak18a.html",
+      "doi": null,
+      "version_inspected": "published version",
       "source_urls": [
         "https://proceedings.mlr.press/v84/tomczak18a.html",
         "https://proceedings.mlr.press/v84/tomczak18a/tomczak18a.pdf"
-      ],
-      "title": "VAE with a VampPrior",
-      "url": "https://proceedings.mlr.press/v84/tomczak18a.html",
-      "venue": "AISTATS, PMLR 84:1214--1223",
-      "version_inspected": "published version",
-      "year": 2018
+      ]
     },
     {
+      "citation_key": "flows2015",
+      "title": "Variational Inference with Normalizing Flows",
       "authors": [
         "Danilo Jimenez Rezende",
         "Shakir Mohamed"
       ],
-      "citation_key": "flows2015",
-      "doi": null,
+      "year": 2015,
+      "venue": "ICML, PMLR 37:1530--1538",
       "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v37/rezende15.html",
+      "doi": null,
+      "version_inspected": "published version",
       "source_urls": [
         "https://proceedings.mlr.press/v37/rezende15.html",
         "https://proceedings.mlr.press/v37/rezende15.pdf"
-      ],
-      "title": "Variational Inference with Normalizing Flows",
-      "url": "https://proceedings.mlr.press/v37/rezende15.html",
-      "venue": "ICML, PMLR 37:1530--1538",
-      "version_inspected": "published version",
-      "year": 2015
+      ]
     },
     {
+      "citation_key": "takahashi2018",
+      "title": "Student-t Variational Autoencoder for Robust Density Estimation",
       "authors": [
         "Hiroshi Takahashi",
         "Tomoharu Iwata",
@@ -288,73 +290,73 @@
         "Masanori Yamada",
         "Satoshi Yagi"
       ],
-      "citation_key": "takahashi2018",
-      "doi": "10.24963/ijcai.2018/374",
+      "year": 2018,
+      "venue": "IJCAI, 2696--2702",
       "publication_status": "published",
+      "url": "https://www.ijcai.org/proceedings/2018/374",
+      "doi": "10.24963/ijcai.2018/374",
+      "version_inspected": "published version",
       "source_urls": [
         "https://www.ijcai.org/proceedings/2018/374"
-      ],
-      "title": "Student-t Variational Autoencoder for Robust Density Estimation",
-      "url": "https://www.ijcai.org/proceedings/2018/374",
-      "venue": "IJCAI, 2696--2702",
-      "version_inspected": "published version",
-      "year": 2018
+      ]
     },
     {
+      "citation_key": "kobayashi2019",
+      "title": "Variational Deep Embedding with Regularized Student-t Mixture Model",
       "authors": [
         "Taisuke Kobayashi"
       ],
-      "citation_key": "kobayashi2019",
-      "doi": "10.1007/978-3-030-30508-6_36",
+      "year": 2019,
+      "venue": "ICANN, LNCS 11729:443--455",
       "publication_status": "published",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-30508-6_36",
+      "doi": "10.1007/978-3-030-30508-6_36",
+      "version_inspected": "published version",
       "source_urls": [
         "https://link.springer.com/chapter/10.1007/978-3-030-30508-6_36",
         "https://prinlab.org/en/publication/"
-      ],
-      "title": "Variational Deep Embedding with Regularized Student-t Mixture Model",
-      "url": "https://link.springer.com/chapter/10.1007/978-3-030-30508-6_36",
-      "venue": "ICANN, LNCS 11729:443--455",
-      "version_inspected": "published version",
-      "year": 2019
+      ]
     },
     {
+      "citation_key": "boenninghoff2020",
+      "title": "Variational Autoencoder with Embedded Student-t Mixture Model for Authorship Attribution",
       "authors": [
         "Benedikt Boenninghoff",
         "Steffen Zeiler",
         "Robert Nickel",
         "Dorothea Kolossa"
       ],
-      "citation_key": "boenninghoff2020",
-      "doi": "10.18653/v1/2020.coling-main.45",
+      "year": 2020,
+      "venue": "COLING, 519--529",
       "publication_status": "published",
+      "url": "https://aclanthology.org/2020.coling-main.45/",
+      "doi": "10.18653/v1/2020.coling-main.45",
+      "version_inspected": "published version",
       "source_urls": [
         "https://aclanthology.org/2020.coling-main.45/"
-      ],
-      "title": "Variational Autoencoder with Embedded Student-t Mixture Model for Authorship Attribution",
-      "url": "https://aclanthology.org/2020.coling-main.45/",
-      "venue": "COLING, 519--529",
-      "version_inspected": "published version",
-      "year": 2020
+      ]
     },
     {
+      "citation_key": "yang2022",
+      "title": "Clustering Analysis via Deep Generative Models With Mixture Models",
       "authors": [
         "Lin Yang",
         "Wentao Fan",
         "Nizar Bouguila"
       ],
-      "citation_key": "yang2022",
-      "doi": "10.1109/TNNLS.2020.3027761",
+      "year": 2022,
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems 33(1):340--350",
       "publication_status": "published",
+      "url": "https://doi.org/10.1109/TNNLS.2020.3027761",
+      "doi": "10.1109/TNNLS.2020.3027761",
+      "version_inspected": "January 2022 issue; online 2020-10-13",
       "source_urls": [
         "https://doi.org/10.1109/TNNLS.2020.3027761"
-      ],
-      "title": "Clustering Analysis via Deep Generative Models With Mixture Models",
-      "url": "https://doi.org/10.1109/TNNLS.2020.3027761",
-      "venue": "IEEE Transactions on Neural Networks and Learning Systems 33(1):340--350",
-      "version_inspected": "January 2022 issue; online 2020-10-13",
-      "year": 2022
+      ]
     },
     {
+      "citation_key": "t3vae2024",
+      "title": "t3-Variational Autoencoder: Learning Heavy-tailed Data with Student's t and Power Divergence",
       "authors": [
         "Juno Kim",
         "Jaehyuk Kwon",
@@ -362,38 +364,38 @@
         "Hyunjong Lee",
         "Joong-Ho Won"
       ],
-      "citation_key": "t3vae2024",
-      "doi": null,
+      "year": 2024,
+      "venue": "ICLR 2024",
       "publication_status": "published",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/5526c73e3ff4f2a34009e13d15f52fcb-Paper-Conference.pdf",
+      "doi": null,
+      "version_inspected": "published version",
       "source_urls": [
         "https://proceedings.iclr.cc/paper_files/paper/2024/file/5526c73e3ff4f2a34009e13d15f52fcb-Paper-Conference.pdf"
-      ],
-      "title": "t3-Variational Autoencoder: Learning Heavy-tailed Data with Student's t and Power Divergence",
-      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/5526c73e3ff4f2a34009e13d15f52fcb-Paper-Conference.pdf",
-      "venue": "ICLR 2024",
-      "version_inspected": "published version",
-      "year": 2024
+      ]
     },
     {
+      "citation_key": "prot2026",
+      "title": "Pro-t-VAE: Closed-Form Student's t Mixtures for Robust Prototype Discovery",
       "authors": [
         "Zhikang Xu",
         "Jiarui Xing",
         "Jian Wang"
       ],
-      "citation_key": "prot2026",
-      "doi": null,
+      "year": 2026,
+      "venue": "arXiv:2610.14894v1",
       "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2610.14894",
+      "doi": null,
+      "version_inspected": "v1 (2026-10-10); author reports NeurIPS acceptance; proceedings not independently verified",
       "source_urls": [
         "https://arxiv.org/abs/2610.14894",
         "https://arxiv.org/html/2610.14894v1"
-      ],
-      "title": "Pro-t-VAE: Closed-Form Student's t Mixtures for Robust Prototype Discovery",
-      "url": "https://arxiv.org/abs/2610.14894",
-      "venue": "arXiv:2610.14894v1",
-      "version_inspected": "v1 (2026-10-10); author reports NeurIPS acceptance; proceedings not independently verified",
-      "year": 2026
+      ]
     },
     {
+      "citation_key": "svae2016",
+      "title": "Composing graphical models with neural networks for structured representations and fast inference",
       "authors": [
         "Matthew James Johnson",
         "David Duvenaud",
@@ -401,345 +403,345 @@
         "Ryan P. Adams",
         "Sandeep R. Datta"
       ],
-      "citation_key": "svae2016",
-      "doi": null,
+      "year": 2016,
+      "venue": "Advances in Neural Information Processing Systems 29",
       "publication_status": "published",
+      "url": "https://papers.nips.cc/paper_files/paper/2016/hash/7d6044e95a16761171b130dcb476a43e-Abstract.html",
+      "doi": null,
+      "version_inspected": "published version",
       "source_urls": [
         "https://papers.nips.cc/paper_files/paper/2016/hash/7d6044e95a16761171b130dcb476a43e-Abstract.html",
         "https://papers.nips.cc/paper/2016/file/7d6044e95a16761171b130dcb476a43e-Paper.pdf"
-      ],
-      "title": "Composing graphical models with neural networks for structured representations and fast inference",
-      "url": "https://papers.nips.cc/paper_files/paper/2016/hash/7d6044e95a16761171b130dcb476a43e-Abstract.html",
-      "venue": "Advances in Neural Information Processing Systems 29",
-      "version_inspected": "published version",
-      "year": 2016
+      ]
     },
     {
+      "citation_key": "srvae2022",
+      "title": "Structured Recognition for Generative Models with Explaining Away",
       "authors": [
         "Changmin Yu",
         "Hugo Soulat",
         "Neil Burgess",
         "Maneesh Sahani"
       ],
-      "citation_key": "srvae2022",
-      "doi": null,
+      "year": 2022,
+      "venue": "Advances in Neural Information Processing Systems 35",
       "publication_status": "published",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/003a96110b7134d678cb675c6aea6c7d-Abstract-Conference.html",
+      "doi": null,
+      "version_inspected": "NeurIPS 2022; arXiv v2 (2022-11-10)",
       "source_urls": [
         "https://proceedings.neurips.cc/paper_files/paper/2022/hash/003a96110b7134d678cb675c6aea6c7d-Abstract-Conference.html",
         "https://arxiv.org/html/2209.05212v2"
-      ],
-      "title": "Structured Recognition for Generative Models with Explaining Away",
-      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/003a96110b7134d678cb675c6aea6c7d-Abstract-Conference.html",
-      "venue": "Advances in Neural Information Processing Systems 35",
-      "version_inspected": "NeurIPS 2022; arXiv v2 (2022-11-10)",
-      "year": 2022
+      ]
     },
     {
+      "citation_key": "tipping2005",
+      "title": "Variational inference for Student-t models: Robust Bayesian interpolation and generalised component analysis",
       "authors": [
         "Michael E. Tipping",
         "Neil D. Lawrence"
       ],
-      "citation_key": "tipping2005",
-      "doi": "10.1016/j.neucom.2005.02.016",
+      "year": 2005,
+      "venue": "Neurocomputing 69(1--3):123--141",
       "publication_status": "published",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231205001694",
+      "doi": "10.1016/j.neucom.2005.02.016",
+      "version_inspected": "published version",
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S0925231205001694",
         "https://inverseprobability.com/publications/tipping-variational05.html",
         "https://inverseprobability.com/publications/files/gca.pdf",
         "https://inverseprobability.com/publications/files/robustBayesian.pdf"
-      ],
-      "title": "Variational inference for Student-t models: Robust Bayesian interpolation and generalised component analysis",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0925231205001694",
-      "venue": "Neurocomputing 69(1--3):123--141",
-      "version_inspected": "published version",
-      "year": 2005
+      ]
     },
     {
+      "citation_key": "jylanki2011",
+      "title": "Robust Gaussian Process Regression with a Student-t Likelihood",
       "authors": [
         "Pasi Jylanki",
         "Jarno Vanhatalo",
         "Aki Vehtari"
       ],
-      "citation_key": "jylanki2011",
-      "doi": null,
+      "year": 2011,
+      "venue": "Journal of Machine Learning Research 12:3227--3257",
       "publication_status": "published",
+      "url": "https://www.jmlr.org/papers/v12/jylanki11a.html",
+      "doi": null,
+      "version_inspected": "published version",
       "source_urls": [
         "https://www.jmlr.org/papers/v12/jylanki11a.html",
         "https://www.jmlr.org/papers/volume12/jylanki11a/jylanki11a.pdf"
-      ],
-      "title": "Robust Gaussian Process Regression with a Student-t Likelihood",
-      "url": "https://www.jmlr.org/papers/v12/jylanki11a.html",
-      "venue": "Journal of Machine Learning Research 12:3227--3257",
-      "version_inspected": "published version",
-      "year": 2011
+      ]
     },
     {
+      "citation_key": "peel2000",
+      "title": "Robust mixture modelling using the t distribution",
       "authors": [
         "D. Peel",
         "G. J. McLachlan"
       ],
-      "citation_key": "peel2000",
-      "doi": "10.1023/A:1008981510081",
+      "year": 2000,
+      "venue": "Statistics and Computing 10:339--348",
       "publication_status": "published",
+      "url": "https://link.springer.com/article/10.1023/A:1008981510081",
+      "doi": "10.1023/A:1008981510081",
+      "version_inspected": "published version",
       "source_urls": [
         "https://link.springer.com/article/10.1023/A:1008981510081",
         "https://people.smp.uq.edu.au/GeoffMcLachlan/pm_sc00.pdf"
-      ],
-      "title": "Robust mixture modelling using the t distribution",
-      "url": "https://link.springer.com/article/10.1023/A:1008981510081",
-      "venue": "Statistics and Computing 10:339--348",
-      "version_inspected": "published version",
-      "year": 2000
+      ]
     },
     {
+      "citation_key": "lange1989",
+      "title": "Robust Statistical Modeling Using the t Distribution",
       "authors": [
         "Kenneth L. Lange",
         "Roderick J. A. Little",
         "Jeremy M. G. Taylor"
       ],
-      "citation_key": "lange1989",
-      "doi": "10.1080/01621459.1989.10478852",
+      "year": 1989,
+      "venue": "Journal of the American Statistical Association 84(408):881--896",
       "publication_status": "published",
+      "url": "https://doi.org/10.1080/01621459.1989.10478852",
+      "doi": "10.1080/01621459.1989.10478852",
+      "version_inspected": "published version",
       "source_urls": [
         "https://doi.org/10.1080/01621459.1989.10478852",
         "https://escholarship.org/uc/item/27s1d3h7"
-      ],
-      "title": "Robust Statistical Modeling Using the t Distribution",
-      "url": "https://doi.org/10.1080/01621459.1989.10478852",
-      "venue": "Journal of the American Statistical Association 84(408):881--896",
-      "version_inspected": "published version",
-      "year": 1989
+      ]
     },
     {
+      "citation_key": "yacoby2020",
+      "title": "Characterizing and Avoiding Problematic Global Optima of Variational Autoencoders",
       "authors": [
         "Yaniv Yacoby",
         "Weiwei Pan",
         "Finale Doshi-Velez"
       ],
-      "citation_key": "yacoby2020",
-      "doi": null,
+      "year": 2020,
+      "venue": "AABI, PMLR 118:1--17",
       "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v118/yacoby20a.html",
+      "doi": null,
+      "version_inspected": "published version",
       "source_urls": [
         "https://proceedings.mlr.press/v118/yacoby20a.html",
         "https://proceedings.mlr.press/v118/yacoby20a/yacoby20a.pdf"
-      ],
-      "title": "Characterizing and Avoiding Problematic Global Optima of Variational Autoencoders",
-      "url": "https://proceedings.mlr.press/v118/yacoby20a.html",
-      "venue": "AABI, PMLR 118:1--17",
-      "version_inspected": "published version",
-      "year": 2020
+      ]
     },
     {
+      "citation_key": "matthews2016",
+      "title": "On Sparse Variational Methods and the Kullback-Leibler Divergence between Stochastic Processes",
       "authors": [
         "Alexander G. de G. Matthews",
         "James Hensman",
         "Richard E. Turner",
         "Zoubin Ghahramani"
       ],
-      "citation_key": "matthews2016",
-      "doi": null,
+      "year": 2016,
+      "venue": "AISTATS, PMLR 51:231--239",
       "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v51/matthews16.html",
+      "doi": null,
+      "version_inspected": "published version",
       "source_urls": [
         "https://proceedings.mlr.press/v51/matthews16.html",
         "https://proceedings.mlr.press/v51/matthews16.pdf"
-      ],
-      "title": "On Sparse Variational Methods and the Kullback-Leibler Divergence between Stochastic Processes",
-      "url": "https://proceedings.mlr.press/v51/matthews16.html",
-      "venue": "AISTATS, PMLR 51:231--239",
-      "version_inspected": "published version",
-      "year": 2016
+      ]
     },
     {
+      "citation_key": "marginal2026",
+      "title": "Generalized Guarantees for Variational Inference in the Presence of Even and Elliptical Symmetry",
       "authors": [
         "Charles C. Margossian",
         "Isaac E. Rankin",
         "Lawrence K. Saul"
       ],
-      "citation_key": "marginal2026",
-      "doi": null,
+      "year": 2026,
+      "venue": "arXiv:2511.01064v3",
       "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2511.01064",
+      "doi": null,
+      "version_inspected": "v3 (2026-05-30); three authors",
       "source_urls": [
         "https://arxiv.org/abs/2511.01064",
         "https://arxiv.org/html/2511.01064v3"
-      ],
-      "title": "Generalized Guarantees for Variational Inference in the Presence of Even and Elliptical Symmetry",
-      "url": "https://arxiv.org/abs/2511.01064",
-      "venue": "arXiv:2511.01064v3",
-      "version_inspected": "v3 (2026-05-30); three authors",
-      "year": 2026
+      ]
     },
     {
+      "citation_key": "margossian2025",
+      "title": "Variational Inference for Uncertainty Quantification: an Analysis of Trade-offs",
       "authors": [
         "Charles C. Margossian",
         "Loucas Pillaud-Vivien",
         "Lawrence K. Saul"
       ],
-      "citation_key": "margossian2025",
-      "doi": null,
+      "year": 2025,
+      "venue": "Journal of Machine Learning Research 26(202):1--41",
       "publication_status": "published",
+      "url": "https://jmlr.org/papers/v26/24-0878.html",
+      "doi": null,
+      "version_inspected": "published version",
       "source_urls": [
         "https://jmlr.org/papers/v26/24-0878.html",
         "https://jmlr.org/papers/volume26/24-0878/24-0878.pdf"
-      ],
-      "title": "Variational Inference for Uncertainty Quantification: an Analysis of Trade-offs",
-      "url": "https://jmlr.org/papers/v26/24-0878.html",
-      "venue": "Journal of Machine Learning Research 26(202):1--41",
-      "version_inspected": "published version",
-      "year": 2025
+      ]
     },
     {
+      "citation_key": "onoue2026",
+      "title": "Closed-Form Coordinate Ascent Variational Inference for Student-t Process Regression with Student-t Likelihood",
       "authors": [
         "Keisuke Onoue",
         "Takatomi Kubo",
         "Kazushi Ikeda"
       ],
-      "citation_key": "onoue2026",
-      "doi": null,
+      "year": 2026,
+      "venue": "AISTATS, PMLR 300:1756--1764",
       "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v300/onoue26a.html",
+      "doi": null,
+      "version_inspected": "published version",
       "source_urls": [
         "https://proceedings.mlr.press/v300/onoue26a.html",
         "https://raw.githubusercontent.com/mlresearch/v300/main/assets/onoue26a/onoue26a.pdf"
-      ],
-      "title": "Closed-Form Coordinate Ascent Variational Inference for Student-t Process Regression with Student-t Likelihood",
-      "url": "https://proceedings.mlr.press/v300/onoue26a.html",
-      "venue": "AISTATS, PMLR 300:1756--1764",
-      "version_inspected": "published version",
-      "year": 2026
+      ]
     },
     {
+      "citation_key": "mnist1998",
+      "title": "Gradient-Based Learning Applied to Document Recognition",
       "authors": [
         "Yann LeCun",
         "Leon Bottou",
         "Yoshua Bengio",
         "Patrick Haffner"
       ],
-      "citation_key": "mnist1998",
-      "doi": "10.1109/5.726791",
+      "year": 1998,
+      "venue": "Proceedings of the IEEE 86(11):2278--2324",
       "publication_status": "published",
+      "url": "https://leon.bottou.org/papers/lecun-98h",
+      "doi": "10.1109/5.726791",
+      "version_inspected": "published version",
       "source_urls": [
         "https://leon.bottou.org/papers/lecun-98h",
         "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/ref.html"
-      ],
-      "title": "Gradient-Based Learning Applied to Document Recognition",
-      "url": "https://leon.bottou.org/papers/lecun-98h",
-      "venue": "Proceedings of the IEEE 86(11):2278--2324",
-      "version_inspected": "published version",
-      "year": 1998
+      ]
     },
     {
+      "citation_key": "fashion2017",
+      "title": "Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms",
       "authors": [
         "Han Xiao",
         "Kashif Rasul",
         "Roland Vollgraf"
       ],
-      "citation_key": "fashion2017",
-      "doi": null,
+      "year": 2017,
+      "venue": "arXiv:1708.07747v2",
       "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/1708.07747",
+      "doi": null,
+      "version_inspected": "v2 (2017-09-15)",
       "source_urls": [
         "https://arxiv.org/abs/1708.07747"
-      ],
-      "title": "Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms",
-      "url": "https://arxiv.org/abs/1708.07747",
-      "venue": "arXiv:1708.07747v2",
-      "version_inspected": "v2 (2017-09-15)",
-      "year": 2017
+      ]
     },
     {
+      "citation_key": "usps1994",
+      "title": "A Database for Handwritten Text Recognition Research",
       "authors": [
         "J. J. Hull"
       ],
-      "citation_key": "usps1994",
-      "doi": "10.1109/34.291440",
+      "year": 1994,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence 16(5):550--554",
       "publication_status": "published",
+      "url": "https://doi.org/10.1109/34.291440",
+      "doi": "10.1109/34.291440",
+      "version_inspected": "published version",
       "source_urls": [
         "https://doi.org/10.1109/34.291440",
         "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass.html#usps",
         "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/ref.html"
-      ],
-      "title": "A Database for Handwritten Text Recognition Research",
-      "url": "https://doi.org/10.1109/34.291440",
-      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence 16(5):550--554",
-      "version_inspected": "published version",
-      "year": 1994
+      ]
     },
     {
+      "citation_key": "reuters2004",
+      "title": "RCV1: A New Benchmark Collection for Text Categorization Research",
       "authors": [
         "David D. Lewis",
         "Yiming Yang",
         "Tony G. Rose",
         "Fan Li"
       ],
-      "citation_key": "reuters2004",
-      "doi": null,
+      "year": 2004,
+      "venue": "Journal of Machine Learning Research 5:361--397",
       "publication_status": "published",
+      "url": "https://jmlr.org/papers/v5/lewis04a.html",
+      "doi": null,
+      "version_inspected": "published version",
       "source_urls": [
         "https://jmlr.org/papers/v5/lewis04a.html"
-      ],
-      "title": "RCV1: A New Benchmark Collection for Text Categorization Research",
-      "url": "https://jmlr.org/papers/v5/lewis04a.html",
-      "venue": "Journal of Machine Learning Research 5:361--397",
-      "version_inspected": "published version",
-      "year": 2004
+      ]
     },
     {
+      "citation_key": "dirvae2019",
+      "title": "Dirichlet Variational Autoencoder",
       "authors": [
         "Weonyoung Joo",
         "Wonsung Lee",
         "Sungrae Park",
         "Il-Chul Moon"
       ],
-      "citation_key": "dirvae2019",
-      "doi": null,
+      "year": 2019,
+      "venue": "arXiv:1901.02739v1",
       "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/1901.02739",
+      "doi": null,
+      "version_inspected": "v1 (2019-01-09); later journal identity not merged without full comparison",
       "source_urls": [
         "https://arxiv.org/abs/1901.02739",
         "https://arxiv.org/html/1901.02739v1",
         "https://www.sciencedirect.com/science/article/pii/S0031320320303174"
-      ],
-      "title": "Dirichlet Variational Autoencoder",
-      "url": "https://arxiv.org/abs/1901.02739",
-      "venue": "arXiv:1901.02739v1",
-      "version_inspected": "v1 (2019-01-09); later journal identity not merged without full comparison",
-      "year": 2019
+      ]
     },
     {
+      "citation_key": "vmm2025",
+      "title": "The VampPrior Mixture Model",
       "authors": [
         "Andrew A. Stirn",
         "David A. Knowles"
       ],
-      "citation_key": "vmm2025",
-      "doi": null,
+      "year": 2025,
+      "venue": "arXiv:2402.04412v3",
       "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2402.04412",
+      "doi": null,
+      "version_inspected": "v3 (2025-03-11); initial version February 2024",
       "source_urls": [
         "https://arxiv.org/abs/2402.04412",
         "https://arxiv.org/html/2402.04412v3"
-      ],
-      "title": "The VampPrior Mixture Model",
-      "url": "https://arxiv.org/abs/2402.04412",
-      "venue": "arXiv:2402.04412v3",
-      "version_inspected": "v3 (2025-03-11); initial version February 2024",
-      "year": 2025
+      ]
     },
     {
+      "citation_key": "rezende2014",
+      "title": "Stochastic Backpropagation and Approximate Inference in Deep Generative Models",
       "authors": [
         "Danilo Jimenez Rezende",
         "Shakir Mohamed",
         "Daan Wierstra"
       ],
-      "citation_key": "rezende2014",
-      "doi": null,
+      "year": 2014,
+      "venue": "Proceedings of Machine Learning Research 32(2), 1278--1286",
       "publication_status": "published",
+      "url": "https://proceedings.mlr.press/v32/rezende14.html",
+      "doi": null,
+      "version_inspected": "published version",
       "source_urls": [
         "https://proceedings.mlr.press/v32/rezende14.html",
         "https://proceedings.mlr.press/v32/rezende14.pdf"
-      ],
-      "title": "Stochastic Backpropagation and Approximate Inference in Deep Generative Models",
-      "url": "https://proceedings.mlr.press/v32/rezende14.html",
-      "venue": "Proceedings of Machine Learning Research 32(2), 1278--1286",
-      "version_inspected": "published version",
-      "year": 2014
+      ]
     },
     {
+      "citation_key": "iaf2016",
+      "title": "Improved Variational Inference with Inverse Autoregressive Flow",
       "authors": [
         "Diederik P. Kingma",
         "Tim Salimans",
@@ -748,38 +750,56 @@
         "Ilya Sutskever",
         "Max Welling"
       ],
-      "citation_key": "iaf2016",
-      "doi": null,
+      "year": 2016,
+      "venue": "Advances in Neural Information Processing Systems 29",
       "publication_status": "published",
+      "url": "https://papers.nips.cc/paper_files/paper/2016/hash/ddeebdeefdb7e7e7a697e1c3e3d8ef54-Abstract.html",
+      "doi": null,
+      "version_inspected": "published version",
       "source_urls": [
         "https://papers.nips.cc/paper_files/paper/2016/hash/ddeebdeefdb7e7e7a697e1c3e3d8ef54-Abstract.html",
         "https://papers.nips.cc/paper_files/paper/2016/file/ddeebdeefdb7e7e7a697e1c3e3d8ef54-Paper.pdf"
-      ],
-      "title": "Improved Variational Inference with Inverse Autoregressive Flow",
-      "url": "https://papers.nips.cc/paper_files/paper/2016/hash/ddeebdeefdb7e7e7a697e1c3e3d8ef54-Abstract.html",
-      "venue": "Advances in Neural Information Processing Systems 29",
-      "version_inspected": "published version",
-      "year": 2016
+      ]
     },
     {
+      "citation_key": "iwae2016",
+      "title": "Importance Weighted Autoencoders",
       "authors": [
         "Yuri Burda",
         "Roger Grosse",
         "Ruslan Salakhutdinov"
       ],
-      "citation_key": "iwae2016",
-      "doi": null,
+      "year": 2016,
+      "venue": "ICLR 2016",
       "publication_status": "published",
+      "url": "https://arxiv.org/abs/1509.00519",
+      "doi": null,
+      "version_inspected": "arXiv v4 (2016-11-07); ICLR 2016 conference acceptance verified",
       "source_urls": [
         "https://arxiv.org/abs/1509.00519",
         "https://arxiv.org/html/1509.00519v4",
         "https://www.iclr.cc/archive/www/2016.html"
+      ]
+    },
+    {
+      "citation_key": "chowdhury2025",
+      "title": "Mixtures of posterior and prior variational autoencoders for representation learning and cluster analysis in latent space",
+      "authors": [
+        "Mashfiqul Huq Chowdhury",
+        "Yuichi Hirose",
+        "Stephen Marsland",
+        "Yuan Yao"
       ],
-      "title": "Importance Weighted Autoencoders",
-      "url": "https://arxiv.org/abs/1509.00519",
-      "venue": "ICLR 2016",
-      "version_inspected": "arXiv v4 (2016-11-07); ICLR 2016 conference acceptance verified",
-      "year": 2016
+      "year": 2025,
+      "venue": "Neurocomputing 657, 131524",
+      "publication_status": "published",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231225021964",
+      "doi": "10.1016/j.neucom.2025.131524",
+      "version_inspected": "Published journal metadata, abstract, introduction and section excerpts indexed from the publisher; full journal body unavailable.",
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0925231225021964",
+        "https://github.com/Mashfiqul/Mixture-Posterior-Prior-VAE"
+      ]
     }
   ],
   "schema_version": "variational-clustering-bibliography-v1",

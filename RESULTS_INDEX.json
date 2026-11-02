@@ -1,0 +1,980 @@
+{
+  "contrast_definitions": {
+    "D_clean": "M(A,clean,seed) minus M(B,clean,seed)",
+    "D_condition": "M(A,condition,seed) minus M(B,condition,seed)",
+    "Delta": "M(method,condition,seed) minus M(method,clean,seed)",
+    "Gamma": "Delta(A,seed) minus Delta(B,seed); equivalently D_condition minus D_clean"
+  },
+  "entries": [
+    {
+      "evidence": [
+        {
+          "collection": "s2_groups",
+          "fields": [
+            "module",
+            "truth",
+            "noise_sd",
+            "nuisance_dimension",
+            "family",
+            "finite_candidate_nu",
+            "selected_gaussian_count",
+            "independent_heldout_log_likelihood",
+            "seed_outcomes"
+          ],
+          "path": "results/paper1_review_20261028/scientific_analysis_complete_v2/scientific_simulations.json"
+        },
+        {
+          "collection": "nuisance_pairs",
+          "path": "results/paper1_review_20261028/scientific_analysis_complete_v2/scientific_simulations.json",
+          "where": {
+            "module": [
+              "S2_primary"
+            ]
+          }
+        },
+        {
+          "collection": "s2_relative_to_structured",
+          "path": "results/paper1_review_20261028/scientific_analysis_complete_v2/scientific_simulations.json"
+        }
+      ],
+      "figures": [],
+      "id": "tail_learning",
+      "theme": "Nuisance coordinates and tail learning"
+    },
+    {
+      "evidence": [
+        {
+          "collection": "s3_groups",
+          "fields": [
+            "truth",
+            "noise_sd",
+            "nuisance_dimension",
+            "family",
+            "assignment_disagreement",
+            "assignment_direction",
+            "component_mean_gaps",
+            "log_loss_minus_bayes"
+          ],
+          "path": "results/paper1_review_20261028/scientific_analysis_complete_v2/scientific_simulations.json"
+        },
+        {
+          "collection": "nuisance_pairs",
+          "path": "results/paper1_review_20261028/scientific_analysis_complete_v2/scientific_simulations.json",
+          "where": {
+            "module": "S3"
+          }
+        }
+      ],
+      "figures": [],
+      "id": "component_allocation",
+      "theme": "Approximation penalties and component allocation"
+    },
+    {
+      "evidence": [
+        {
+          "collection": "rows",
+          "fields": [
+            "method",
+            "variant",
+            "seed",
+            "metrics"
+          ],
+          "path": "results/paper1_review_20261029/reference_analysis_complete_v2/evaluation.json",
+          "where": {
+            "split": "test"
+          }
+        },
+        {
+          "collection": "summaries",
+          "path": "results/paper1_review_20261029/reference_analysis_complete_v2/evaluation.json",
+          "where": {
+            "split": "test"
+          }
+        }
+      ],
+      "figures": [],
+      "id": "reference_assignment",
+      "theme": "Three-seed reference-style implementations and assignment rules"
+    },
+    {
+      "evidence": [
+        {
+          "path": "results/paper1_review_20261031/matched_report_complete_v1/tables/clean_nine_metrics.csv",
+          "where": {
+            "inference_condition": "clean",
+            "training_condition": "clean"
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_report_complete_v1/tables/paired_all_metrics.csv",
+          "where": {
+            "quantity": "clean_contrast_summaries"
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/seed_metrics.csv",
+          "where": {
+            "inference_condition": "clean",
+            "training_condition": "clean"
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/clean_seed_contrasts.csv"
+        }
+      ],
+      "figures": [
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_ari_seeds.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_mnist.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_fashion_mnist.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_usps.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_reuters10k.pdf"
+      ],
+      "id": "clean_prior_recognition",
+      "theme": "Five-seed clean prior-versus-recognition comparisons"
+    },
+    {
+      "evidence": [
+        {
+          "path": "results/paper1_review_20261031/matched_report_complete_v1/tables/clean_nine_metrics.csv",
+          "where": {
+            "dataset": "reuters10k"
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/seed_metrics.csv",
+          "where": {
+            "dataset": "reuters10k",
+            "inference_condition": "clean",
+            "training_condition": "clean"
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/clean_seed_contrasts.csv",
+          "where": {
+            "dataset": "reuters10k"
+          }
+        }
+      ],
+      "figures": [
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_ari_seeds.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_reuters10k.pdf"
+      ],
+      "id": "reuters",
+      "theme": "Reuters conditional performance limitation"
+    },
+    {
+      "evidence": [
+        {
+          "collection": "rows",
+          "fields": [
+            "dataset",
+            "method",
+            "seed",
+            "metrics.occupancy",
+            "metrics.per_class",
+            "metrics.mapping",
+            "metrics.audit"
+          ],
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/evaluation.json",
+          "where": {
+            "inference_condition": "clean",
+            "training_condition": "clean"
+          }
+        },
+        {
+          "collection": "rows",
+          "fields": [
+            "method",
+            "variant",
+            "seed",
+            "metrics.occupancy",
+            "metrics.per_class",
+            "metrics.mapping"
+          ],
+          "path": "results/paper1_review_20261029/reference_analysis_complete_v2/evaluation.json",
+          "where": {
+            "split": "test"
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/training_origin_allocation.json"
+        }
+      ],
+      "figures": [],
+      "id": "occupancy_class_recovery",
+      "theme": "Component occupancy and mapped class recovery"
+    },
+    {
+      "evidence": [
+        {
+          "path": "results/paper1_review_20261031/matched_report_complete_v1/tables/conditional_nine_metrics.csv",
+          "where": {
+            "inference_condition": "clean",
+            "training_condition": [
+              "gaussian_training_sd0.3_ratio0.1",
+              "semantic_training_ratio0.1"
+            ]
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_report_complete_v1/tables/paired_all_metrics.csv",
+          "where": {
+            "mode": "retrained"
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/paired_seed_changes.csv",
+          "where": {
+            "mode": "retrained"
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/condition_seed_contrasts.csv",
+          "where": {
+            "mode": "retrained"
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/robustness_seed_contrasts.csv",
+          "where": {
+            "mode": "retrained"
+          }
+        }
+      ],
+      "figures": [
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/training_changes_mnist.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/training_changes_fashion_mnist.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_training.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_training.pdf"
+      ],
+      "id": "training_contamination",
+      "theme": "Retrained training-contamination comparisons"
+    },
+    {
+      "evidence": [
+        {
+          "path": "results/paper1_review_20261031/matched_report_complete_v1/tables/conditional_nine_metrics.csv",
+          "where": {
+            "training_condition": "clean"
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_report_complete_v1/tables/paired_all_metrics.csv",
+          "where": {
+            "mode": "inference_corruption"
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/paired_seed_changes.csv",
+          "where": {
+            "mode": "inference_corruption"
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/condition_seed_contrasts.csv",
+          "where": {
+            "mode": "inference_corruption"
+          }
+        },
+        {
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/robustness_seed_contrasts.csv",
+          "where": {
+            "mode": "inference_corruption"
+          }
+        }
+      ],
+      "figures": [
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_mnist.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_fashion_mnist.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_usps.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_gaussian.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_dropout.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_gaussian.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_dropout.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_usps_gaussian.pdf",
+        "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_usps_dropout.pdf"
+      ],
+      "id": "prediction_corruption",
+      "theme": "Fixed-checkpoint prediction-corruption comparisons"
+    },
+    {
+      "evidence": [
+        {
+          "collection": "endpoint_summaries",
+          "fields": [
+            "dataset",
+            "method",
+            "seeds",
+            "scalars"
+          ],
+          "path": "results/paper1_review_20261031/matched_diagnostics_complete_20261031_v1/diagnostics.json",
+          "where": {
+            "condition": "clean"
+          }
+        },
+        {
+          "collection": "rows",
+          "fields": [
+            "dataset",
+            "method",
+            "condition",
+            "seed",
+            "endpoint_scalars",
+            "diagnostic_trajectory",
+            "hardware",
+            "timing_semantics",
+            "recovery_cost_note"
+          ],
+          "path": "results/paper1_review_20261031/matched_diagnostics_complete_20261031_v1/diagnostics.json"
+        },
+        {
+          "collection": "trajectory_summaries",
+          "path": "results/paper1_review_20261031/matched_diagnostics_complete_20261031_v1/diagnostics.json"
+        },
+        {
+          "collection": "initializations",
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/inventory.json"
+        },
+        {
+          "collection": "fits",
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/inventory.json"
+        }
+      ],
+      "figures": [],
+      "id": "optimization_cost_bounds",
+      "theme": "Optimization, clipping, cost and parameter bounds"
+    },
+    {
+      "evidence": [
+        {
+          "collection": "rows",
+          "fields": [
+            "dataset",
+            "condition",
+            "seed",
+            "diagnostic_trajectory"
+          ],
+          "path": "results/paper1_review_20261031/matched_diagnostics_complete_20261031_v1/diagnostics.json",
+          "where": {
+            "method": "structured_q_student_prior"
+          }
+        },
+        {
+          "collection": "rows",
+          "fields": [
+            "dataset",
+            "training_condition",
+            "inference_condition",
+            "seed",
+            "evidence"
+          ],
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/evaluation.json",
+          "where": {
+            "method": "structured_q_student_prior"
+          }
+        }
+      ],
+      "figures": [],
+      "id": "attained_quadrature",
+      "theme": "Quadrature agreement at evaluated observations and parameters"
+    },
+    {
+      "evidence": [
+        {
+          "collection": "rows",
+          "fields": [
+            "dataset",
+            "method",
+            "seed",
+            "evidence.probability_normalization",
+            "metrics.probabilities"
+          ],
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/evaluation.json"
+        },
+        {
+          "collection": "fits",
+          "fields": [
+            "logical_identity",
+            "probability_normalization"
+          ],
+          "path": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/inventory.json"
+        }
+      ],
+      "figures": [],
+      "id": "probability_normalization",
+      "theme": "Accepted probability roundoff and unchanged hard assignments"
+    }
+  ],
+  "files": {
+    "results/paper1_review_20261028/scientific_analysis_complete_v2/scientific_simulations.json": {
+      "bytes": 469764,
+      "sha256": "4d4fdd65bf52cca2821644a18f5f4586bf6bd21ea0979fb484b868ab827d184f"
+    },
+    "results/paper1_review_20261029/reference_analysis_complete_v2/evaluation.json": {
+      "bytes": 495468,
+      "sha256": "f804c5f93bfe122256de776770cc5374c089b15c73247b1a7c1da8bcb4d0ef76"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/analysis_manifest.json": {
+      "bytes": 3073,
+      "sha256": "379db7e40fed218d52dcd4d759babbab5f4215541c54eb2b1efd3617cf820c44"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/clean_seed_contrasts.csv": {
+      "bytes": 39419,
+      "columns": [
+        "dataset",
+        "method",
+        "seed",
+        "mode",
+        "condition",
+        "contrast",
+        "method_a",
+        "method_b",
+        "scope",
+        "ami_arithmetic",
+        "ari",
+        "hungarian_acc",
+        "mapped_balanced_accuracy",
+        "mapped_macro_f1",
+        "nmi_arithmetic"
+      ],
+      "data_rows": 160,
+      "sha256": "d0155412761e3ccd4f18ad4893c3144eafd62ba8c9cb69222e4704df846887ae"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/condition_seed_contrasts.csv": {
+      "bytes": 217422,
+      "columns": [
+        "dataset",
+        "method",
+        "seed",
+        "mode",
+        "condition",
+        "contrast",
+        "method_a",
+        "method_b",
+        "scope",
+        "ami_arithmetic",
+        "ari",
+        "hungarian_acc",
+        "mapped_balanced_accuracy",
+        "mapped_macro_f1",
+        "nmi_arithmetic"
+      ],
+      "data_rows": 780,
+      "sha256": "4385f9631aab08d050c0737ff9d6daf91f87617f69906652012e03da61c673f5"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/evaluation.json": {
+      "bytes": 37322796,
+      "sha256": "ee778ab92efef2e3342c69bd9884522227e1fb54c0525829e1bca5bec9a70cff"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/inventory.json": {
+      "bytes": 6407364,
+      "sha256": "b6359d6a9416ee8359063494aa4ae7c67e97fd5d4e8303e2a5c9b970402b25f4"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/missing_or_failed.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/paired_seed_changes.csv": {
+      "bytes": 250919,
+      "columns": [
+        "dataset",
+        "method",
+        "seed",
+        "mode",
+        "condition",
+        "contrast",
+        "method_a",
+        "method_b",
+        "scope",
+        "ami_arithmetic",
+        "ari",
+        "frozen_acc",
+        "frozen_balanced_accuracy",
+        "frozen_macro_f1",
+        "hungarian_acc",
+        "mapped_balanced_accuracy",
+        "mapped_macro_f1",
+        "nmi_arithmetic"
+      ],
+      "data_rows": 1000,
+      "sha256": "cf191436f9d59b58edb728dfd2f64ddee868a6ff9c5af13111f732e575232553"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/robustness_seed_contrasts.csv": {
+      "bytes": 266070,
+      "columns": [
+        "dataset",
+        "method",
+        "seed",
+        "mode",
+        "condition",
+        "contrast",
+        "method_a",
+        "method_b",
+        "scope",
+        "ami_arithmetic",
+        "ari",
+        "frozen_acc",
+        "frozen_balanced_accuracy",
+        "frozen_macro_f1",
+        "hungarian_acc",
+        "mapped_balanced_accuracy",
+        "mapped_macro_f1",
+        "nmi_arithmetic"
+      ],
+      "data_rows": 780,
+      "sha256": "404abec34330c77eb82e5baf8ae34da2e173338a238f20bb2d1c0480714f43c4"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/seed_metrics.csv": {
+      "bytes": 309710,
+      "columns": [
+        "run_id",
+        "dataset",
+        "method",
+        "seed",
+        "training_condition",
+        "inference_condition",
+        "ami_arithmetic",
+        "ari",
+        "completeness",
+        "homogeneity",
+        "hungarian_acc",
+        "mapped_balanced_accuracy",
+        "mapped_macro_f1",
+        "nmi_arithmetic",
+        "v_measure"
+      ],
+      "data_rows": 1200,
+      "sha256": "6d33bc1c83ddd628c1c9154a231a8b4e3c7c53c2ebe605b5747fc80118f61fe6"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/training_origin_allocation.json": {
+      "bytes": 497703,
+      "sha256": "91ff170e8082142c518997b3aab622a438e64a8bd7247075ef3e236ba30892d8"
+    },
+    "results/paper1_review_20261031/matched_diagnostics_complete_20261031_v1/diagnostics.json": {
+      "bytes": 48673875,
+      "sha256": "92309bb244352ffc4b4779efb102d3559dca5a7b2624ffd9605d84e369900c3f"
+    },
+    "results/paper1_review_20261031/matched_diagnostics_complete_20261031_v1/receipt.json": {
+      "bytes": 935,
+      "sha256": "fee885f8c5904d1c840fe4d255559159635eb68e9cf5eb6d31ad12fab42d79dc"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/README.txt": {
+      "bytes": 3813,
+      "sha256": "4d511cd849224254f1cf3be3a2992558fd6668c26330ff494c351cb9aea6e2ad"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_ari_seeds.pdf": {
+      "bytes": 59790,
+      "sha256": "66fc21c7684a7fbb19d734be04c6204e425164f245586694bf1156162323fbf3"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_ari_seeds.png": {
+      "bytes": 155074,
+      "sha256": "c720ff059ae8c9d424beab144c562437e08e2d37f164f6ad9f3c984ebbfcd07c"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_fashion_mnist.pdf": {
+      "bytes": 58393,
+      "sha256": "62afb4f620e416df9c447d5c6802cab3e426d6da4d44bfd182d14896da7dce74"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_fashion_mnist.png": {
+      "bytes": 56959,
+      "sha256": "8c055a1a755e8e7ded502716db04b5b14bd582423c80d79effb5df9136b00352"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_mnist.pdf": {
+      "bytes": 57939,
+      "sha256": "324d70677525b1838b8548e4524e9ba637b80b113596aa0d7126c8327762360e"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_mnist.png": {
+      "bytes": 54570,
+      "sha256": "4ba4caf089ab820b2cda7f727af2b5a12783d5f6d8ae72945e31ee10ee336951"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_reuters10k.pdf": {
+      "bytes": 58319,
+      "sha256": "3e28f514143c6f04d56e15dc9050098d15a9e92e26dcabbcaae4763b2f4ce31f"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_reuters10k.png": {
+      "bytes": 55182,
+      "sha256": "69c5652ad86f5db875d5e33c1c85ae782d27a86cc835273295b48bc4d1645f7b"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_usps.pdf": {
+      "bytes": 58250,
+      "sha256": "dd0459324cea0273e8b28a2b9d20e6c839c71b5990b83c9ed84e12ca67845b18"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_usps.png": {
+      "bytes": 56460,
+      "sha256": "0d60b08fe3b5be330c5bd1905243edf87cb9a75c22103b4caf12d7bc1a48b661"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_dropout.pdf": {
+      "bytes": 68363,
+      "sha256": "d9fa54c572a0b0c241b5390f52ef312f415ea5c2b1ba051eb73986828821f405"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_dropout.png": {
+      "bytes": 226152,
+      "sha256": "d179e91cc75a03333f6999896877709ea7a06ed9ddbaea38fe8424cf0e81b25e"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_gaussian.pdf": {
+      "bytes": 68632,
+      "sha256": "36372824362a80c4047848f209de67ec7f1214660af2c3f3fd2b9cc0d7189ac9"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_gaussian.png": {
+      "bytes": 236380,
+      "sha256": "0ed32ca2c28d5a56a6ad41ba5aa25db530008b439439b63010198d4d658a7ced"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_training.pdf": {
+      "bytes": 60089,
+      "sha256": "0408cb814c64d5a64da24f95a0c2329e531319efdacb5978b9a6d7f9343d0d56"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_training.png": {
+      "bytes": 116208,
+      "sha256": "63fe360fbfae53b0ba7b35196afd4cfd94e13678b95afd9023e7f426b9b361bc"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_dropout.pdf": {
+      "bytes": 68737,
+      "sha256": "420124c0bf3b9fcac4e5644a2f594c32bd4c77205094160e152955f414431ee8"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_dropout.png": {
+      "bytes": 227576,
+      "sha256": "eb9948a98d6baedf2ddff8a37fe4dac9f5ca497df3c51bf57f007e1a52ae183a"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_gaussian.pdf": {
+      "bytes": 68324,
+      "sha256": "538e7595aea8ddcae8a17e4811def6cd9bc2a16789c34e2c6bee167cecf97c22"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_gaussian.png": {
+      "bytes": 231152,
+      "sha256": "cdc2e982bae0057e32d9994655de9a33cb39fab591417dd3a7bccdfdb93b152e"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_training.pdf": {
+      "bytes": 59792,
+      "sha256": "beceb3cfac57019674e0122aa20cbd02ab481f59e71bbac45b1cabbd7e07e096"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_training.png": {
+      "bytes": 110632,
+      "sha256": "93d281b3bdcbeef5e374ed80de5a1f1c18cf3cbc691a8dfcc99676eac6d7e8c8"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_usps_dropout.pdf": {
+      "bytes": 68972,
+      "sha256": "71f9ba8b522c897505df991d5f180aea0329e8d8d6cd7f386cf00afd591e3ce3"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_usps_dropout.png": {
+      "bytes": 224368,
+      "sha256": "e3ef701b517e1135b78351d054050062dd3f677616c8fc78ad2a3df25fc45a20"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_usps_gaussian.pdf": {
+      "bytes": 68385,
+      "sha256": "efab1d2dd31fcc0377e79494a0920396f740a4cbcb5b4c894b16f483d8bfc38a"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_usps_gaussian.png": {
+      "bytes": 230669,
+      "sha256": "0a23c885d5a4f6b2c2ec82fc1aaf857c01f080085b8d650f65d7a94036889db4"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_fashion_mnist.pdf": {
+      "bytes": 76688,
+      "sha256": "a710ee91e81ac2b958bd195d7ea5190ba629ee6c0b5b8a2ac6dbd926478ae853"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_fashion_mnist.png": {
+      "bytes": 180224,
+      "sha256": "87962f2523f86ffbaaf2809c8753a5408a93db7f2f9e3f5a429346d3ae62619d"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_mnist.pdf": {
+      "bytes": 76959,
+      "sha256": "1ae16a82e4a953e8509a3c7c1fcc703cc2d9ce9a4f9a8b067632a7cd05708ba8"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_mnist.png": {
+      "bytes": 189694,
+      "sha256": "52a70dd75002b64a2e5735de4117eef0f9df3909e45b3d050a87b5dcfd3a6bbd"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_usps.pdf": {
+      "bytes": 76864,
+      "sha256": "10582e349d0ff32b8b7da1443502b49be5ab02b16902588ba2be4b799aa1df99"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_usps.png": {
+      "bytes": 196489,
+      "sha256": "183b90671626fefdf36d1bbdd725d98541d8e262f679e08ea7818d76b481987f"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/training_changes_fashion_mnist.pdf": {
+      "bytes": 58978,
+      "sha256": "b96c6b2468afbd56840693357bca57e04a2ee57954a07602a29a4766a165ea74"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/training_changes_fashion_mnist.png": {
+      "bytes": 73737,
+      "sha256": "037b2cffc9e9d3232e41071bf0c4c8b5e42eb8ca45f1383f0a074da091f15e3a"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/training_changes_mnist.pdf": {
+      "bytes": 59104,
+      "sha256": "8d480d4ac073f410cf9920a70a7a1946e46133206197abfd7c630bb3035eccab"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/training_changes_mnist.png": {
+      "bytes": 74437,
+      "sha256": "24d417dfad7a20d8fe0b24bce684e7fa65c0b6296fcb2dbcbdc25ad5907bc646"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/readiness.json": {
+      "bytes": 3876,
+      "sha256": "e3c5bd0e8e9b0e195b27db0bf8fb3da7129fb886096767c1d8d7993406fa08c0"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/report_manifest.json": {
+      "bytes": 9446,
+      "sha256": "72098de3fcd3253884f718a830ddf175460d7b0dce2caf09fd21b35efb230956"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/tables/clean_main.csv": {
+      "bytes": 46923,
+      "columns": [
+        "panel",
+        "quantity",
+        "dataset",
+        "method",
+        "method_a",
+        "method_b",
+        "contrast",
+        "scope",
+        "training_condition",
+        "inference_condition",
+        "mode",
+        "condition",
+        "metric",
+        "n",
+        "seeds",
+        "values_by_seed",
+        "mean",
+        "sample_sd",
+        "median",
+        "minimum",
+        "maximum",
+        "interval_low",
+        "interval_high"
+      ],
+      "data_rows": 160,
+      "sha256": "cdb949d5cac0748c4d55297338417a1196a16cd770abbcc51d8314b2421593c8"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/tables/clean_nine_metrics.csv": {
+      "bytes": 112042,
+      "columns": [
+        "panel",
+        "quantity",
+        "dataset",
+        "method",
+        "method_a",
+        "method_b",
+        "contrast",
+        "scope",
+        "training_condition",
+        "inference_condition",
+        "mode",
+        "condition",
+        "metric",
+        "n",
+        "seeds",
+        "values_by_seed",
+        "mean",
+        "sample_sd",
+        "median",
+        "minimum",
+        "maximum",
+        "interval_low",
+        "interval_high"
+      ],
+      "data_rows": 360,
+      "sha256": "8eb1a64b9091921acb1d34820eeb0abd8b753f4ac21a16c3a5fd66f7568e9750"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/tables/conditional_nine_metrics.csv": {
+      "bytes": 585762,
+      "columns": [
+        "panel",
+        "quantity",
+        "dataset",
+        "method",
+        "method_a",
+        "method_b",
+        "contrast",
+        "scope",
+        "training_condition",
+        "inference_condition",
+        "mode",
+        "condition",
+        "metric",
+        "n",
+        "seeds",
+        "values_by_seed",
+        "mean",
+        "sample_sd",
+        "median",
+        "minimum",
+        "maximum",
+        "interval_low",
+        "interval_high"
+      ],
+      "data_rows": 1800,
+      "sha256": "2d3f330bb9338ca39f4b1edc437d5bba1ce15513ba0f8a6cfe1883ad221cba9c"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/tables/paired_all_metrics.csv": {
+      "bytes": 1978703,
+      "columns": [
+        "panel",
+        "quantity",
+        "dataset",
+        "method",
+        "method_a",
+        "method_b",
+        "contrast",
+        "scope",
+        "training_condition",
+        "inference_condition",
+        "mode",
+        "condition",
+        "metric",
+        "n",
+        "seeds",
+        "values_by_seed",
+        "mean",
+        "sample_sd",
+        "median",
+        "minimum",
+        "maximum",
+        "interval_low",
+        "interval_high"
+      ],
+      "data_rows": 4236,
+      "sha256": "3e0d63eceab839801703a33bab3eabaeb15df74d3e549e4f304f1f968677be1c"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/tables/paired_changes_main.csv": {
+      "bytes": 314966,
+      "columns": [
+        "panel",
+        "quantity",
+        "dataset",
+        "method",
+        "method_a",
+        "method_b",
+        "contrast",
+        "scope",
+        "training_condition",
+        "inference_condition",
+        "mode",
+        "condition",
+        "metric",
+        "n",
+        "seeds",
+        "values_by_seed",
+        "mean",
+        "sample_sd",
+        "median",
+        "minimum",
+        "maximum",
+        "interval_low",
+        "interval_high"
+      ],
+      "data_rows": 800,
+      "sha256": "d296a922bb196fbb35530ab249c214315a408637ec9ad13b4ccb1902c8a7635a"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/tables/paired_contrasts_ari.csv": {
+      "bytes": 222075,
+      "columns": [
+        "panel",
+        "quantity",
+        "dataset",
+        "method",
+        "method_a",
+        "method_b",
+        "contrast",
+        "scope",
+        "training_condition",
+        "inference_condition",
+        "mode",
+        "condition",
+        "metric",
+        "n",
+        "seeds",
+        "values_by_seed",
+        "mean",
+        "sample_sd",
+        "median",
+        "minimum",
+        "maximum",
+        "interval_low",
+        "interval_high"
+      ],
+      "data_rows": 468,
+      "sha256": "a2b99f03bbffd756c68495cd77b8d9443687bdb7d0cc6dc3db961a66090d56c7"
+    }
+  },
+  "frozen_map": "Frozen-map accuracy, macro F1 and balanced accuracy retain the clean evaluation map only for corruption predictions from the same checkpoint; component IDs are not aligned across retrained fits.",
+  "metric_definitions": [
+    {
+      "definition": "Adjusted Rand index",
+      "key": "ari",
+      "primary": true
+    },
+    {
+      "definition": "Accuracy under an optimal one-to-one cluster-to-class map",
+      "key": "hungarian_acc",
+      "primary": false
+    },
+    {
+      "definition": "Mutual information normalized by the arithmetic mean of entropies",
+      "key": "nmi_arithmetic",
+      "primary": false
+    },
+    {
+      "definition": "Chance-adjusted mutual information with arithmetic normalization",
+      "key": "ami_arithmetic",
+      "primary": false
+    },
+    {
+      "definition": "Unweighted mean class F1 under the accuracy-optimal map",
+      "key": "mapped_macro_f1",
+      "primary": false
+    },
+    {
+      "definition": "Mean class recall under the same map",
+      "key": "mapped_balanced_accuracy",
+      "primary": false
+    },
+    {
+      "definition": "Class purity of the clustering",
+      "key": "homogeneity",
+      "primary": false
+    },
+    {
+      "definition": "Concentration of each class within clusters",
+      "key": "completeness",
+      "primary": false
+    },
+    {
+      "definition": "Harmonic mean of homogeneity and completeness; equals arithmetic NMI here",
+      "key": "v_measure",
+      "primary": false
+    }
+  ],
+  "path_base": "repository or supplementary archive root",
+  "provenance_note": "Public output digests identify portable derivatives. Original computational identity hashes remain documented in those outputs; they are not checksums of altered exports.",
+  "report_format": "CSV summaries are full precision and retain values_by_seed, means, sample SDs and applicable descriptive intervals. Each PDF figure also has a PNG with the same basename.",
+  "schema_version": "variational-clustering-results-index-v1",
+  "scope": "Existing completed numerical outputs; no additional fitting or metric computation.",
+  "selector_semantics": "collection names identify top-level JSON arrays; where is an exact equality filter, or membership for listed alternatives; omitted filters retain all rows. Dotted field names are inspection locators, not executable queries.",
+  "tracks": {
+    "known_model": {
+      "configurations": 230,
+      "five_seeds_per_comparison": true
+    },
+    "matched": {
+      "fits": 300,
+      "initializations": 40,
+      "prediction_panels": 1200,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ]
+    },
+    "reference": {
+      "fits": 12,
+      "prediction_panels": 15,
+      "seeds": [
+        901,
+        902,
+        903
+      ]
+    }
+  },
+  "uncertainty": "Five-seed paired intervals are descriptive, unadjusted 95% Student-t intervals with four degrees of freedom; not equivalence or multiplicity-adjusted significance tests. No cross-dataset pooling."
+}

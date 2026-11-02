@@ -1,6 +1,6 @@
 # Result index
 
-The following folders contain completed evidence for the review:
+The [results index](RESULTS_INDEX.json) maps scientific questions to exact files, fields and selectors. The following folders contain the completed evidence:
 
 | Folder | Contents |
 |---|---|

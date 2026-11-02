@@ -1,0 +1,188 @@
+{
+  "schema_version": "2.0",
+  "updated_on": "2026-11-02",
+  "scope": "Public source-retrieval provenance. Failed retrieval is an access limitation, not evidence of methodological absence.",
+  "previous_followup": {
+    "date": "2026-10-31",
+    "records": [
+      {
+        "citation_key": "behera2026",
+        "doi": "10.1016/j.asoc.2026.115933",
+        "title": "A review of generative autoencoder frameworks and their latent modeling strategies",
+        "primary_access_checked": [
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S1568494626013815",
+            "outcome": "Search-indexed publisher abstract, introduction and section excerpts remain accessible; direct open returned HTTP 403. No full body or PDF obtained."
+          },
+          {
+            "url": "https://www.nitrkl.ac.in/FacultyStaff/AllPublications/?id=deyp",
+            "outcome": "Coauthor institutional publication list confirms the article; its View Details link points to the same publisher article, with no separate institutional manuscript link found."
+          }
+        ],
+        "additional_locator_checked": {
+          "url": "https://www.researchgate.net/publication/408686560_A_review_of_generative_autoencoder_frameworks_and_their_latent_modeling_strategies",
+          "outcome": "Indexed page explicitly reports no full text available; direct open returned cache miss. No request sent."
+        },
+        "currently_supported": "Publisher excerpts describe a latent-regulation taxonomy across deterministic, probabilistic, adversarial and diffusion autoencoders, cross-model comparisons and application case studies. This is substantial thematic overlap.",
+        "still_unverified": "Detailed coverage of Student priors, recognition restrictions and dimension/allocation theory; absence of these topics must not be claimed.",
+        "status": "fulltext_gap_unresolved"
+      },
+      {
+        "citation_key": "kobayashi2019",
+        "doi": "10.1007/978-3-030-30508-6_36",
+        "title": "Variational Deep Embedding with Regularized Student-t Mixture Model",
+        "primary_access_checked": [
+          {
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-30508-6_36",
+            "outcome": "Publisher page accessible as subscription preview; abstract visible, chapter PDF requires institutional access or purchase. SharedIt section says no shareable link available."
+          },
+          {
+            "url": "https://prinlab.org/en/publication/",
+            "outcome": "Author laboratory lists the chapter, without a full-text link for this entry."
+          },
+          {
+            "url": "https://naistpedia.naist.jp/researchers/detail/73",
+            "outcome": "Author institutional record accessible; no target chapter manuscript located."
+          },
+          {
+            "url": "https://researchmap.jp/kbys-t?lang=en",
+            "outcome": "HTTP 403; no access workaround attempted."
+          }
+        ],
+        "additional_locator_checked": {
+          "url": "https://www.researchgate.net/profile/Taisuke-Kobayashi/2",
+          "outcome": "Author profile lists the chapter without a full-text-available designation; no chapter PDF obtained and no request sent."
+        },
+        "currently_supported": "The publisher abstract describes Student-mixture embedding with standard-normal regularization and approximations for reparameterization, Student KL and mixture KL.",
+        "still_unverified": "Exact recognition factorization, mathematical approximation formulas, implementation details and theorem coverage.",
+        "status": "fulltext_gap_unresolved"
+      },
+      {
+        "citation_key": "tipping2005",
+        "doi": "10.1016/j.neucom.2005.02.016",
+        "title": "Variational inference for Student-t models: Robust Bayesian interpolation and generalised component analysis",
+        "primary_access_checked": [
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0925231205001694",
+            "outcome": "Publisher-indexed abstract, introduction and section excerpts found; full journal body not obtained."
+          },
+          {
+            "url": "https://miketipping.com/papers.htm",
+            "outcome": "Author publication list provides Abstract for the 2005 journal entry, without the PDF link available for several other entries."
+          },
+          {
+            "url": "https://inverseprobability.com/publications/tipping-variational05.html",
+            "outcome": "Coauthor publication page gives abstract and bibliographic exports; its Links section contains no full-text link."
+          },
+          {
+            "url": "https://api.elsevier.com/content/article/PII:S0925231205001694?httpAccept=text/xml",
+            "outcome": "Public publisher API link exposed by CiNii metadata was not accessible through the web tool; no key, login or access bypass used."
+          }
+        ],
+        "precursor_distinction": "The already-known author-hosted robustBayesian.pdf and gca.pdf are conference precursors. They are not substitutes for reading the 2005 journal article and were not relabeled as its full text.",
+        "currently_supported": "Publisher/author abstracts establish early variational Student modeling and concurrent estimation of distribution shape and other parameters for interpolation and ICA.",
+        "still_unverified": "Whole-journal theorem coverage, including any overlap with a dimension-dependent approximation argument. Do not claim this antecedent lacks such a result.",
+        "status": "fulltext_gap_unresolved"
+      }
+    ]
+  },
+  "current_followup": [
+    {
+      "citation_key": "chowdhury2025",
+      "attempted_on": "2026-11-02",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231225021964",
+      "outcome": "Direct page returned 403; publisher-indexed abstract, introduction and section excerpts inspected."
+    },
+    {
+      "citation_key": "chowdhury2025",
+      "attempted_on": "2026-11-02",
+      "url": "https://github.com/Mashfiqul/Mixture-Posterior-Prior-VAE",
+      "outcome": "Author-linked repository README inspected; no journal PDF obtained."
+    },
+    {
+      "citation_key": "chowdhury2025",
+      "attempted_on": "2026-11-02",
+      "url": "https://github.com/Mashfiqul/Mixtures-VAE",
+      "outcome": "Related precursor repository identified; not treated as the journal article."
+    },
+    {
+      "citation_key": "chowdhury2025",
+      "attempted_on": "2026-11-02",
+      "url": "https://doi.org/10.26686/wgtn.28012298",
+      "outcome": "Thesis locator found; direct retrieval unavailable."
+    },
+    {
+      "citation_key": "chowdhury2025",
+      "attempted_on": "2026-11-02",
+      "url": "https://openaccess.wgtn.ac.nz/articles/thesis/Mixtures_of_Variational_Autoencoders_for_Cluster_Analysis_in_Latent_Space/28012298",
+      "outcome": "Institutional thesis page returned 403; thesis body not inspected."
+    },
+    {
+      "citation_key": "chowdhury2025",
+      "attempted_on": "2026-11-02",
+      "url": "https://api.figshare.com/v2/articles/28012298",
+      "outcome": "Public metadata endpoint unavailable through retrieval tools."
+    },
+    {
+      "citation_key": "chowdhury2025",
+      "attempted_on": "2026-11-02",
+      "url": "https://openaccess.wgtn.ac.nz/ndownloader/articles/28012298/versions/1",
+      "outcome": "Public institutional download endpoint unavailable; no thesis downloaded."
+    },
+    {
+      "citation_key": "kobayashi2019",
+      "attempted_on": "2026-11-02",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-30508-6_36",
+      "outcome": "Publisher subscription-preview abstract inspected; chapter full text unavailable."
+    },
+    {
+      "citation_key": "kobayashi2019",
+      "attempted_on": "2026-11-02",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-30508-6_36.pdf",
+      "outcome": "Public PDF retrieval unavailable; no bypass attempted."
+    },
+    {
+      "citation_key": "kobayashi2019",
+      "attempted_on": "2026-11-02",
+      "url": "https://prinlab.org/en/publication/",
+      "outcome": "Author publication locator rechecked; no final chapter full text found."
+    },
+    {
+      "citation_key": "tipping2005",
+      "attempted_on": "2026-11-02",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231205001694",
+      "outcome": "Direct retrieval unavailable; publisher-indexed abstract, introduction and section excerpts inspected."
+    },
+    {
+      "citation_key": "tipping2005",
+      "attempted_on": "2026-11-02",
+      "url": "https://miketipping.com/papers.htm",
+      "outcome": "Author entry exposes an abstract but no final journal PDF link."
+    },
+    {
+      "citation_key": "tipping2005",
+      "attempted_on": "2026-11-02",
+      "url": "https://inverseprobability.com/publications/tipping-variational05.html",
+      "outcome": "Coauthor journal page provides metadata and abstract; Links section has no full-text link."
+    },
+    {
+      "citation_key": "tipping2005",
+      "attempted_on": "2026-11-02",
+      "url": "https://inverseprobability.com/publications/files/gca.pdf",
+      "outcome": "Author-hosted 2003 precursor identified; not substituted for the 2005 journal article."
+    }
+  ],
+  "current_supported_limits": {
+    "chowdhury2025": "Mixture prior/posterior, modified objective and EM are supported by publisher excerpts. Exact observation family, complete factorization, equations and theorem scope are not verified.",
+    "kobayashi2019": "Regularized Student-mixture embedding and named approximations are supported by the publisher abstract. Full recognition factorization and theorem scope are not verified.",
+    "tipping2005": "Early variational Student modeling and concurrent tail-shape learning are supported by publisher/author excerpts. Whole-article theorem scope is not verified.",
+    "behera2026": "The 2026-10-31 publisher-excerpt access status is carried forward; no new 2026-11-02 full-text retrieval is claimed."
+  },
+  "current_fulltext_gap_keys": [
+    "behera2026",
+    "kobayashi2019",
+    "tipping2005",
+    "chowdhury2025"
+  ],
+  "no_exhaustive_priority_claim": true
+}
