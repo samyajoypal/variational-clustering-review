@@ -1,6 +1,6 @@
 # Variational clustering: priors, inference and robustness
 
-Research code and derived results for **Priors, Approximate Inference and Robustness in Variational Deep Clustering**, by Samyajoy Pal.
+Research code and derived results for **Revisiting Priors, Approximate Inference and Robustness in Variational Deep Clustering: A Theoretical and Empirical Study**, by Samyajoy Pal.
 
 The package studies distributional choices, approximate-inference limitations and robustness in variational clustering. It includes mathematical checks, known-model simulations, source-recipe adaptations and a four-dataset neural benchmark.
 

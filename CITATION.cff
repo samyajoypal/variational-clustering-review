@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-message: "Please cite this software as Priors, Approximate Inference and Robustness in Variational Deep Clustering: Reproducibility Package, and cite the original methods and datasets used in your work."
+message: "Please cite this reproducibility package and the original methods and datasets used in your work."
 type: software
-title: "Priors, Approximate Inference and Robustness in Variational Deep Clustering: Reproducibility Package"
+title: "Revisiting Priors, Approximate Inference and Robustness in Variational Deep Clustering: A Theoretical and Empirical Study"
 authors:
   - family-names: Pal
     given-names: Samyajoy
