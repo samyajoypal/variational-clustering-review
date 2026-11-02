@@ -112,7 +112,7 @@
       "publication_status": "published",
       "url": "https://www.sciencedirect.com/science/article/pii/S1568494626013815",
       "doi": "10.1016/j.asoc.2026.115933",
-      "version_inspected": "published version",
+      "version_inspected": "Published Applied Soft Computing 202 (2026),115933; publisher PDF,23 pages.",
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S1568494626013815",
         "https://www.sciencedirect.com/science/article/abs/pii/S1568494626013815"
@@ -311,7 +311,7 @@
       "publication_status": "published",
       "url": "https://link.springer.com/chapter/10.1007/978-3-030-30508-6_36",
       "doi": "10.1007/978-3-030-30508-6_36",
-      "version_inspected": "published version",
+      "version_inspected": "Published ICANN 2019/LNCS 11729 chapter, printed pp443–455; publisher PDF, 13 pages.",
       "source_urls": [
         "https://link.springer.com/chapter/10.1007/978-3-030-30508-6_36",
         "https://prinlab.org/en/publication/"
@@ -446,7 +446,7 @@
       "publication_status": "published",
       "url": "https://www.sciencedirect.com/science/article/pii/S0925231205001694",
       "doi": "10.1016/j.neucom.2005.02.016",
-      "version_inspected": "published version",
+      "version_inspected": "Published Neurocomputing 69(1–3), pp123–141 (2005); publisher PDF with article-in-press running header,19 pages.",
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S0925231205001694",
         "https://inverseprobability.com/publications/tipping-variational05.html",
@@ -795,7 +795,7 @@
       "publication_status": "published",
       "url": "https://www.sciencedirect.com/science/article/pii/S0925231225021964",
       "doi": "10.1016/j.neucom.2025.131524",
-      "version_inspected": "Published journal metadata, abstract, introduction and section excerpts indexed from the publisher; full journal body unavailable.",
+      "version_inspected": "Published Neurocomputing 657 (2025), article 131524; publisher PDF, 11 pages.",
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S0925231225021964",
         "https://github.com/Mashfiqul/Mixture-Posterior-Prior-VAE"

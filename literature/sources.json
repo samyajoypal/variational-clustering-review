@@ -222,28 +222,65 @@
       "publication_status": "published",
       "url": "https://www.sciencedirect.com/science/article/pii/S1568494626013815",
       "doi": "10.1016/j.asoc.2026.115933",
-      "version_inspected": "published version",
+      "version_inspected": "Published Applied Soft Computing 202 (2026),115933; publisher PDF,23 pages.",
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S1568494626013815",
         "https://www.sciencedirect.com/science/article/abs/pii/S1568494626013815"
       ],
-      "verified_on": "2026-10-29",
+      "verified_on": "2026-11-02",
       "inclusion_reason": "Closest survey overlap",
-      "prior_or_distribution_location": "Latent regulation across deterministic, probabilistic, adversarial and diffusion autoencoders.",
-      "inference_family": "Accessible excerpts discuss latent uncertainty and objectives.",
-      "robustness_target": "Stability, robustness, failure modes and application trade-offs.",
-      "source_claim": "Accessible publisher text describes cross-model comparison and application case studies.",
-      "review_inference_or_limitation": "Full body unavailable (403); no absence claim concerning detailed Student/inference analysis is supported.",
+      "prior_or_distribution_location": "Cross-family synthesis of deterministic, probabilistic, adversarial and diffusion autoencoders, organized by latent regulation; prior matching is one organizing dimension.",
+      "inference_family": "Reviews Gaussian VAE recognition, weighted regularization, discrete codes, adversarial aggregate matching and latent diffusion; representative objectives are tabulated.",
+      "robustness_target": "Generative quality, reconstruction, latent controllability, robustness, training stability and computation across heterogeneous applications.",
+      "source_claim": "A latent-regulation taxonomy links architectural and objective choices to characteristic failure modes and application-specific evaluation; Section4.1 cautions against universal rankings across incompatible settings.",
+      "review_inference_or_limitation": "The synthesis overlaps substantially with our model/inference/optimization/evaluation framing. Our narrower contribution is the conditional tail/allocation analysis and fixed benchmark evidence, not the general idea of connecting latent design to evaluation. Case-study metrics are literature summaries, not a common controlled experiment.",
       "section_locators": [
-        "Publisher-indexed abstract",
-        "publisher-indexed introduction and section excerpts"
+        "Abstract and Section1, pp1–2: organizing taxonomy and scope",
+        "Section3 opening, p5: four model families",
+        "Section3.2.1–3.2.2, p6, Eqs15–17: Gaussian recognition and VAE/weighted objectives",
+        "Sections3.4–3.6, pp10–13, Tables2–4: families, objectives, failure modes and computational tradeoffs",
+        "Section4.1, pp13–14: evaluation and comparability cautions",
+        "Section6 and data-availability statement, pp18–19: conclusions and literature-based scope"
       ],
-      "access_level": "publisher_abstract_and_excerpts",
+      "access_level": "full_text_available_selected_sections_inspected",
       "entire_paper_read": false,
-      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "evidence_origin": "Publisher PDF supplied for full-text scholarly inspection; no publisher text redistributed.",
       "independently_reproduced_by_this_extraction": false,
       "source_role": "survey",
-      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+      "extraction_origin": "Full-text reconciliation 2026-11-02 supersedes the earlier excerpt-only extraction for this source.",
+      "prior_access_status": {
+        "as_of": "2026-11-02 before full-text reconciliation",
+        "access_level": "publisher_abstract_and_excerpts",
+        "version_inspected": "published version"
+      },
+      "full_text_verification": {
+        "date": "2026-11-02",
+        "pdf_sha256": "5bb39d334861833f5c77c48bf34a9910c5411b049ea9758892377107504c8e14",
+        "pdf_page_count": 23,
+        "claim_anchors": [
+          {
+            "anchor": "pp1–2 and p5, Section3",
+            "finding": "Four families are organized by how latent structure is regulated. The review explicitly connects objectives, uncertainty, generative behavior and failure modes."
+          },
+          {
+            "anchor": "p6, Eqs15–17; p13, Table4",
+            "finding": "VAE posterior approximation and weighted ELBO are described, together with representative objectives for other families. These are reviewed formulations rather than new tail-estimation theorems."
+          },
+          {
+            "anchor": "pp12–13, Tables2–3",
+            "finding": "The review compares reconstruction/control, sampling effort, stability, collapse modes and distribution-mismatch robustness. This directly overlaps the broader organizing motivation of our synthesis."
+          },
+          {
+            "anchor": "pp13–14, Section4.1",
+            "finding": "Explicit discussion warns that heterogeneous datasets, latent dimensions, training budgets and task objectives prevent universal rankings. Metrics are associated with particular applications and evidence targets."
+          },
+          {
+            "anchor": "pp18–19, Section6 and data-availability statement",
+            "finding": "Conclusions emphasize efficiency/interpretability/control tradeoffs and cross-domain extension. The article states that no data were used, consistent with treating its case studies as reported-literature comparisons rather than rerun benchmarks."
+          }
+        ],
+        "implementation_audited": false
+      }
     },
     {
       "citation_key": "zhou2025",
@@ -580,14 +617,14 @@
       "verified_on": "2026-10-29",
       "inclusion_reason": "Separates likelihood robustness from prior robustness",
       "prior_or_distribution_location": "Student-t observation decoder obtained by variance marginalization.",
-      "inference_family": "Gaussian recognition as specified in equations (3)\u2013(6); decoder variance marginalized in Section 4.2.",
+      "inference_family": "Gaussian recognition as specified in equations (3)–(6); decoder variance marginalized in Section 4.2.",
       "robustness_target": "Decoder residual sensitivity and density estimation.",
       "source_claim": "Uses Bayesian treatment of decoder variance to improve training stability.",
       "review_inference_or_limitation": "This is not evidence that a Student latent mixture alone produces robust assignments.",
       "section_locators": [
         "Publisher abstract",
-        "Equations (1)\u2013(6), page 2697",
-        "Section 4.1\u20134.2, page 2698"
+        "Equations (1)–(6), page 2697",
+        "Section 4.1–4.2, page 2698"
       ],
       "access_level": "publisher_abstract_and_selected_indexed_fulltext_sections",
       "entire_paper_read": false,
@@ -599,8 +636,8 @@
         "date": "2026-11-02",
         "source_url": "https://www.ijcai.org/proceedings/2018/0374.pdf",
         "section_locators": [
-          "Publisher-indexed equations (1)\u2013(6), page 2697",
-          "Publisher-indexed Section 4.1\u20134.2, page 2698"
+          "Publisher-indexed equations (1)–(6), page 2697",
+          "Publisher-indexed Section 4.1–4.2, page 2698"
         ],
         "verification": "Gaussian latent prior and Gaussian recognition; decoder variance marginalization. Indexed primary text inspected; direct PDF fetch failed.",
         "entire_paper_read": false
@@ -617,27 +654,67 @@
       "publication_status": "published",
       "url": "https://link.springer.com/chapter/10.1007/978-3-030-30508-6_36",
       "doi": "10.1007/978-3-030-30508-6_36",
-      "version_inspected": "published version",
+      "version_inspected": "Published ICANN 2019/LNCS 11729 chapter, printed pp443–455; publisher PDF, 13 pages.",
       "source_urls": [
         "https://link.springer.com/chapter/10.1007/978-3-030-30508-6_36",
         "https://prinlab.org/en/publication/"
       ],
-      "verified_on": "2026-10-29",
+      "verified_on": "2026-11-02",
       "inclusion_reason": "Direct early Student-mixture embedding antecedent",
-      "prior_or_distribution_location": "Regularized Student-mixture latent prior.",
-      "inference_family": "Approximations to sampling and KL; exact recognition unverified.",
-      "robustness_target": "Motion-classification outliers and latent continuity.",
-      "source_claim": "Proposes VaDE-RT and regularization toward a standard normal reference.",
-      "review_inference_or_limitation": "Subscription abstract only; neither exact factorization nor absence of a theorem can be inferred.",
+      "prior_or_distribution_location": "Student-mixture prior regularized toward a standard Gaussian; the experiment uses a fixed-scale Laplace observation model, Eq15.",
+      "inference_family": "Student q(z|x) with encoder-dependent location, scale and degrees of freedom; separate categorical q(c|x) as in Eq3. Wilson–Hilferty approximate chi-square sampling, Taylor Student-KL approximation and mixture-KL approximation enter the objective.",
+      "robustness_target": "Partially labeled human-motion classification, outlier resistance and qualitative continuity/topology of latent embeddings.",
+      "source_claim": "On one seven-activity motion dataset, 50 trials compare VaDE, Student-only, regularization-only and combined variants; reported classification accuracy favors the combined model, with qualitative UMAP continuity evidence.",
+      "review_inference_or_limitation": "The experiment uses recurrent networks, a Laplace decoder and 50% of labels; it is not an unsupervised shared-protocol benchmark. The printed Student-KL surrogate does not vanish for identical finite-df distributions. This is a consistency property of the printed approximation, not a code-error finding or causal explanation of performance.",
       "section_locators": [
-        "Publisher abstract"
+        "Section2.2–2.3, pp446–447, Eqs3–6: mean-field categorical factor and partial supervision",
+        "Section3.1, pp447–449, Eqs8–11: Student recognition, approximate reparameterization and divergence",
+        "Section3.2, pp449–450, Eqs12–13: mixture regularization",
+        "Section4.1–4.3, pp450–453, Table1, Eq15 and Figs3–4: labels, likelihood, architecture and evidence"
       ],
-      "access_level": "abstract_only",
+      "access_level": "full_text_available_selected_sections_inspected",
       "entire_paper_read": false,
-      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "evidence_origin": "Publisher PDF supplied for full-text scholarly inspection; no publisher text redistributed.",
       "independently_reproduced_by_this_extraction": false,
       "source_role": "methodological_or_theoretical",
-      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+      "extraction_origin": "Full-text reconciliation 2026-11-02 supersedes the earlier excerpt-only extraction for this source.",
+      "prior_access_status": {
+        "as_of": "2026-11-02 before full-text reconciliation",
+        "access_level": "abstract_only",
+        "version_inspected": "published version"
+      },
+      "full_text_verification": {
+        "date": "2026-11-02",
+        "pdf_sha256": "561b855716a313f56addd1f41c6fad32c9c29dac46131faaf263d5402f7ccbb3",
+        "pdf_page_count": 13,
+        "claim_anchors": [
+          {
+            "anchor": "pp446–447, Eqs3–6",
+            "finding": "The model retains q(z,c|x)=q(z|x)q(c|x). Categorical weights use a prior-density responsibility approximation, with one-hot known labels where supplied; beta is also adapted for unlabeled data."
+          },
+          {
+            "anchor": "pp447–448, Eqs8–9",
+            "finding": "Student recognition uses a common chi-square scale and an approximate differentiable Wilson–Hilferty transform. The text calls for clipping near zero precision; its Gaussian limit is the motivation for the approximation."
+          },
+          {
+            "anchor": "pp448–449, Eq11 and parameter definitions",
+            "finding": "The divergence surrogate requires nu1 > 2 because it uses Student covariance. Setting identical parameters, nu=3, d=4 gives C1=3,C2=7/3,d1=112/15 and surrogate 154/15, while exact self-KL is zero. An independent mathematical review verified the printed-page algebra."
+          },
+          {
+            "anchor": "pp449–450, Eqs12–13",
+            "finding": "Mixture-to-standard-Gaussian regularization is approximated through pairwise divergences and carries separate repulsive/attractive weights. These change the objective beyond a mere prior replacement."
+          },
+          {
+            "anchor": "pp450–452, Section4, Table1, Eq15",
+            "finding": "Seven-activity sensor sequences,75/25 train/test split,50% labels used during training, latent dimension 4 and 7 components, minimum df 3, two 50-unit GRUs, fixed-scale Laplace/L1 reconstruction. Fifty trials assess the VaDE variants."
+          },
+          {
+            "anchor": "pp452–454, Figs3–4 and conclusion",
+            "finding": "Accuracy and qualitative latent topology support this application under its protocol. The source itself calls for validation on more dataset types; no universal clustering guarantee follows."
+          }
+        ],
+        "implementation_audited": false
+      }
     },
     {
       "citation_key": "boenninghoff2020",
@@ -717,9 +794,6 @@
       "entire_paper_read": false,
       "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
       "independently_reproduced_by_this_extraction": false,
-      "local_source_paths": [
-        "Resource/Clustering_Analysis_via_Deep_Generative_Models_With_Mixture_Models.pdf"
-      ],
       "source_role": "methodological_or_theoretical",
       "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
     },
@@ -894,30 +968,70 @@
       "publication_status": "published",
       "url": "https://www.sciencedirect.com/science/article/pii/S0925231205001694",
       "doi": "10.1016/j.neucom.2005.02.016",
-      "version_inspected": "published version",
+      "version_inspected": "Published Neurocomputing 69(1–3), pp123–141 (2005); publisher PDF with article-in-press running header,19 pages.",
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S0925231205001694",
         "https://inverseprobability.com/publications/tipping-variational05.html",
         "https://inverseprobability.com/publications/files/gca.pdf",
         "https://inverseprobability.com/publications/files/robustBayesian.pdf"
       ],
-      "verified_on": "2026-10-29",
+      "verified_on": "2026-11-02",
       "inclusion_reason": "Early variational tail-shape learning",
-      "prior_or_distribution_location": "Student noise or independent Student sources.",
-      "inference_family": "Gaussian--Gamma variational construction.",
-      "robustness_target": "Robust interpolation and source-shape identification.",
-      "source_claim": "Jointly learns distribution shapes and model parameters.",
-      "review_inference_or_limitation": "Journal body unavailable; author precursors support broader antecedence, not a whole-article exclusion of our theorem.",
+      "prior_or_distribution_location": "In interpolation, Gaussian regression weights and Student observation noise with observation-specific Gamma precisions. In generalized component analysis, independent univariate Student latent sources with source-specific precisions and a Gaussian observation model.",
+      "inference_family": "Interpolation Q(theta)Q(alpha)Q(beta), with Gaussian weight factor and Gamma precision factors. GCA Q(S)Q(T), with Gaussian source-vector factors and separate source/data precision factors. Tail/scale parameters are point-estimated by optimizing the variational bound.",
+      "robustness_target": "Robust interpolation and recovery of independent super-Gaussian source components, with data-adaptive Student tail shape.",
+      "source_claim": "Variational Gaussian–Gamma inference estimates noise/source tails concurrently with other parameters. Synthetic interpolation and real accelerometer/MEG examples illustrate adaptive Gaussian or heavy-tailed behavior.",
+      "review_inference_or_limitation": "The paper already reports inaccurate df estimation near Gaussian noise and improvement with more data. This is an antecedent for weak tail information, distinct from a shared-radial-precision dimension penalty. Increasing the bound does not guarantee increasing true likelihood, and the source model targets super-Gaussian rather than sub-Gaussian components.",
       "section_locators": [
-        "Publisher abstract",
-        "Indexed Sections 6--10"
+        "Sections2–3, pp124–129, Eqs1–32: Student noise hierarchy, factorization and bound optimization",
+        "Section4.1, pp130–132, Figs1–4: Gaussian and Student noise examples, tail-estimation limits",
+        "Sections4.2–5, pp132–134: accelerometer illustration and scope",
+        "Sections6–8, pp134–136, Eqs33–39: independent Student sources and factorized inference",
+        "Sections9–11, pp137–139: MEG examples and limitations"
       ],
-      "access_level": "publisher_abstract_and_excerpts",
+      "access_level": "full_text_available_selected_sections_inspected",
       "entire_paper_read": false,
-      "evidence_origin": "primary source; previous selected-section extraction retained where explicitly linked",
+      "evidence_origin": "Publisher PDF supplied for full-text scholarly inspection; no publisher text redistributed.",
       "independently_reproduced_by_this_extraction": false,
       "source_role": "methodological_or_theoretical",
-      "extraction_origin": "Retained selected-source extraction reconciled 2026-10-29; any subsequent checks are recorded separately."
+      "extraction_origin": "Full-text reconciliation 2026-11-02 supersedes the earlier excerpt-only extraction for this source.",
+      "prior_access_status": {
+        "as_of": "2026-11-02 before full-text reconciliation",
+        "access_level": "publisher_abstract_and_excerpts",
+        "version_inspected": "published version"
+      },
+      "full_text_verification": {
+        "date": "2026-11-02",
+        "pdf_sha256": "7f7b1d42c1425d31fdd142fc3a9b5b237597ad7a051942a00ddcaf805fee9ed2",
+        "pdf_page_count": 19,
+        "claim_anchors": [
+          {
+            "anchor": "p125, Eqs3–5",
+            "finding": "Student noise is a Gaussian–Gamma mixture with nu=2c and scale=sqrt(d/c). Each observation has an independent precision. c,d are point-estimated rather than assigned the same factorized Bayesian treatment as remaining variables."
+          },
+          {
+            "anchor": "pp126–129, Eqs13–22,31–32",
+            "finding": "Mean-field separates regression weights, their precisions and observation precisions. Coordinate factor updates are Gaussian/Gamma; short conjugate-gradient steps update c,d by increasing the bound."
+          },
+          {
+            "anchor": "p129, footnote3",
+            "finding": "The authors explicitly state that true likelihood need not increase when the bound is optimized; if it does not, the bound must become tighter."
+          },
+          {
+            "anchor": "p132, Fig4 and final paragraph of Section4.1",
+            "finding": "The paper observes greater tail-shape estimation error as noise becomes more Gaussian, with improvement from more data; this is relevant antecedent evidence and should not be presented as an unexplored empirical phenomenon."
+          },
+          {
+            "anchor": "pp134–136, Sections6–8, Eqs33–39",
+            "finding": "GCA has independent source distributions and separate precision t_n^(j) for each source/data pair. The source and precision factors are separated as Q(S)Q(T), whereas each Gaussian source vector can have full covariance."
+          },
+          {
+            "anchor": "pp137–139, Sections9–11",
+            "finding": "MEG source-separation illustration and discussion support adaptive heavy-tailed versus Gaussian components. The model cannot represent sub-Gaussian independent components; this is a stated scope restriction."
+          }
+        ],
+        "implementation_audited": false
+      }
     },
     {
       "citation_key": "jylanki2011",
@@ -1441,7 +1555,7 @@
         "date": "2026-11-02",
         "source_url": "https://arxiv.org/html/2402.04412v3",
         "section_locators": [
-          "Sections 2.1\u20132.2",
+          "Sections 2.1–2.2",
           "Section 3 introduction",
           "Section 5"
         ],
@@ -1576,32 +1690,70 @@
       "publication_status": "published",
       "url": "https://www.sciencedirect.com/science/article/pii/S0925231225021964",
       "doi": "10.1016/j.neucom.2025.131524",
-      "version_inspected": "Published journal metadata, abstract, introduction and section excerpts indexed from the publisher; full journal body unavailable.",
+      "version_inspected": "Published Neurocomputing 657 (2025), article 131524; publisher PDF, 11 pages.",
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S0925231225021964",
         "https://github.com/Mashfiqul/Mixture-Posterior-Prior-VAE"
       ],
       "verified_on": "2026-11-02",
       "inclusion_reason": "Closely related published alternative with mixture prior and variational posterior.",
-      "prior_or_distribution_location": "Mixtures in prior and variational posterior; observation family unavailable in inspected excerpts.",
-      "inference_family": "Mixture recognition; finer dependency factorization unavailable.",
-      "robustness_target": "Clustering, reconstruction and generation; no general robustness theorem verified.",
-      "source_claim": "Mixtures enter both prior and posterior; clustering probabilities enter the objective; EM-based fitting is evaluated on benchmarks.",
-      "review_inference_or_limitation": "A single-Gaussian versus single-Student recognition comparison does not evaluate this mixture-recognition alternative.",
+      "prior_or_distribution_location": "Gaussian-mixture prior p(c)p(z|c), with diagonal Gaussian components. Observation family is Gaussian with fixed identity covariance for real-valued data, Bernoulli for binary data, or categorical as specified in Eq4.",
+      "inference_family": "q_phi(z|x,c)q(c|x); component-conditional diagonal Gaussian recognition retains dependence of z on c. EM-V1 and EM-V2 update categorical weights from partial objective terms; the model can use soft or hard assignments.",
+      "robustness_target": "Semantic clustering accuracy, reconstruction and generated-image examples; no general robustness transfer is established by these experiments.",
+      "source_claim": "The mixture prior/posterior model and regularized/annealed variants are evaluated on seven datasets, with posterior assignments or a subsequent Gaussian-mixture fit. The paper reports highest test clustering accuracy among five initializations.",
+      "review_inference_or_limitation": "Section3.2 selects latent dimension and regularization using test accuracy, so its highest-run results are not comparable to fixed-protocol mean-ARI evaluation. The printed assignment criteria omit parts of the full ELBO; general-L products lack geometric-mean powers, while reported experiments use L=1. These observations concern printed formulas and stated evaluation, not released-code behavior.",
       "section_locators": [
-        "Abstract",
-        "Introduction",
-        "Mixtures of posterior and prior VAE model (excerpt)",
-        "Experiments (excerpt)",
-        "Computational time (excerpt)",
-        "Conclusions and future work (excerpt)"
+        "Section2, pp2–3, Eqs1–8: generative and recognition factorizations",
+        "Section2.1–2.3, pp3–5, Eqs9–16 and Algorithms1–2: sampling, partial assignment updates and objectives",
+        "Section3.2, pp5–6 and Table2: test-accuracy selection and highest of five runs",
+        "Sections4–5, p8: results and native-versus-GMM qualification",
+        "AppendicesA–B, pp8–9, Eqs18–27: assignment derivations",
+        "AppendicesC–E, pp9–10: tuned settings and reconstruction examples"
       ],
-      "access_level": "publisher_abstract_introduction_and_section_excerpts",
+      "access_level": "full_text_available_selected_sections_inspected",
       "entire_paper_read": false,
-      "evidence_origin": "Primary publisher-indexed text and author-linked repository README; no full journal PDF.",
+      "evidence_origin": "Publisher PDF supplied for full-text scholarly inspection; no publisher text redistributed.",
       "independently_reproduced_by_this_extraction": false,
       "source_role": "methodological_or_theoretical",
-      "extraction_origin": "Targeted update 2026-11-02."
+      "extraction_origin": "Full-text reconciliation 2026-11-02 supersedes the earlier excerpt-only extraction for this source.",
+      "prior_access_status": {
+        "as_of": "2026-11-02 before full-text reconciliation",
+        "access_level": "publisher_abstract_introduction_and_section_excerpts",
+        "version_inspected": "Published journal metadata, abstract, introduction and section excerpts indexed from the publisher; full journal body unavailable."
+      },
+      "full_text_verification": {
+        "date": "2026-11-02",
+        "pdf_sha256": "40997029a1bc0fabea681f831d2ab18d02b2b98b728958cb4783a5f3b4c6d5b0",
+        "pdf_page_count": 11,
+        "claim_anchors": [
+          {
+            "anchor": "pp2–3, Eqs1–8",
+            "finding": "The generative model is p(x,z,c)=p_theta(x|z)p(z|c)p(c). Recognition components are separate diagonal Gaussians; q(z,c|x) retains component dependence. Eq6 is a valid joint ELBO for fixed recognition factors."
+          },
+          {
+            "anchor": "pp3–4, Eqs10–13; p9, Eqs19–27",
+            "finding": "EM-V1 uses a prior-only partial assignment criterion; EM-V2 includes the recognition-density denominator but excludes component reconstruction. For fixed model and component recognition, the full objective requires reconstruction plus log prior mass minus component KL in its categorical softmax."
+          },
+          {
+            "anchor": "p9, transition Eq20→21 and Eq25→26",
+            "finding": "The product contains r_k^L in the denominator, so solving a sample-average criterion requires an Lth-root/geometric-mean score. Printed updates lack that power. This general-L issue is immaterial to the reported L=1 setting stated on p6."
+          },
+          {
+            "anchor": "p4, Eq15; p5, Eq16",
+            "finding": "A beta coefficient weights the joint KL. Hard assignment replaces the weighted component sum; these modified training choices must be distinguished from the unweighted soft ELBO."
+          },
+          {
+            "anchor": "p4, Algorithm2; pp5–6, Section3.2",
+            "finding": "Prediction uses component encoder means with categorical assignment or a fitted full-covariance GMM. The text reports 20 GMM initialization iterations and selection by best clustering performance. Test labels select latent dimension and beta schedules, and the highest-accuracy training run among five is reported."
+          },
+          {
+            "anchor": "p6, Table2; p8, Section5",
+            "finding": "The authors report favorable selected ACC for annealed soft EM-V2 on most datasets and state that post-hoc GMM generally performs better than native posterior assignments. These are published-protocol outcomes, not reproduced or pooled benchmark evidence."
+          }
+        ],
+        "implementation_audited": false
+      }
     }
-  ]
+  ],
+  "revision": "v3_full_text_reconciliation"
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "updated_on": "2026-11-02",
-  "scope": "Public source-retrieval provenance. Failed retrieval is an access limitation, not evidence of methodological absence.",
+  "scope": "Source-access provenance with historical failed retrieval and subsequent full-text resolution. Full-text availability is distinct from complete-paper reading and does not certify exhaustive novelty.",
   "previous_followup": {
     "date": "2026-10-31",
     "records": [
@@ -86,7 +86,8 @@
       }
     ]
   },
-  "current_followup": [
+  "no_exhaustive_priority_claim": true,
+  "historical_excerpt_only_followup": [
     {
       "citation_key": "chowdhury2025",
       "attempted_on": "2026-11-02",
@@ -139,7 +140,7 @@
       "citation_key": "kobayashi2019",
       "attempted_on": "2026-11-02",
       "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-30508-6_36.pdf",
-      "outcome": "Public PDF retrieval unavailable; no bypass attempted."
+      "outcome": "Public PDF retrieval unavailable."
     },
     {
       "citation_key": "kobayashi2019",
@@ -172,17 +173,86 @@
       "outcome": "Author-hosted 2003 precursor identified; not substituted for the 2005 journal article."
     }
   ],
-  "current_supported_limits": {
+  "historical_supported_limits": {
     "chowdhury2025": "Mixture prior/posterior, modified objective and EM are supported by publisher excerpts. Exact observation family, complete factorization, equations and theorem scope are not verified.",
     "kobayashi2019": "Regularized Student-mixture embedding and named approximations are supported by the publisher abstract. Full recognition factorization and theorem scope are not verified.",
     "tipping2005": "Early variational Student modeling and concurrent tail-shape learning are supported by publisher/author excerpts. Whole-article theorem scope is not verified.",
     "behera2026": "The 2026-10-31 publisher-excerpt access status is carried forward; no new 2026-11-02 full-text retrieval is claimed."
   },
-  "current_fulltext_gap_keys": [
+  "historical_fulltext_gap_keys": [
     "behera2026",
     "kobayashi2019",
     "tipping2005",
     "chowdhury2025"
   ],
-  "no_exhaustive_priority_claim": true
+  "current_fulltext_gap_keys": [],
+  "current_followup": [
+    {
+      "citation_key": "chowdhury2025",
+      "verified_on": "2026-11-02",
+      "status": "full_text_available_selected_sections_inspected",
+      "pdf_sha256": "40997029a1bc0fabea681f831d2ab18d02b2b98b728958cb4783a5f3b4c6d5b0",
+      "pdf_page_count": 11,
+      "section_locators": [
+        "Section2, pp2–3, Eqs1–8: generative and recognition factorizations",
+        "Section2.1–2.3, pp3–5, Eqs9–16 and Algorithms1–2: sampling, partial assignment updates and objectives",
+        "Section3.2, pp5–6 and Table2: test-accuracy selection and highest of five runs",
+        "Sections4–5, p8: results and native-versus-GMM qualification",
+        "AppendicesA–B, pp8–9, Eqs18–27: assignment derivations",
+        "AppendicesC–E, pp9–10: tuned settings and reconstruction examples"
+      ],
+      "outcome": "Earlier full-text access gap resolved for this source. Relevant methods, evidence and limitations verified from the publisher PDF. No source PDF or extracted publisher text is redistributed."
+    },
+    {
+      "citation_key": "kobayashi2019",
+      "verified_on": "2026-11-02",
+      "status": "full_text_available_selected_sections_inspected",
+      "pdf_sha256": "561b855716a313f56addd1f41c6fad32c9c29dac46131faaf263d5402f7ccbb3",
+      "pdf_page_count": 13,
+      "section_locators": [
+        "Section2.2–2.3, pp446–447, Eqs3–6: mean-field categorical factor and partial supervision",
+        "Section3.1, pp447–449, Eqs8–11: Student recognition, approximate reparameterization and divergence",
+        "Section3.2, pp449–450, Eqs12–13: mixture regularization",
+        "Section4.1–4.3, pp450–453, Table1, Eq15 and Figs3–4: labels, likelihood, architecture and evidence"
+      ],
+      "outcome": "Earlier full-text access gap resolved for this source. Relevant methods, evidence and limitations verified from the publisher PDF. No source PDF or extracted publisher text is redistributed."
+    },
+    {
+      "citation_key": "tipping2005",
+      "verified_on": "2026-11-02",
+      "status": "full_text_available_selected_sections_inspected",
+      "pdf_sha256": "7f7b1d42c1425d31fdd142fc3a9b5b237597ad7a051942a00ddcaf805fee9ed2",
+      "pdf_page_count": 19,
+      "section_locators": [
+        "Sections2–3, pp124–129, Eqs1–32: Student noise hierarchy, factorization and bound optimization",
+        "Section4.1, pp130–132, Figs1–4: Gaussian and Student noise examples, tail-estimation limits",
+        "Sections4.2–5, pp132–134: accelerometer illustration and scope",
+        "Sections6–8, pp134–136, Eqs33–39: independent Student sources and factorized inference",
+        "Sections9–11, pp137–139: MEG examples and limitations"
+      ],
+      "outcome": "Earlier full-text access gap resolved for this source. Relevant methods, evidence and limitations verified from the publisher PDF. No source PDF or extracted publisher text is redistributed."
+    },
+    {
+      "citation_key": "behera2026",
+      "verified_on": "2026-11-02",
+      "status": "full_text_available_selected_sections_inspected",
+      "pdf_sha256": "5bb39d334861833f5c77c48bf34a9910c5411b049ea9758892377107504c8e14",
+      "pdf_page_count": 23,
+      "section_locators": [
+        "Abstract and Section1, pp1–2: organizing taxonomy and scope",
+        "Section3 opening, p5: four model families",
+        "Section3.2.1–3.2.2, p6, Eqs15–17: Gaussian recognition and VAE/weighted objectives",
+        "Sections3.4–3.6, pp10–13, Tables2–4: families, objectives, failure modes and computational tradeoffs",
+        "Section4.1, pp13–14: evaluation and comparability cautions",
+        "Section6 and data-availability statement, pp18–19: conclusions and literature-based scope"
+      ],
+      "outcome": "Earlier full-text access gap resolved for this source. Relevant methods, evidence and limitations verified from the publisher PDF. No source PDF or extracted publisher text is redistributed."
+    }
+  ],
+  "current_supported_limits": {
+    "chowdhury2025": "Section3.2 selects latent dimension and regularization using test accuracy, so its highest-run results are not comparable to fixed-protocol mean-ARI evaluation. The printed assignment criteria omit parts of the full ELBO; general-L products lack geometric-mean powers, while reported experiments use L=1. These observations concern printed formulas and stated evaluation, not released-code behavior.",
+    "kobayashi2019": "The experiment uses recurrent networks, a Laplace decoder and 50% of labels; it is not an unsupervised shared-protocol benchmark. The printed Student-KL surrogate does not vanish for identical finite-df distributions. This is a consistency property of the printed approximation, not a code-error finding or causal explanation of performance.",
+    "tipping2005": "The paper already reports inaccurate df estimation near Gaussian noise and improvement with more data. This is an antecedent for weak tail information, distinct from a shared-radial-precision dimension penalty. Increasing the bound does not guarantee increasing true likelihood, and the source model targets super-Gaussian rather than sub-Gaussian components.",
+    "behera2026": "The synthesis overlaps substantially with our model/inference/optimization/evaluation framing. Our narrower contribution is the conditional tail/allocation analysis and fixed benchmark evidence, not the general idea of connecting latent design to evaluation. Case-study metrics are literature summaries, not a common controlled experiment."
+  }
 }

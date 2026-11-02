@@ -801,7 +801,7 @@
       "retained_or_rechecked_keys": [
         "takahashi2018"
       ],
-      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)\u2013(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
+      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)–(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
     },
     {
       "query": "\"Takahashi\" \"2018\" \"Student-t\" \"q\" \"Gaussian\" encoder",
@@ -810,7 +810,7 @@
       "retained_or_rechecked_keys": [
         "takahashi2018"
       ],
-      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)\u2013(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
+      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)–(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
     },
     {
       "query": "site:ijcai.org/proceedings/2018/0374.pdf \"isotropic\" \"encoder\"",
@@ -819,7 +819,7 @@
       "retained_or_rechecked_keys": [
         "takahashi2018"
       ],
-      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)\u2013(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
+      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)–(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
     },
     {
       "query": "site:ijcai.org/proceedings/2018/0374.pdf \"prior\" \"standard normal\"",
@@ -828,7 +828,7 @@
       "retained_or_rechecked_keys": [
         "takahashi2018"
       ],
-      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)\u2013(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
+      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)–(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
     },
     {
       "query": "\"Student-t Variational Autoencoder for Robust Density Estimation\" \"Gaussian\" \"encoder\" \"prior\"",
@@ -837,16 +837,29 @@
       "retained_or_rechecked_keys": [
         "takahashi2018"
       ],
-      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)\u2013(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
+      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)–(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
     },
     {
-      "query": "\"Student-t Variational Autoencoder for Robust Density Estimation\" \"q\u03c6\"",
+      "query": "\"Student-t Variational Autoencoder for Robust Density Estimation\" \"qφ\"",
       "executed_on": "2026-11-02",
       "service": "general web search through provided search interface; underlying provider not exposed",
       "retained_or_rechecked_keys": [
         "takahashi2018"
       ],
-      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)\u2013(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
+      "outcome": "Targeted verification of table assumptions. Publisher-indexed equations (1)–(6) and Section 4 inspected; direct PDF fetch remained unavailable. Some exact-site queries returned unrelated results, which were not used."
     }
-  ]
+  ],
+  "full_text_reconciliation": {
+    "date": "2026-11-02",
+    "method": "Four publisher PDFs supplied for direct scholarly inspection; this is a retrieval/extraction update, not a new database search.",
+    "new_search_queries": [],
+    "source_keys": [
+      "chowdhury2025",
+      "kobayashi2019",
+      "tipping2005",
+      "behera2026"
+    ],
+    "no_new_screening_counts": true,
+    "inspection_scope": "Source-specific page/equation anchors in sources.json; full availability does not mean every page was read."
+  }
 }
