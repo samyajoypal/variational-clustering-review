@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this software as Priors, Approximate Inference and Robustness in Variational Deep Clustering: Reproducibility Package, and cite the original methods and datasets used in your work."
+type: software
+title: "Priors, Approximate Inference and Robustness in Variational Deep Clustering: Reproducibility Package"
+authors:
+  - family-names: Pal
+    given-names: Samyajoy
+version: "0.2.0"
+date-released: 2026-11-02
+repository-code: "https://github.com/samyajoypal/variational-clustering-review"
+license: MIT

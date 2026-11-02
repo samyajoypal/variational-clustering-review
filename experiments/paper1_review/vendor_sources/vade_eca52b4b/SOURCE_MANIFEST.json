@@ -1,0 +1,49 @@
+{
+  "repository": "https://github.com/slim1017/VaDE",
+  "commit": "eca52b4b57e32a68f578de7a54eda5d39907b0fe",
+  "archive_url": "https://codeload.github.com/slim1017/VaDE/tar.gz/eca52b4b57e32a68f578de7a54eda5d39907b0fe",
+  "archive_sha256": "495ff8ac6309e611b4cb9c4227854c9c36a16140f5ec78cf4a275d694f804ef6",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "95e5bb4c400cd917319f681f0fa0f61d9dc021a9ede36fdf446a337363277139"
+    },
+    {
+      "path": "VaDE.py",
+      "sha256": "2ff36c3bd4775489f357f179c9990fcbbabddd32374bbec6c2c7d578529a623f"
+    },
+    {
+      "path": "VaDE_test_mnist.py",
+      "sha256": "4918a51c5b6982ab6dfd6c8341ef82ec821498c5687d9bac09e19e4f072571e6"
+    },
+    {
+      "path": "VaDE_test_reuters_all.py",
+      "sha256": "130215633c3b24f2c49314aff4ffb91fde6015f43dcd4b891c40d40272a1d55f"
+    },
+    {
+      "path": "dataset/reuters/get_data.sh",
+      "sha256": "5de7b32aeeba104089417d7fa5cdaa7109adb867823364ffd9a53ad583f2cc9f"
+    },
+    {
+      "path": "pretrain_weights/ae_har.json",
+      "sha256": "982d557975bf9618ee5aecb3fcd85fba0a92678a1d04c1a545fc686635d6e9c9"
+    },
+    {
+      "path": "pretrain_weights/ae_mnist.json",
+      "sha256": "2a0f943555e426c1ca36e9b6f1921f59b14fd32cab9a6805dce3f79c6ebc6313"
+    },
+    {
+      "path": "pretrain_weights/ae_reuters10k.json",
+      "sha256": "dc0f61090d04398899c6a4dccd7b56ed7b9ed0cb0a4c45bff56f785adb5d66fa"
+    },
+    {
+      "path": "trained_model_weights/mnist_gene.json",
+      "sha256": "3986b7087e82f1557885cb60eb9cfbc36a815225434304dbe786cb58c3f95eac"
+    },
+    {
+      "path": "training.py",
+      "sha256": "261af93a4d389c21f10d26fcf6d4983fb9a16b33c9ae60912f7f639c7e807863"
+    }
+  ],
+  "external_code_executed": false
+}

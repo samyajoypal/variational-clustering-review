@@ -1,0 +1,513 @@
+{
+  "repository": "https://github.com/xuzhikangnba/torch-tvae",
+  "commit": "11966cd0a512dfeaeae636aebf7df80832e985b4",
+  "archive_url": "https://codeload.github.com/xuzhikangnba/torch-tvae/tar.gz/11966cd0a512dfeaeae636aebf7df80832e985b4",
+  "archive_sha256": "6903c2cbf05588782d52096413e96792ee74d6cf6861612fdaa38d3ba44e2ae4",
+  "files": [
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha256": "2af8acf1a20e27676f230e2766f236574930be47c6231f2b0c408ff5a492c7c9"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "d0938d6a372521b9525a8d8eb0c9c1956e1509e2f7d0ef77d01d74dd96feb061"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e3cdf5a233c4f8a44732770c1b6a325cfce3ea3f5d2c7e985169f441ce52fb36"
+    },
+    {
+      "path": "docs/fresh_reproduction.md",
+      "sha256": "d959c7619910037af9b3084e9945f08467c4bb112bf76e7324a192f8911bb684"
+    },
+    {
+      "path": "docs/fresh_results.md",
+      "sha256": "9eb80afa844fbd1aa15960197749cdd6dc91f397c8d9bd03809617524d9f7bd3"
+    },
+    {
+      "path": "docs/mathematics.md",
+      "sha256": "027f574f23332167cbdce9dffce392488a257aab0113a7954e221c739504dfca"
+    },
+    {
+      "path": "docs/publishing.md",
+      "sha256": "14307143a15fd14d5a03a4c73d60176ba5ad1b513510075db836d514cec2a018"
+    },
+    {
+      "path": "docs/recovered_configuration.md",
+      "sha256": "173bbcf896babea04886358d7b8ead217b97ca883e4aa8940ae3d30f4d8c52ab"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "sha256": "c7f0c9fa5c67fb09c812a77cd27fc9d378a191878444a742507cfd8895556509"
+    },
+    {
+      "path": "examples/custom_backbone.py",
+      "sha256": "5c23d1b1c69d07c23434b590a51ba95fc74a0f1ca3a6c76625e85a3d8bf68ef5"
+    },
+    {
+      "path": "experiments/README.md",
+      "sha256": "38b216f0e10b988eeb654a0df3f6e4fceced972f7bdc54008ada06a050f86a0f"
+    },
+    {
+      "path": "experiments/audit_artifacts.py",
+      "sha256": "aec95c8e2788b59cd53875f31ce4991b80781e8e1796819635e3c6d29f8f2838"
+    },
+    {
+      "path": "experiments/audit_results/artifact_audit.json",
+      "sha256": "e1e4512a74f8a60480ea327c9d8c2b0e8ba7b603786aa4e902c9c0fa0935bb1a"
+    },
+    {
+      "path": "experiments/audit_results/checkpoint_image_identity.json",
+      "sha256": "b8fa17bf4c3fadaad927b8ecfe944d59e623c5e18e072a65163b44c7ac1e1dd6"
+    },
+    {
+      "path": "experiments/audit_results/fresh_environment.json",
+      "sha256": "f60641a6054126d447fd6af7fa5ca415d61fc09aae78de4a42b638e00ec974a3"
+    },
+    {
+      "path": "experiments/audit_results/fresh_fashion_gamma012.json",
+      "sha256": "4b32ebd6f3b785e91863eca6d341a979a1506387317cd9063aa93fec7e68a3ec"
+    },
+    {
+      "path": "experiments/audit_results/fresh_gamma012.json",
+      "sha256": "0e0fac05d72fd08af4a52f018d9962daccd1395cee4b8e67e51f30d38dd1d75c"
+    },
+    {
+      "path": "experiments/audit_results/fresh_mri_gamma012.json",
+      "sha256": "2dcba3ffe6eb08d2e93ee50e213523ac9f12e97a19b770a499284b43d2dddd8b"
+    },
+    {
+      "path": "experiments/audit_results/historical_configuration.json",
+      "sha256": "13684c1c923d5f68ddc89ac71f179979171cdbfd5f1397344f8dcf68d9b6abf2"
+    },
+    {
+      "path": "experiments/audit_results/replay_fashion_mnist.json",
+      "sha256": "91335fd196d890a558b61dee0181aec837581b3f6737b69c689be39d6f5a8e48"
+    },
+    {
+      "path": "experiments/audit_results/replay_mnist.json",
+      "sha256": "f4f91c78ff8ed3a1a855f0df66cfbd989effbdf9a168814f72318691a57aecd2"
+    },
+    {
+      "path": "experiments/audit_results/replay_oasis_axial.json",
+      "sha256": "41130c1dd40ca7c47d1006d784a93769651bad8eaf687b478c2be61a5e2f7175"
+    },
+    {
+      "path": "experiments/audit_results/replay_oasis_coronal.json",
+      "sha256": "748b6f68882e2526e1b538ae65ee7b44d64baa84c687713cbfd6d570fcc84862"
+    },
+    {
+      "path": "experiments/audit_results/replay_oasis_sagittal.json",
+      "sha256": "4aad3d21aaccd91094b381131d8edad79e522569ad076dcecbd36eb9ea6821d3"
+    },
+    {
+      "path": "experiments/audit_results/training_smoke.json",
+      "sha256": "c9a15b23d7956ea664bb9896fa14da598c8da0d1ff19f59f2c989e13c715fa5f"
+    },
+    {
+      "path": "experiments/compare_fresh_runs.py",
+      "sha256": "a0c757b5b2ece792f4752535a79907303df8a856fcb3d5e2835a33b880c9c247"
+    },
+    {
+      "path": "experiments/paper_targets.json",
+      "sha256": "e653e2574154b6afa7a182febeb92492722db288b3e7da3f68116c103565993c"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/plot_training_curves.py",
+      "sha256": "63e5fcad26f1243020614c76e9e430c9e214efd346d341bd3b0368e603ef3d69"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/robustness_eval/noise_utils.py",
+      "sha256": "fa332c19ff29c9138ee6fcced0f37fb32e3c990e5df944d2b49b02bec13fd817"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/robustness_eval/v4.1/train_noisy.py",
+      "sha256": "9ce751d093139a7f0016927dea4f32380e096d517a5f6a126f40afd0bf8b9f32"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/v4.1_tVaDE_ModeB/config.py",
+      "sha256": "b2f6eebe039d948b40829f6c091d2ca95d8048693b409909bb87051313407293"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/v4.1_tVaDE_ModeB/data/__init__.py",
+      "sha256": "3464edf1caaca5b8fd5c0396651dc04ca913f5ae4d5d2edb38470ee62471f993"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/v4.1_tVaDE_ModeB/data/data_utils.py",
+      "sha256": "7d69bed93aeccc967538a50977b1803f1409a7d531982311d2527c68bf89f567"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/v4.1_tVaDE_ModeB/models/__init__.py",
+      "sha256": "b51efb7b3481474346b108316cc849e62f9484a4d70a209a7f068fdec14aaf61"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/v4.1_tVaDE_ModeB/models/vae.py",
+      "sha256": "45cc4eae53ddb5e529c3d8b292ef81f5a56d766bb23aca5e310cd6c629a525b2"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/v4.1_tVaDE_ModeB/train.py",
+      "sha256": "150214e77ff0fbed1439465336d82d1a2df0717763366049e6255e6ccc45004a"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/v4.1_tVaDE_ModeB/training/__init__.py",
+      "sha256": "11ef7fd1e1e93ac2199d47bd1d7957baa0ffd09412ac9efd4ee6e5c5af2465a9"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/v4.1_tVaDE_ModeB/training/trainer.py",
+      "sha256": "8559e76cd21240bd1502069dcf1b311f133e1dde4570f9d75d25cb365c5c178d"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/v4.1_tVaDE_ModeB/utils/__init__.py",
+      "sha256": "fc1b73510665a8960d2ebae95095ece05fc52a21c8d3a94d374971b7dc85b4fd"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/v4.1_tVaDE_ModeB/utils/clustering.py",
+      "sha256": "fe9ec0a2a20ee5e84aa4bbb4e555446383af212ecc1927352c71bc38dd0c7e44"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/v4.1_tVaDE_ModeB/utils/compute_profile.py",
+      "sha256": "65b77b535b46b45baaf2cf7eb7f268ca0b77f2f4878826d5d648ea56463f5d3a"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/v4.1_tVaDE_ModeB/utils/general.py",
+      "sha256": "91d48d7251734afff3a465c4f526f6421103dd0da2da1d861cc0f302fca488ca"
+    },
+    {
+      "path": "experiments/reference/fashion_mnist/v4.1_tVaDE_ModeB/utils/visualization.py",
+      "sha256": "22e057701bc93b3bdcf71a403c7229b7e33574c0acb5aa7231df8980643dbc2b"
+    },
+    {
+      "path": "experiments/reference/mnist/plot_training_curves.py",
+      "sha256": "63e5fcad26f1243020614c76e9e430c9e214efd346d341bd3b0368e603ef3d69"
+    },
+    {
+      "path": "experiments/reference/mnist/robustness_eval/noise_utils.py",
+      "sha256": "fa332c19ff29c9138ee6fcced0f37fb32e3c990e5df944d2b49b02bec13fd817"
+    },
+    {
+      "path": "experiments/reference/mnist/robustness_eval/v4.1/train_noisy.py",
+      "sha256": "3962b13e0e12beeaa415b1344a53a9e84b62156670c66cb282f43bed9a3a7915"
+    },
+    {
+      "path": "experiments/reference/mnist/v4.1_tVaDE_ModeB/config.py",
+      "sha256": "0126060a8d764ea782448f6ce0dacf85c4e1a8734e7fbbef96ebc7d4b6277306"
+    },
+    {
+      "path": "experiments/reference/mnist/v4.1_tVaDE_ModeB/data/__init__.py",
+      "sha256": "3464edf1caaca5b8fd5c0396651dc04ca913f5ae4d5d2edb38470ee62471f993"
+    },
+    {
+      "path": "experiments/reference/mnist/v4.1_tVaDE_ModeB/data/data_utils.py",
+      "sha256": "3dde872e296aefd40ee7351ee34dfd4fefca8f857ad653822e5c5cf918aea6c6"
+    },
+    {
+      "path": "experiments/reference/mnist/v4.1_tVaDE_ModeB/models/__init__.py",
+      "sha256": "b51efb7b3481474346b108316cc849e62f9484a4d70a209a7f068fdec14aaf61"
+    },
+    {
+      "path": "experiments/reference/mnist/v4.1_tVaDE_ModeB/models/vae.py",
+      "sha256": "45cc4eae53ddb5e529c3d8b292ef81f5a56d766bb23aca5e310cd6c629a525b2"
+    },
+    {
+      "path": "experiments/reference/mnist/v4.1_tVaDE_ModeB/train.py",
+      "sha256": "150214e77ff0fbed1439465336d82d1a2df0717763366049e6255e6ccc45004a"
+    },
+    {
+      "path": "experiments/reference/mnist/v4.1_tVaDE_ModeB/training/__init__.py",
+      "sha256": "11ef7fd1e1e93ac2199d47bd1d7957baa0ffd09412ac9efd4ee6e5c5af2465a9"
+    },
+    {
+      "path": "experiments/reference/mnist/v4.1_tVaDE_ModeB/training/trainer.py",
+      "sha256": "08ec98b001bd8e8f4f958891a438fb6d4a4de4d0671d3ba103cf8f9b65a2307e"
+    },
+    {
+      "path": "experiments/reference/mnist/v4.1_tVaDE_ModeB/utils/__init__.py",
+      "sha256": "fc1b73510665a8960d2ebae95095ece05fc52a21c8d3a94d374971b7dc85b4fd"
+    },
+    {
+      "path": "experiments/reference/mnist/v4.1_tVaDE_ModeB/utils/clustering.py",
+      "sha256": "fe9ec0a2a20ee5e84aa4bbb4e555446383af212ecc1927352c71bc38dd0c7e44"
+    },
+    {
+      "path": "experiments/reference/mnist/v4.1_tVaDE_ModeB/utils/compute_profile.py",
+      "sha256": "65b77b535b46b45baaf2cf7eb7f268ca0b77f2f4878826d5d648ea56463f5d3a"
+    },
+    {
+      "path": "experiments/reference/mnist/v4.1_tVaDE_ModeB/utils/general.py",
+      "sha256": "91d48d7251734afff3a465c4f526f6421103dd0da2da1d861cc0f302fca488ca"
+    },
+    {
+      "path": "experiments/reference/mnist/v4.1_tVaDE_ModeB/utils/visualization.py",
+      "sha256": "22e057701bc93b3bdcf71a403c7229b7e33574c0acb5aa7231df8980643dbc2b"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/plot_training_curves.py",
+      "sha256": "63e5fcad26f1243020614c76e9e430c9e214efd346d341bd3b0368e603ef3d69"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/robustness_eval/noise_utils.py",
+      "sha256": "fa332c19ff29c9138ee6fcced0f37fb32e3c990e5df944d2b49b02bec13fd817"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/robustness_eval/v4.1/train_noisy.py",
+      "sha256": "3962b13e0e12beeaa415b1344a53a9e84b62156670c66cb282f43bed9a3a7915"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/v4.1_tVaDE_ModeB/config.py",
+      "sha256": "bd413e8755e2d239086ff1743b903623fdc6363dba4b3c13b85d31dadc16f254"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/v4.1_tVaDE_ModeB/data/__init__.py",
+      "sha256": "3464edf1caaca5b8fd5c0396651dc04ca913f5ae4d5d2edb38470ee62471f993"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/v4.1_tVaDE_ModeB/data/data_utils.py",
+      "sha256": "f7468f35540f86664a8a77020da5346d2a5101e3c997d3d2dd0ae3e5d08cefd8"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/v4.1_tVaDE_ModeB/models/__init__.py",
+      "sha256": "b51efb7b3481474346b108316cc849e62f9484a4d70a209a7f068fdec14aaf61"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/v4.1_tVaDE_ModeB/models/vae.py",
+      "sha256": "314600ad06b7d777c725238bc5db9e692a0a5a582910cb13c054832dae08f587"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/v4.1_tVaDE_ModeB/train.py",
+      "sha256": "150214e77ff0fbed1439465336d82d1a2df0717763366049e6255e6ccc45004a"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/v4.1_tVaDE_ModeB/training/__init__.py",
+      "sha256": "11ef7fd1e1e93ac2199d47bd1d7957baa0ffd09412ac9efd4ee6e5c5af2465a9"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/v4.1_tVaDE_ModeB/training/trainer.py",
+      "sha256": "08ec98b001bd8e8f4f958891a438fb6d4a4de4d0671d3ba103cf8f9b65a2307e"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/v4.1_tVaDE_ModeB/utils/__init__.py",
+      "sha256": "fc1b73510665a8960d2ebae95095ece05fc52a21c8d3a94d374971b7dc85b4fd"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/v4.1_tVaDE_ModeB/utils/clustering.py",
+      "sha256": "fe9ec0a2a20ee5e84aa4bbb4e555446383af212ecc1927352c71bc38dd0c7e44"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/v4.1_tVaDE_ModeB/utils/compute_profile.py",
+      "sha256": "65b77b535b46b45baaf2cf7eb7f268ca0b77f2f4878826d5d648ea56463f5d3a"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/v4.1_tVaDE_ModeB/utils/general.py",
+      "sha256": "91d48d7251734afff3a465c4f526f6421103dd0da2da1d861cc0f302fca488ca"
+    },
+    {
+      "path": "experiments/reference/oasis_axial/v4.1_tVaDE_ModeB/utils/visualization.py",
+      "sha256": "22e057701bc93b3bdcf71a403c7229b7e33574c0acb5aa7231df8980643dbc2b"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/plot_training_curves.py",
+      "sha256": "63e5fcad26f1243020614c76e9e430c9e214efd346d341bd3b0368e603ef3d69"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/robustness_eval/noise_utils.py",
+      "sha256": "fa332c19ff29c9138ee6fcced0f37fb32e3c990e5df944d2b49b02bec13fd817"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/robustness_eval/v4.1/train_noisy.py",
+      "sha256": "3962b13e0e12beeaa415b1344a53a9e84b62156670c66cb282f43bed9a3a7915"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/v4.1_tVaDE_ModeB/config.py",
+      "sha256": "bd413e8755e2d239086ff1743b903623fdc6363dba4b3c13b85d31dadc16f254"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/v4.1_tVaDE_ModeB/data/__init__.py",
+      "sha256": "3464edf1caaca5b8fd5c0396651dc04ca913f5ae4d5d2edb38470ee62471f993"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/v4.1_tVaDE_ModeB/data/data_utils.py",
+      "sha256": "f7468f35540f86664a8a77020da5346d2a5101e3c997d3d2dd0ae3e5d08cefd8"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/v4.1_tVaDE_ModeB/models/__init__.py",
+      "sha256": "b51efb7b3481474346b108316cc849e62f9484a4d70a209a7f068fdec14aaf61"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/v4.1_tVaDE_ModeB/models/vae.py",
+      "sha256": "314600ad06b7d777c725238bc5db9e692a0a5a582910cb13c054832dae08f587"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/v4.1_tVaDE_ModeB/train.py",
+      "sha256": "150214e77ff0fbed1439465336d82d1a2df0717763366049e6255e6ccc45004a"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/v4.1_tVaDE_ModeB/training/__init__.py",
+      "sha256": "11ef7fd1e1e93ac2199d47bd1d7957baa0ffd09412ac9efd4ee6e5c5af2465a9"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/v4.1_tVaDE_ModeB/training/trainer.py",
+      "sha256": "08ec98b001bd8e8f4f958891a438fb6d4a4de4d0671d3ba103cf8f9b65a2307e"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/v4.1_tVaDE_ModeB/utils/__init__.py",
+      "sha256": "fc1b73510665a8960d2ebae95095ece05fc52a21c8d3a94d374971b7dc85b4fd"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/v4.1_tVaDE_ModeB/utils/clustering.py",
+      "sha256": "fe9ec0a2a20ee5e84aa4bbb4e555446383af212ecc1927352c71bc38dd0c7e44"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/v4.1_tVaDE_ModeB/utils/compute_profile.py",
+      "sha256": "65b77b535b46b45baaf2cf7eb7f268ca0b77f2f4878826d5d648ea56463f5d3a"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/v4.1_tVaDE_ModeB/utils/general.py",
+      "sha256": "91d48d7251734afff3a465c4f526f6421103dd0da2da1d861cc0f302fca488ca"
+    },
+    {
+      "path": "experiments/reference/oasis_coronal/v4.1_tVaDE_ModeB/utils/visualization.py",
+      "sha256": "22e057701bc93b3bdcf71a403c7229b7e33574c0acb5aa7231df8980643dbc2b"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/plot_training_curves.py",
+      "sha256": "63e5fcad26f1243020614c76e9e430c9e214efd346d341bd3b0368e603ef3d69"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/robustness_eval/noise_utils.py",
+      "sha256": "fa332c19ff29c9138ee6fcced0f37fb32e3c990e5df944d2b49b02bec13fd817"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/robustness_eval/v4.1/train_noisy.py",
+      "sha256": "3962b13e0e12beeaa415b1344a53a9e84b62156670c66cb282f43bed9a3a7915"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/v4.1_tVaDE_ModeB/config.py",
+      "sha256": "bd413e8755e2d239086ff1743b903623fdc6363dba4b3c13b85d31dadc16f254"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/v4.1_tVaDE_ModeB/data/__init__.py",
+      "sha256": "3464edf1caaca5b8fd5c0396651dc04ca913f5ae4d5d2edb38470ee62471f993"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/v4.1_tVaDE_ModeB/data/data_utils.py",
+      "sha256": "f7468f35540f86664a8a77020da5346d2a5101e3c997d3d2dd0ae3e5d08cefd8"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/v4.1_tVaDE_ModeB/models/__init__.py",
+      "sha256": "b51efb7b3481474346b108316cc849e62f9484a4d70a209a7f068fdec14aaf61"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/v4.1_tVaDE_ModeB/models/vae.py",
+      "sha256": "314600ad06b7d777c725238bc5db9e692a0a5a582910cb13c054832dae08f587"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/v4.1_tVaDE_ModeB/train.py",
+      "sha256": "150214e77ff0fbed1439465336d82d1a2df0717763366049e6255e6ccc45004a"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/v4.1_tVaDE_ModeB/training/__init__.py",
+      "sha256": "11ef7fd1e1e93ac2199d47bd1d7957baa0ffd09412ac9efd4ee6e5c5af2465a9"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/v4.1_tVaDE_ModeB/training/trainer.py",
+      "sha256": "08ec98b001bd8e8f4f958891a438fb6d4a4de4d0671d3ba103cf8f9b65a2307e"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/v4.1_tVaDE_ModeB/utils/__init__.py",
+      "sha256": "fc1b73510665a8960d2ebae95095ece05fc52a21c8d3a94d374971b7dc85b4fd"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/v4.1_tVaDE_ModeB/utils/clustering.py",
+      "sha256": "fe9ec0a2a20ee5e84aa4bbb4e555446383af212ecc1927352c71bc38dd0c7e44"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/v4.1_tVaDE_ModeB/utils/compute_profile.py",
+      "sha256": "65b77b535b46b45baaf2cf7eb7f268ca0b77f2f4878826d5d648ea56463f5d3a"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/v4.1_tVaDE_ModeB/utils/general.py",
+      "sha256": "91d48d7251734afff3a465c4f526f6421103dd0da2da1d861cc0f302fca488ca"
+    },
+    {
+      "path": "experiments/reference/oasis_sagittal/v4.1_tVaDE_ModeB/utils/visualization.py",
+      "sha256": "22e057701bc93b3bdcf71a403c7229b7e33574c0acb5aa7231df8980643dbc2b"
+    },
+    {
+      "path": "experiments/replay_checkpoint.py",
+      "sha256": "6d9c71c8cc633399c46173748d2e6acd0c79c85acff6e976422b29fb1a42b5ab"
+    },
+    {
+      "path": "experiments/requirements-audit.txt",
+      "sha256": "516f27893cfe49fd489d61ab4bc1eb1424fa96c0f780963d3062b53361769ad8"
+    },
+    {
+      "path": "experiments/run_reference.py",
+      "sha256": "fee1afce3f0767bdcdd8cc1d059d006c5afdae3820b1359a51e34075261f176c"
+    },
+    {
+      "path": "experiments/runtime.py",
+      "sha256": "01a01f3268bb58731b9ae28d2c085fabaac048972241c9386fa7176ffcd54561"
+    },
+    {
+      "path": "experiments/source_manifest.json",
+      "sha256": "f59db11833c875d7dab6884caef449ffc3cc403161ff28f18d8e02857989855b"
+    },
+    {
+      "path": "experiments/summarize_reference.py",
+      "sha256": "f1ded7dad83fbd24e61a524181d83508aa4d27bff3fc5895e892ebcde8e251b0"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "89699c1da04d26cee489dc4d9af397481529a80340a79c9bb1181e376af0d02e"
+    },
+    {
+      "path": "src/tvae/__init__.py",
+      "sha256": "a54f27d208f18265bb23f59118d8d329cc4da7aca0f948ad4939de5d41413136"
+    },
+    {
+      "path": "src/tvae/cli.py",
+      "sha256": "5f53c1e9c11661cbcc6c2af99fdf3cff08c3d9a73aed106056d64a9ac6af565e"
+    },
+    {
+      "path": "src/tvae/models.py",
+      "sha256": "99cbdb99989353e24d18012ec157db3c68af40f43127bf31aa19cbb2397b0ddf"
+    },
+    {
+      "path": "src/tvae/paper_experiment.py",
+      "sha256": "8f3ad2d18ec6097aa0c61113bca23ab9e7dfa320f1495926c6fbf69ef60a6e7a"
+    },
+    {
+      "path": "src/tvae/priors.py",
+      "sha256": "1d6ac82c62d5dee69dda38d558cc671f1b3b75253124ce5e6311fb644a26a3ad"
+    },
+    {
+      "path": "src/tvae/reference/__init__.py",
+      "sha256": "c87a72dae7643342e8da98153b853e69881c54c68eebd1b6571a7f6df5fd2f31"
+    },
+    {
+      "path": "src/tvae/reference/model128.py",
+      "sha256": "314600ad06b7d777c725238bc5db9e692a0a5a582910cb13c054832dae08f587"
+    },
+    {
+      "path": "src/tvae/reference/model28.py",
+      "sha256": "45cc4eae53ddb5e529c3d8b292ef81f5a56d766bb23aca5e310cd6c629a525b2"
+    },
+    {
+      "path": "tests/test_model.py",
+      "sha256": "ce90ee5431ee57ce200e940b8fa1ab302172b34517f2c75341b6f27159f6a23c"
+    },
+    {
+      "path": "tests/test_paper_experiment.py",
+      "sha256": "3f1a6ab484580ad83a98657be3140ab01d78b2304a5b884c99261444a326e6a0"
+    },
+    {
+      "path": "tests/test_prior.py",
+      "sha256": "148ca4eee7a630f844c00ebbb83e05805e46bc53346d168106df04666db34f55"
+    },
+    {
+      "path": "tests/test_reference.py",
+      "sha256": "4abbb81c57e2c08e706540502c57ffd568034ce4949e4f9c6a5657cd99da684f"
+    }
+  ],
+  "external_code_executed": false
+}

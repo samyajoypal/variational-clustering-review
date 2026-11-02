@@ -1,0 +1,28 @@
+{
+  "note": "Receipts expose partition IDs hashes, transform hashes and source digests, not arrays. New preparation has a new timestamp/environment record and thus its own manifest identity.",
+  "protocol": "paper1-review-inductive-data-v1",
+  "raw_or_prepared_data_included": false,
+  "receipts": {
+    "fashion_mnist": {
+      "original_manifest_sha256": "5d514c069416d51af2623452cb31d1fb41a3b920103945b5065e7ccf59fdfcc1",
+      "public_receipt": "provenance/data/fashion_mnist.json",
+      "public_receipt_sha256": "daaf41f9712af8a949a31e0e5692f4502cdd09bb7b1c53c4268791e3ae87d2f0"
+    },
+    "mnist": {
+      "original_manifest_sha256": "52d9d0f6ddaa65088ed881c9787a7c025e41ad3e999a772a233cec7412cdf008",
+      "public_receipt": "provenance/data/mnist.json",
+      "public_receipt_sha256": "9c1767ca46f0db08ced812f9ccf7216728661a217405d2f8a058fb6ba0d1ba07"
+    },
+    "reuters10k": {
+      "original_manifest_sha256": "ce827811a448c208f746c9f940fd13e929f550df03e79bc25cdcc3d7d482edc7",
+      "public_receipt": "provenance/data/reuters10k.json",
+      "public_receipt_sha256": "f61269030cd24fa5ef97f0654f92cd3702b077449bf49cbd69c8d5bdaf6ede59"
+    },
+    "usps": {
+      "original_manifest_sha256": "a445d2787c61dc1ef9f835425dd1fc62fce5ec3c1daa5625e1ebb1f9eeed1cfa",
+      "public_receipt": "provenance/data/usps.json",
+      "public_receipt_sha256": "26055c94381824c3079daed7e8e617a59bb1cefdd1a39b10b09a2e778fe32943"
+    }
+  },
+  "schema_version": "paper1-public-data-provenance-v1"
+}

@@ -1,0 +1,17 @@
+{
+  "diagnostics_sha256": "92309bb244352ffc4b4779efb102d3559dca5a7b2624ffd9605d84e369900c3f",
+  "labels_loaded": false,
+  "provenance": {
+    "analysis_manifest_sha256": "379db7e40fed218d52dcd4d759babbab5f4215541c54eb2b1efd3617cf820c44",
+    "campaign_sha256": "41bcb8d60df90cd9cdd26a6a18f75b98f9091b31375c342a617447671ff5d635",
+    "completion_audit_sha256": "bc7d0d3c901ca21ecf002a92ac45bc6bda684e589389aa5106227edd0d655316",
+    "implementation_sha256": "eec21d4ca5abdd824e64dfeed7142ce57c2b37a2f0822b9ebcbf0a7aef5c6901",
+    "overrides_sha256": "afe6459290f90ab7495964692755abec13bf20b7b3d6e9840c8b25ead8be9a7c",
+    "public_export": {
+      "original_receipt_sha256": "215e884fb2d18821f95d5501b73fbbe84d86a8e5a86adaba4c79fe66f633303c",
+      "statement": "Portable derivative; original diagnostic data and numeric values unchanged."
+    }
+  },
+  "schema_version": "paper1-matched-diagnostic-summary-v1",
+  "status": "completed"
+}

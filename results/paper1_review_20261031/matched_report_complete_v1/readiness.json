@@ -1,0 +1,85 @@
+{
+  "allow_partial": false,
+  "expected": {
+    "fits": 300,
+    "initializations": 40,
+    "predictions": 1200
+  },
+  "group_coverage": {
+    "clean_contrast_summaries": {
+      "complete": 32,
+      "expected": 32
+    },
+    "condition_contrast_summaries": {
+      "complete": 156,
+      "expected": 156
+    },
+    "paired_condition_summaries": {
+      "complete": 200,
+      "expected": 200
+    },
+    "robustness_contrast_summaries": {
+      "complete": 156,
+      "expected": 156
+    },
+    "summaries": {
+      "complete": 240,
+      "expected": 240
+    }
+  },
+  "inventory_only": false,
+  "labels_loaded": false,
+  "missing_or_failed": [],
+  "partial": false,
+  "pending_groups": [],
+  "primary_metric": "ari",
+  "provenance": {
+    "analysis_manifest": "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/analysis_manifest.json",
+    "analysis_manifest_sha256": "379db7e40fed218d52dcd4d759babbab5f4215541c54eb2b1efd3617cf820c44",
+    "input_artifact": "evaluation.json",
+    "input_artifact_sha256": "ee778ab92efef2e3342c69bd9884522227e1fb54c0525829e1bca5bec9a70cff",
+    "protocol_source_sha256": "b6a1a2db31b04c7d8a14746fe03efd0c1949e9c8138e2d0c84f21b90775d5452",
+    "public_export": {
+      "original_report_manifest_sha256": "dcd0e7c0df9aac7d81738446055a3242a034cf79f1f9ebfc156336ed8512feb1",
+      "statement": "Original scientific table and plot bytes; portable input provenance rebound."
+    },
+    "report_source_sha256": "1e002a316140a89b483358c78bbe0fa9e9e123c5c3036a4b79e181dc20065ec5",
+    "upstream": {
+      "anchor_note": "Hashes are integrity anchors supplied by an independent operator/audit; this is not cryptographic authorship authentication.",
+      "artifact_hash_execution": "Bounded parallel file reads per uncached run; all inventory paths validated before worker submission; ordered evidence collection; no stat-based digest reuse or omitted artifact reads",
+      "artifact_hash_workers": 4,
+      "campaign_sha256": "41bcb8d60df90cd9cdd26a6a18f75b98f9091b31375c342a617447671ff5d635",
+      "completion_audit_sha256": "bc7d0d3c901ca21ecf002a92ac45bc6bda684e589389aa5106227edd0d655316",
+      "implementation_sha256": {
+        "data.py": "871532217f4c8f9f462446b5f4b058fc015951a9659414520c97189375268003",
+        "evaluate_matched.py": "3df61d5722ca09c4ba5cf109f668a32bf403548091c0b59f71c11749bb2bc9f9",
+        "final_protocol.py": "b6a1a2db31b04c7d8a14746fe03efd0c1949e9c8138e2d0c84f21b90775d5452",
+        "metrics.py": "1ee1364e9c0c0d8ea9335eb42eb23c5e24af70fe398d2bdd8a3efcc916fe41d7",
+        "paired_metrics.py": "74c02133662a23c02f73876d9aa4e998215b1bb9b19b5f0ebc13ce446ee3d274",
+        "workload.py": "407a9b86303760180374fb5007af65a6e53f661f328b13672e5cb5fd1e28c010"
+      },
+      "overrides_sha256": "afe6459290f90ab7495964692755abec13bf20b7b3d6e9840c8b25ead8be9a7c",
+      "path_map": [],
+      "protocol_sha256": "c44ad7e7db6cc73ee80793d56b0b63424fd51d5e7e9f4036eed8986b481e9cde",
+      "public_export": {
+        "original_analysis_manifest_sha256": "b75d3260ccb39ef73ba37085cd96255b73efe0f2d7215bb2b1c3351fc9cb0a71",
+        "schema_version": "paper1-public-path-export-v1",
+        "statement": "Operational location strings replaced by portable identifiers; scientific numbers unchanged. Public files have new hashes. Original audit digests remain historical identity anchors, not checksums of these exports."
+      },
+      "release_hashes_sha256": "c37356a7582fc8ca584af581292a204b4174963535c1c190e4a7f5ca1e868063",
+      "versions": {
+        "numpy": "1.25.2",
+        "python": "3.9.25",
+        "scipy": "1.10.1",
+        "sklearn": "1.6.1"
+      }
+    },
+    "workload_source_sha256": "407a9b86303760180374fb5007af65a6e53f661f328b13672e5cb5fd1e28c010"
+  },
+  "schema_version": "paper1-matched-report-v1",
+  "verified": {
+    "fits": 300,
+    "initializations": 40,
+    "predictions": 1200
+  }
+}

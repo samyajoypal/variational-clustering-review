@@ -1,0 +1,33 @@
+{
+  "repository": "https://github.com/XifengGuo/IDEC",
+  "commit": "4a661c211f082022249758ab3312f7db21e2aa99",
+  "archive_url": "https://codeload.github.com/XifengGuo/IDEC/tar.gz/4a661c211f082022249758ab3312f7db21e2aa99",
+  "archive_sha256": "a477bc1cf69abf2a68a320358dad578d4e53783110b24a64a49289934be3a030",
+  "files": [
+    {
+      "path": "DEC.py",
+      "sha256": "d9876df18da7560dc0e27fd6f11112b068666852dbe42c0617425124f2670a44"
+    },
+    {
+      "path": "IDEC.py",
+      "sha256": "21e968620267e77fd7edacd2cfbfa65812870951517cae22247e1c09a524451e"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a38f41d4b6b9bf0836706027a7529b84b0afacc2babb10ab98feb5bf85a8af82"
+    },
+    {
+      "path": "data/reuters/get_data.sh",
+      "sha256": "5de7b32aeeba104089417d7fa5cdaa7109adb867823364ffd9a53ad583f2cc9f"
+    },
+    {
+      "path": "data/usps/download_usps.sh",
+      "sha256": "f08b930dfdeb1413f1beae4e437c6238ccad5e0308d2d32d79f99b6f788a581a"
+    },
+    {
+      "path": "datasets.py",
+      "sha256": "511d176f20160d23da3b30e33cf8737093fe3efbd642326f1f0c37258446bda8"
+    }
+  ],
+  "external_code_executed": false
+}

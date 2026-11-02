@@ -1,0 +1,581 @@
+{
+  "date": "2026-11-02",
+  "files": {
+    "experiments/paper1_review/audit_completed.py": {
+      "original_sha256": "56605e4eac87349bf43e86b6e54f871d3a1d2fb352976298df8524e6387f80e4",
+      "original_source_filename": "audit_paper1_air_matched.py",
+      "public_sha256": "da7534f52be789cf74f0b480f53ab8515f28133d526ca9215e959d8d868c6f7e",
+      "transformation": "Relocated; private infrastructure metadata/identity checks removed. The test fixture has no dispatch functionality. Scientific computation unchanged."
+    },
+    "experiments/paper1_review/contamination.py": {
+      "original_sha256": "cac1b9e0abc188be672192f4ff71150454570939c2070eecb246d7e2077d1731",
+      "public_sha256": "cac1b9e0abc188be672192f4ff71150454570939c2070eecb246d7e2077d1731",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/data.py": {
+      "original_sha256": "871532217f4c8f9f462446b5f4b058fc015951a9659414520c97189375268003",
+      "public_sha256": "871532217f4c8f9f462446b5f4b058fc015951a9659414520c97189375268003",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/evaluate_matched.py": {
+      "original_sha256": "3df61d5722ca09c4ba5cf109f668a32bf403548091c0b59f71c11749bb2bc9f9",
+      "public_sha256": "9b339815007b84c4a1af8ea3cf7d497753a08c868656b5f85afc77d89840861e",
+      "transformation": "public-operational-metadata-or-import-adaptation; scientific computation unchanged"
+    },
+    "experiments/paper1_review/evaluate_references.py": {
+      "original_sha256": "a6200391a2d662ef053df9b024e7992631ccd7621381ea8e03ae67e190a09a7b",
+      "public_sha256": "a6200391a2d662ef053df9b024e7992631ccd7621381ea8e03ae67e190a09a7b",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/final_diagnostics.py": {
+      "original_sha256": "124da7e625078cae196fbe736e5762cc458b57c0a9f7caa0a1d38d33144ac61c",
+      "public_sha256": "124da7e625078cae196fbe736e5762cc458b57c0a9f7caa0a1d38d33144ac61c",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/final_protocol.py": {
+      "original_sha256": "b6a1a2db31b04c7d8a14746fe03efd0c1949e9c8138e2d0c84f21b90775d5452",
+      "public_sha256": "b6a1a2db31b04c7d8a14746fe03efd0c1949e9c8138e2d0c84f21b90775d5452",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/final_runner.py": {
+      "original_sha256": "a231131b90de2cc57dbdb803e308f329f9ba433551b9b7eb642bc32a57e4ff44",
+      "public_sha256": "a231131b90de2cc57dbdb803e308f329f9ba433551b9b7eb642bc32a57e4ff44",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/metrics.py": {
+      "original_sha256": "1ee1364e9c0c0d8ea9335eb42eb23c5e24af70fe398d2bdd8a3efcc916fe41d7",
+      "public_sha256": "1ee1364e9c0c0d8ea9335eb42eb23c5e24af70fe398d2bdd8a3efcc916fe41d7",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/models.py": {
+      "original_sha256": "61de917ae37408eb735294d809485ebf60f4cb1dae43e4b5da2eba366a37c895",
+      "public_sha256": "61de917ae37408eb735294d809485ebf60f4cb1dae43e4b5da2eba366a37c895",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/paired_metrics.py": {
+      "original_sha256": "74c02133662a23c02f73876d9aa4e998215b1bb9b19b5f0ebc13ce446ee3d274",
+      "public_sha256": "74c02133662a23c02f73876d9aa4e998215b1bb9b19b5f0ebc13ce446ee3d274",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/provenance.py": {
+      "original_sha256": "a92e106ca17498df2a01752492fe57d9dbed166fba28ab25ca47e9441b3dd91e",
+      "public_sha256": "a92e106ca17498df2a01752492fe57d9dbed166fba28ab25ca47e9441b3dd91e",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/reference_dec_idec.py": {
+      "original_sha256": "3cddd705381df5ae1632e01b91c7c43a897f0444643550055d3defd4d2b7be93",
+      "public_sha256": "3cddd705381df5ae1632e01b91c7c43a897f0444643550055d3defd4d2b7be93",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/reference_pro_t.py": {
+      "original_sha256": "5eb60b813f7121c52ed8c7470d8eda1263f94b50dae79001a32058ad8d442e95",
+      "public_sha256": "5253a2c510b5cdb9d1e249d811900724a8598a43ebf8e92a18739220b3fa3dd0",
+      "transformation": "public-operational-metadata-or-import-adaptation; scientific computation unchanged"
+    },
+    "experiments/paper1_review/reference_vade.py": {
+      "original_sha256": "9ba74a3a0d85c22555bdca880a02bf9ee7540e0783a79ada13fc027d361e76b5",
+      "public_sha256": "9ba74a3a0d85c22555bdca880a02bf9ee7540e0783a79ada13fc027d361e76b5",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/report_matched.py": {
+      "original_sha256": "1e002a316140a89b483358c78bbe0fa9e9e123c5c3036a4b79e181dc20065ec5",
+      "public_sha256": "1e002a316140a89b483358c78bbe0fa9e9e123c5c3036a4b79e181dc20065ec5",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/score_assignment_diagnostic.py": {
+      "original_sha256": "27eef578c235bf511555d3ee54ba57e74b32cfbf84d0cb7bb0e32e14a04e9626",
+      "public_sha256": "27eef578c235bf511555d3ee54ba57e74b32cfbf84d0cb7bb0e32e14a04e9626",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/simulations.py": {
+      "original_sha256": "b298c7cbf08b585bbdf31a2abddabc51bbe9ddb66335d0851b475fa10b7574a8",
+      "public_sha256": "b298c7cbf08b585bbdf31a2abddabc51bbe9ddb66335d0851b475fa10b7574a8",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/site_parameterization.py": {
+      "original_sha256": "88801fcd4a1474210b5d5625ff32960e838ce1d2b93526344f77ac0850cc9dc6",
+      "public_sha256": "88801fcd4a1474210b5d5625ff32960e838ce1d2b93526344f77ac0850cc9dc6",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/summarize_matched_diagnostics.py": {
+      "original_sha256": "eec21d4ca5abdd824e64dfeed7142ce57c2b37a2f0822b9ebcbf0a7aef5c6901",
+      "public_sha256": "eec21d4ca5abdd824e64dfeed7142ce57c2b37a2f0822b9ebcbf0a7aef5c6901",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/vendor_sources/dec_e551e01f/CPP_SOURCE_SUPPLEMENT.json": {
+      "original_sha256": "442b8f390a8f0da655c9d513710ff6037ff6d3fd40b7673ece1153f894fa8c5a",
+      "public_sha256": "442b8f390a8f0da655c9d513710ff6037ff6d3fd40b7673ece1153f894fa8c5a",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/vendor_sources/dec_e551e01f/SOURCE_MANIFEST.json": {
+      "original_sha256": "71552ef4b0cf6c36e5a5e8008fa7f4d14e7c502558be885ad8212391af5a6098",
+      "public_sha256": "71552ef4b0cf6c36e5a5e8008fa7f4d14e7c502558be885ad8212391af5a6098",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/vendor_sources/idec_4a661c21/SOURCE_MANIFEST.json": {
+      "original_sha256": "a31e0a6ad2576d59318accb3c801ad8bb341aa0521d3438cc79a06dee5bd4c74",
+      "public_sha256": "a31e0a6ad2576d59318accb3c801ad8bb341aa0521d3438cc79a06dee5bd4c74",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/vendor_sources/pro_t_11966cd0/LICENSE": {
+      "original_sha256": "d0938d6a372521b9525a8d8eb0c9c1956e1509e2f7d0ef77d01d74dd96feb061",
+      "public_sha256": "d0938d6a372521b9525a8d8eb0c9c1956e1509e2f7d0ef77d01d74dd96feb061",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/vendor_sources/pro_t_11966cd0/SOURCE_MANIFEST.json": {
+      "original_sha256": "639f2858fa459bfc7249a4e56959eb37055a7e185a68bbd30acba21bd1e68dfd",
+      "public_sha256": "639f2858fa459bfc7249a4e56959eb37055a7e185a68bbd30acba21bd1e68dfd",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/vendor_sources/pro_t_11966cd0/experiments/reference/mnist/v4.1_tVaDE_ModeB/config.py": {
+      "original_sha256": "0126060a8d764ea782448f6ce0dacf85c4e1a8734e7fbbef96ebc7d4b6277306",
+      "public_sha256": "0126060a8d764ea782448f6ce0dacf85c4e1a8734e7fbbef96ebc7d4b6277306",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/vendor_sources/pro_t_11966cd0/experiments/reference/mnist/v4.1_tVaDE_ModeB/train.py": {
+      "original_sha256": "150214e77ff0fbed1439465336d82d1a2df0717763366049e6255e6ccc45004a",
+      "public_sha256": "150214e77ff0fbed1439465336d82d1a2df0717763366049e6255e6ccc45004a",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/vendor_sources/pro_t_11966cd0/experiments/reference/mnist/v4.1_tVaDE_ModeB/training/trainer.py": {
+      "original_sha256": "08ec98b001bd8e8f4f958891a438fb6d4a4de4d0671d3ba103cf8f9b65a2307e",
+      "public_sha256": "08ec98b001bd8e8f4f958891a438fb6d4a4de4d0671d3ba103cf8f9b65a2307e",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/vendor_sources/pro_t_11966cd0/experiments/reference/mnist/v4.1_tVaDE_ModeB/utils/clustering.py": {
+      "original_sha256": "fe9ec0a2a20ee5e84aa4bbb4e555446383af212ecc1927352c71bc38dd0c7e44",
+      "public_sha256": "fe9ec0a2a20ee5e84aa4bbb4e555446383af212ecc1927352c71bc38dd0c7e44",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/vendor_sources/pro_t_11966cd0/src/tvae/reference/model28.py": {
+      "original_sha256": "45cc4eae53ddb5e529c3d8b292ef81f5a56d766bb23aca5e310cd6c629a525b2",
+      "public_sha256": "45cc4eae53ddb5e529c3d8b292ef81f5a56d766bb23aca5e310cd6c629a525b2",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/vendor_sources/vade_eca52b4b/SOURCE_MANIFEST.json": {
+      "original_sha256": "c8ece596d9245e07642a12fac61e74f78e9b65f40967ba08c903283f10c8d757",
+      "public_sha256": "c8ece596d9245e07642a12fac61e74f78e9b65f40967ba08c903283f10c8d757",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_review/workload.py": {
+      "original_sha256": "407a9b86303760180374fb5007af65a6e53f661f328b13672e5cb5fd1e28c010",
+      "public_sha256": "e11f12a71b4793bc1c731e319ac9cf2379f7255d4a4a0f879e49c6d9d5c5f11d",
+      "transformation": "public-operational-metadata-or-import-adaptation; scientific computation unchanged"
+    },
+    "experiments/paper1_structured_inference/gaussian_reference.py": {
+      "original_sha256": "5863dbc35b2f0254bac9acb97a9f31092fda660616e24b7b525c71e703d7ac8e",
+      "public_sha256": "5863dbc35b2f0254bac9acb97a9f31092fda660616e24b7b525c71e703d7ac8e",
+      "transformation": "unchanged"
+    },
+    "experiments/paper1_structured_inference/structured.py": {
+      "original_sha256": "d10528ea16bad65d6f09cb12f6de138b4720b6ed3e387d552e9d37fa78bfd122",
+      "public_sha256": "d10528ea16bad65d6f09cb12f6de138b4720b6ed3e387d552e9d37fa78bfd122",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261028/scientific_analysis_complete_v2/scientific_simulations.json": {
+      "original_sha256": "1c042eb30b3c2b178825e3ba519d0a3521bf1c3028eb59138628d29ceedcb783",
+      "public_sha256": "4d4fdd65bf52cca2821644a18f5f4586bf6bd21ea0979fb484b868ab827d184f",
+      "transformation": "portable-derivative-and-rebound-provenance"
+    },
+    "results/paper1_review_20261029/reference_analysis_complete_v2/evaluation.json": {
+      "original_sha256": "b71ccc8382b0d711e865d26b6f008eb5e4ed5c14e02fdd6d886fc4ca7c8c4993",
+      "public_sha256": "f804c5f93bfe122256de776770cc5374c089b15c73247b1a7c1da8bcb4d0ef76",
+      "transformation": "portable-derivative-and-rebound-provenance"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/analysis_manifest.json": {
+      "original_sha256": "b75d3260ccb39ef73ba37085cd96255b73efe0f2d7215bb2b1c3351fc9cb0a71",
+      "public_sha256": "379db7e40fed218d52dcd4d759babbab5f4215541c54eb2b1efd3617cf820c44",
+      "transformation": "portable-derivative-and-rebound-provenance"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/clean_seed_contrasts.csv": {
+      "original_sha256": "d0155412761e3ccd4f18ad4893c3144eafd62ba8c9cb69222e4704df846887ae",
+      "public_sha256": "d0155412761e3ccd4f18ad4893c3144eafd62ba8c9cb69222e4704df846887ae",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/condition_seed_contrasts.csv": {
+      "original_sha256": "4385f9631aab08d050c0737ff9d6daf91f87617f69906652012e03da61c673f5",
+      "public_sha256": "4385f9631aab08d050c0737ff9d6daf91f87617f69906652012e03da61c673f5",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/evaluation.json": {
+      "original_sha256": "30e079ebb13c746b000589ff23a7844f814f7d51873e3fb3bbc40ae223eb4a49",
+      "public_sha256": "ee778ab92efef2e3342c69bd9884522227e1fb54c0525829e1bca5bec9a70cff",
+      "transformation": "portable-derivative-and-rebound-provenance"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/inventory.json": {
+      "original_sha256": "8fa0816ba1487c32d506984ebd1433dcd88d02b16d5ee1b0645d14d4d762932a",
+      "public_sha256": "b6359d6a9416ee8359063494aa4ae7c67e97fd5d4e8303e2a5c9b970402b25f4",
+      "transformation": "portable-derivative-and-rebound-provenance"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/missing_or_failed.json": {
+      "original_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "public_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/paired_seed_changes.csv": {
+      "original_sha256": "cf191436f9d59b58edb728dfd2f64ddee868a6ff9c5af13111f732e575232553",
+      "public_sha256": "cf191436f9d59b58edb728dfd2f64ddee868a6ff9c5af13111f732e575232553",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/robustness_seed_contrasts.csv": {
+      "original_sha256": "404abec34330c77eb82e5baf8ae34da2e173338a238f20bb2d1c0480714f43c4",
+      "public_sha256": "404abec34330c77eb82e5baf8ae34da2e173338a238f20bb2d1c0480714f43c4",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/seed_metrics.csv": {
+      "original_sha256": "6d33bc1c83ddd628c1c9154a231a8b4e3c7c53c2ebe605b5747fc80118f61fe6",
+      "public_sha256": "6d33bc1c83ddd628c1c9154a231a8b4e3c7c53c2ebe605b5747fc80118f61fe6",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_analysis_complete_20261031_v1/training_origin_allocation.json": {
+      "original_sha256": "91ff170e8082142c518997b3aab622a438e64a8bd7247075ef3e236ba30892d8",
+      "public_sha256": "91ff170e8082142c518997b3aab622a438e64a8bd7247075ef3e236ba30892d8",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_diagnostics_complete_20261031_v1/diagnostics.json": {
+      "original_sha256": "2fba89ff628efa69b093ad789cbf4089fa803a5e7632498e1f2077ea514f73e5",
+      "public_sha256": "92309bb244352ffc4b4779efb102d3559dca5a7b2624ffd9605d84e369900c3f",
+      "transformation": "portable-derivative-and-rebound-provenance"
+    },
+    "results/paper1_review_20261031/matched_diagnostics_complete_20261031_v1/receipt.json": {
+      "original_sha256": "215e884fb2d18821f95d5501b73fbbe84d86a8e5a86adaba4c79fe66f633303c",
+      "public_sha256": "fee885f8c5904d1c840fe4d255559159635eb68e9cf5eb6d31ad12fab42d79dc",
+      "transformation": "portable-derivative-and-rebound-provenance"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/README.txt": {
+      "original_sha256": "c97a6512dee07d16a939ea69b0a53a1fe2660025e29d3b30f7bbb28369fbd6e1",
+      "public_sha256": "4d511cd849224254f1cf3be3a2992558fd6668c26330ff494c351cb9aea6e2ad",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_ari_seeds.pdf": {
+      "original_sha256": "66fc21c7684a7fbb19d734be04c6204e425164f245586694bf1156162323fbf3",
+      "public_sha256": "66fc21c7684a7fbb19d734be04c6204e425164f245586694bf1156162323fbf3",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_ari_seeds.png": {
+      "original_sha256": "c720ff059ae8c9d424beab144c562437e08e2d37f164f6ad9f3c984ebbfcd07c",
+      "public_sha256": "c720ff059ae8c9d424beab144c562437e08e2d37f164f6ad9f3c984ebbfcd07c",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_fashion_mnist.pdf": {
+      "original_sha256": "62afb4f620e416df9c447d5c6802cab3e426d6da4d44bfd182d14896da7dce74",
+      "public_sha256": "62afb4f620e416df9c447d5c6802cab3e426d6da4d44bfd182d14896da7dce74",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_fashion_mnist.png": {
+      "original_sha256": "8c055a1a755e8e7ded502716db04b5b14bd582423c80d79effb5df9136b00352",
+      "public_sha256": "8c055a1a755e8e7ded502716db04b5b14bd582423c80d79effb5df9136b00352",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_mnist.pdf": {
+      "original_sha256": "324d70677525b1838b8548e4524e9ba637b80b113596aa0d7126c8327762360e",
+      "public_sha256": "324d70677525b1838b8548e4524e9ba637b80b113596aa0d7126c8327762360e",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_mnist.png": {
+      "original_sha256": "4ba4caf089ab820b2cda7f727af2b5a12783d5f6d8ae72945e31ee10ee336951",
+      "public_sha256": "4ba4caf089ab820b2cda7f727af2b5a12783d5f6d8ae72945e31ee10ee336951",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_reuters10k.pdf": {
+      "original_sha256": "3e28f514143c6f04d56e15dc9050098d15a9e92e26dcabbcaae4763b2f4ce31f",
+      "public_sha256": "3e28f514143c6f04d56e15dc9050098d15a9e92e26dcabbcaae4763b2f4ce31f",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_reuters10k.png": {
+      "original_sha256": "69c5652ad86f5db875d5e33c1c85ae782d27a86cc835273295b48bc4d1645f7b",
+      "public_sha256": "69c5652ad86f5db875d5e33c1c85ae782d27a86cc835273295b48bc4d1645f7b",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_usps.pdf": {
+      "original_sha256": "dd0459324cea0273e8b28a2b9d20e6c839c71b5990b83c9ed84e12ca67845b18",
+      "public_sha256": "dd0459324cea0273e8b28a2b9d20e6c839c71b5990b83c9ed84e12ca67845b18",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/clean_contrasts_usps.png": {
+      "original_sha256": "0d60b08fe3b5be330c5bd1905243edf87cb9a75c22103b4caf12d7bc1a48b661",
+      "public_sha256": "0d60b08fe3b5be330c5bd1905243edf87cb9a75c22103b4caf12d7bc1a48b661",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_dropout.pdf": {
+      "original_sha256": "d9fa54c572a0b0c241b5390f52ef312f415ea5c2b1ba051eb73986828821f405",
+      "public_sha256": "d9fa54c572a0b0c241b5390f52ef312f415ea5c2b1ba051eb73986828821f405",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_dropout.png": {
+      "original_sha256": "d179e91cc75a03333f6999896877709ea7a06ed9ddbaea38fe8424cf0e81b25e",
+      "public_sha256": "d179e91cc75a03333f6999896877709ea7a06ed9ddbaea38fe8424cf0e81b25e",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_gaussian.pdf": {
+      "original_sha256": "36372824362a80c4047848f209de67ec7f1214660af2c3f3fd2b9cc0d7189ac9",
+      "public_sha256": "36372824362a80c4047848f209de67ec7f1214660af2c3f3fd2b9cc0d7189ac9",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_gaussian.png": {
+      "original_sha256": "0ed32ca2c28d5a56a6ad41ba5aa25db530008b439439b63010198d4d658a7ced",
+      "public_sha256": "0ed32ca2c28d5a56a6ad41ba5aa25db530008b439439b63010198d4d658a7ced",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_training.pdf": {
+      "original_sha256": "0408cb814c64d5a64da24f95a0c2329e531319efdacb5978b9a6d7f9343d0d56",
+      "public_sha256": "0408cb814c64d5a64da24f95a0c2329e531319efdacb5978b9a6d7f9343d0d56",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_fashion_mnist_training.png": {
+      "original_sha256": "63fe360fbfae53b0ba7b35196afd4cfd94e13678b95afd9023e7f426b9b361bc",
+      "public_sha256": "63fe360fbfae53b0ba7b35196afd4cfd94e13678b95afd9023e7f426b9b361bc",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_dropout.pdf": {
+      "original_sha256": "420124c0bf3b9fcac4e5644a2f594c32bd4c77205094160e152955f414431ee8",
+      "public_sha256": "420124c0bf3b9fcac4e5644a2f594c32bd4c77205094160e152955f414431ee8",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_dropout.png": {
+      "original_sha256": "eb9948a98d6baedf2ddff8a37fe4dac9f5ca497df3c51bf57f007e1a52ae183a",
+      "public_sha256": "eb9948a98d6baedf2ddff8a37fe4dac9f5ca497df3c51bf57f007e1a52ae183a",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_gaussian.pdf": {
+      "original_sha256": "538e7595aea8ddcae8a17e4811def6cd9bc2a16789c34e2c6bee167cecf97c22",
+      "public_sha256": "538e7595aea8ddcae8a17e4811def6cd9bc2a16789c34e2c6bee167cecf97c22",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_gaussian.png": {
+      "original_sha256": "cdc2e982bae0057e32d9994655de9a33cb39fab591417dd3a7bccdfdb93b152e",
+      "public_sha256": "cdc2e982bae0057e32d9994655de9a33cb39fab591417dd3a7bccdfdb93b152e",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_training.pdf": {
+      "original_sha256": "beceb3cfac57019674e0122aa20cbd02ab481f59e71bbac45b1cabbd7e07e096",
+      "public_sha256": "beceb3cfac57019674e0122aa20cbd02ab481f59e71bbac45b1cabbd7e07e096",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_mnist_training.png": {
+      "original_sha256": "93d281b3bdcbeef5e374ed80de5a1f1c18cf3cbc691a8dfcc99676eac6d7e8c8",
+      "public_sha256": "93d281b3bdcbeef5e374ed80de5a1f1c18cf3cbc691a8dfcc99676eac6d7e8c8",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_usps_dropout.pdf": {
+      "original_sha256": "71f9ba8b522c897505df991d5f180aea0329e8d8d6cd7f386cf00afd591e3ce3",
+      "public_sha256": "71f9ba8b522c897505df991d5f180aea0329e8d8d6cd7f386cf00afd591e3ce3",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_usps_dropout.png": {
+      "original_sha256": "e3ef701b517e1135b78351d054050062dd3f677616c8fc78ad2a3df25fc45a20",
+      "public_sha256": "e3ef701b517e1135b78351d054050062dd3f677616c8fc78ad2a3df25fc45a20",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_usps_gaussian.pdf": {
+      "original_sha256": "efab1d2dd31fcc0377e79494a0920396f740a4cbcb5b4c894b16f483d8bfc38a",
+      "public_sha256": "efab1d2dd31fcc0377e79494a0920396f740a4cbcb5b4c894b16f483d8bfc38a",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/condition_contrasts_usps_gaussian.png": {
+      "original_sha256": "0a23c885d5a4f6b2c2ec82fc1aaf857c01f080085b8d650f65d7a94036889db4",
+      "public_sha256": "0a23c885d5a4f6b2c2ec82fc1aaf857c01f080085b8d650f65d7a94036889db4",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_fashion_mnist.pdf": {
+      "original_sha256": "a710ee91e81ac2b958bd195d7ea5190ba629ee6c0b5b8a2ac6dbd926478ae853",
+      "public_sha256": "a710ee91e81ac2b958bd195d7ea5190ba629ee6c0b5b8a2ac6dbd926478ae853",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_fashion_mnist.png": {
+      "original_sha256": "87962f2523f86ffbaaf2809c8753a5408a93db7f2f9e3f5a429346d3ae62619d",
+      "public_sha256": "87962f2523f86ffbaaf2809c8753a5408a93db7f2f9e3f5a429346d3ae62619d",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_mnist.pdf": {
+      "original_sha256": "1ae16a82e4a953e8509a3c7c1fcc703cc2d9ce9a4f9a8b067632a7cd05708ba8",
+      "public_sha256": "1ae16a82e4a953e8509a3c7c1fcc703cc2d9ce9a4f9a8b067632a7cd05708ba8",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_mnist.png": {
+      "original_sha256": "52a70dd75002b64a2e5735de4117eef0f9df3909e45b3d050a87b5dcfd3a6bbd",
+      "public_sha256": "52a70dd75002b64a2e5735de4117eef0f9df3909e45b3d050a87b5dcfd3a6bbd",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_usps.pdf": {
+      "original_sha256": "10582e349d0ff32b8b7da1443502b49be5ab02b16902588ba2be4b799aa1df99",
+      "public_sha256": "10582e349d0ff32b8b7da1443502b49be5ab02b16902588ba2be4b799aa1df99",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/degradation_usps.png": {
+      "original_sha256": "183b90671626fefdf36d1bbdd725d98541d8e262f679e08ea7818d76b481987f",
+      "public_sha256": "183b90671626fefdf36d1bbdd725d98541d8e262f679e08ea7818d76b481987f",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/training_changes_fashion_mnist.pdf": {
+      "original_sha256": "b96c6b2468afbd56840693357bca57e04a2ee57954a07602a29a4766a165ea74",
+      "public_sha256": "b96c6b2468afbd56840693357bca57e04a2ee57954a07602a29a4766a165ea74",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/training_changes_fashion_mnist.png": {
+      "original_sha256": "037b2cffc9e9d3232e41071bf0c4c8b5e42eb8ca45f1383f0a074da091f15e3a",
+      "public_sha256": "037b2cffc9e9d3232e41071bf0c4c8b5e42eb8ca45f1383f0a074da091f15e3a",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/training_changes_mnist.pdf": {
+      "original_sha256": "8d480d4ac073f410cf9920a70a7a1946e46133206197abfd7c630bb3035eccab",
+      "public_sha256": "8d480d4ac073f410cf9920a70a7a1946e46133206197abfd7c630bb3035eccab",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/figures/training_changes_mnist.png": {
+      "original_sha256": "24d417dfad7a20d8fe0b24bce684e7fa65c0b6296fcb2dbcbdc25ad5907bc646",
+      "public_sha256": "24d417dfad7a20d8fe0b24bce684e7fa65c0b6296fcb2dbcbdc25ad5907bc646",
+      "transformation": "unchanged"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/readiness.json": {
+      "original_sha256": "de8e19b5960cc1a0113af503154b8f2951dcca1cad2d1590440ed96c45c17977",
+      "public_sha256": "e3c5bd0e8e9b0e195b27db0bf8fb3da7129fb886096767c1d8d7993406fa08c0",
+      "transformation": "portable-derivative-and-rebound-provenance"
+    },
+    "results/paper1_review_20261031/matched_report_complete_v1/report_manifest.json": {
+      "original_sha256": "dcd0e7c0df9aac7d81738446055a3242a034cf79f1f9ebfc156336ed8512feb1",
+      "public_sha256": "72098de3fcd3253884f718a830ddf175460d7b0dce2caf09fd21b35efb230956",
+      "transformation": "portable-derivative-and-rebound-provenance"
+    },
+    "scripts/plot_references.py": {
+      "original_sha256": "228d07583d650871063c46dc28db6d171e4def9951e0e3b6da666d2c42c83042",
+      "original_source_filename": "reference_results_plot_complete_v2.py",
+      "public_sha256": "6e04837eba348fafc8a69fb0b372bc0b34869e2cc383e6e24beacb550c1ce762",
+      "transformation": "Relocated; private infrastructure metadata/identity checks removed. The test fixture has no dispatch functionality. Scientific computation unchanged."
+    },
+    "scripts/plot_simulations.py": {
+      "original_sha256": "fef57f0cab57e64c29c1094c6938ba70cf462b597e52134c6d52482a7aec92e0",
+      "original_source_filename": "scientific_simulations_plot.py",
+      "public_sha256": "400aa4d95f1e2bbb986495f40f027a99dbbb6121d1ed17a87433c57df97bbd8a",
+      "transformation": "Relocated; private infrastructure metadata/identity checks removed. The test fixture has no dispatch functionality. Scientific computation unchanged."
+    },
+    "scripts/summarize_simulations.py": {
+      "original_sha256": "fbd17b14ab0745cd48f7659899f797d19df104dd92bdbbc32ca38fe49c8ec09a",
+      "original_source_filename": "scientific_simulations.py",
+      "public_sha256": "fbd17b14ab0745cd48f7659899f797d19df104dd92bdbbc32ca38fe49c8ec09a",
+      "transformation": "Relocated; private infrastructure metadata/identity checks removed. The test fixture has no dispatch functionality. Scientific computation unchanged."
+    },
+    "tests/campaign_fixture.py": {
+      "original_sha256": "aaab22de037c69a99ee63d5c7681c20d20f288a6b4ae7df3edbc7d3bc72548b7",
+      "original_source_filename": "paper1_air_matched_campaign.py",
+      "public_sha256": "38ff74d9df098d8ef66f2fcba802c2b7751393fdf119e8b9db80e620bac156b6",
+      "transformation": "Relocated; private infrastructure metadata/identity checks removed. The test fixture has no dispatch functionality. Scientific computation unchanged."
+    },
+    "tests/test_gaussian_site_reference.py": {
+      "original_sha256": "cfe8661d4d7625189d7b5e1e4f5d5dfb59439e7c85b095f4c52b755c6021d0aa",
+      "public_sha256": "cfe8661d4d7625189d7b5e1e4f5d5dfb59439e7c85b095f4c52b755c6021d0aa",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_completion_recovery_audit.py": {
+      "original_sha256": "5eac1dc227dc29207df6280f5513521ab5cfe201a46e2802196226263dd816f2",
+      "public_sha256": "ad5d6fb8a54e2f91efd44ca5824bb141e4c90b30d655d7aca8c7ca378b085a4b",
+      "transformation": "public-operational-metadata-or-import-adaptation; scientific computation unchanged"
+    },
+    "tests/test_paper1_review_contamination.py": {
+      "original_sha256": "b02ce95282ba8d0d2e34428443ea5b0b02420fd77e3c55788a3260e78b514743",
+      "public_sha256": "b02ce95282ba8d0d2e34428443ea5b0b02420fd77e3c55788a3260e78b514743",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_data.py": {
+      "original_sha256": "6778c8248ed0063406a07a1be613980e04dc83a62e9a14e45bc36aceac4304df",
+      "public_sha256": "6778c8248ed0063406a07a1be613980e04dc83a62e9a14e45bc36aceac4304df",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_evaluate_matched.py": {
+      "original_sha256": "f8fabd6f99b6815e91f4cc0b7880854d13a0386fd08f07269760d1b66abda3d9",
+      "public_sha256": "36f78168b1d30c78c8c012af57ddadb1fe0b5566f3a3795abacaa14fc6d4f27d",
+      "transformation": "public-operational-metadata-or-import-adaptation; scientific computation unchanged"
+    },
+    "tests/test_paper1_review_evaluate_references.py": {
+      "original_sha256": "6e9072fb21e95b40b3908fafe878d982096553e8b38a9409ce42558051271f80",
+      "public_sha256": "6e9072fb21e95b40b3908fafe878d982096553e8b38a9409ce42558051271f80",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_final_resume.py": {
+      "original_sha256": "00d6e35283e1e3168952cd9990b0bd64b02974ffff0be7b87907f9fd9830564d",
+      "public_sha256": "00d6e35283e1e3168952cd9990b0bd64b02974ffff0be7b87907f9fd9830564d",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_final_runner.py": {
+      "original_sha256": "f123bdcbd40d81f8eea92c263027178ee81b11f9064e203974b298646282637d",
+      "public_sha256": "f123bdcbd40d81f8eea92c263027178ee81b11f9064e203974b298646282637d",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_metrics.py": {
+      "original_sha256": "328b9efcdc157a2b41002c52ffac96b90438b6b09e74798179d8454aef218ac8",
+      "public_sha256": "328b9efcdc157a2b41002c52ffac96b90438b6b09e74798179d8454aef218ac8",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_models.py": {
+      "original_sha256": "9eaa4ba6fb1864be3f368f6cf55b9f234ff574afc0d62dd4b06f47e3a88b1a4b",
+      "public_sha256": "9eaa4ba6fb1864be3f368f6cf55b9f234ff574afc0d62dd4b06f47e3a88b1a4b",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_paired_metrics.py": {
+      "original_sha256": "0a47ab004bad71740ab40f131c7174312be3e6ec0d87becee58cd1e400c64d11",
+      "public_sha256": "0a47ab004bad71740ab40f131c7174312be3e6ec0d87becee58cd1e400c64d11",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_reference_dec_idec.py": {
+      "original_sha256": "0e7668df7481f8c9147861c9b3c447e8202c2243a4428e286d1725e2c4307549",
+      "public_sha256": "0e7668df7481f8c9147861c9b3c447e8202c2243a4428e286d1725e2c4307549",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_reference_pro_t.py": {
+      "original_sha256": "7f319dcc425427e2c837b870f9e7c42f2f3a452520e5356f33e6d0ab7745cf16",
+      "public_sha256": "7f319dcc425427e2c837b870f9e7c42f2f3a452520e5356f33e6d0ab7745cf16",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_reference_vade.py": {
+      "original_sha256": "5228ed6dab5cfffa97a03eaf9fffb4c03c78d69a3db9351cb5b0ffde75800b6b",
+      "public_sha256": "5228ed6dab5cfffa97a03eaf9fffb4c03c78d69a3db9351cb5b0ffde75800b6b",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_report_matched.py": {
+      "original_sha256": "98b203543227449e962ca5095b23c732e31473a1e9c89b2e38110fc151199f08",
+      "public_sha256": "98b203543227449e962ca5095b23c732e31473a1e9c89b2e38110fc151199f08",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_scores.py": {
+      "original_sha256": "7a3ae2810135df0f8ee0c8098acfe6f10b2c39789cd0d273a1604fdbddadcf4d",
+      "public_sha256": "7a3ae2810135df0f8ee0c8098acfe6f10b2c39789cd0d273a1604fdbddadcf4d",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_simulations.py": {
+      "original_sha256": "f59084d16efe02c7a2b4f1aadb31126a3dbe06bddc200f97a73aead61fe4d99a",
+      "public_sha256": "f59084d16efe02c7a2b4f1aadb31126a3dbe06bddc200f97a73aead61fe4d99a",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_site_parameterization.py": {
+      "original_sha256": "b3b164bcb427cae2dc55edc9f9f76e42734980f0fe371423ae2c4b14381cf6cd",
+      "public_sha256": "b3b164bcb427cae2dc55edc9f9f76e42734980f0fe371423ae2c4b14381cf6cd",
+      "transformation": "unchanged"
+    },
+    "tests/test_paper1_review_summarize_matched_diagnostics.py": {
+      "original_sha256": "7c0dff3c5dcb21f29a25b3b9b31ba78955ecce90896425ffb0531801beac41c4",
+      "public_sha256": "9fbac3c128349b6616b55dcb7e6e438aec24bb19b996c86c3e6be36565f3893f",
+      "transformation": "public-operational-metadata-or-import-adaptation; scientific computation unchanged"
+    },
+    "tests/test_standardized_structured.py": {
+      "original_sha256": "46bc657a3b61581083ffe8a17a0a5417ac7778eeba2bc0c8e4836f99870fd69d",
+      "public_sha256": "46bc657a3b61581083ffe8a17a0a5417ac7778eeba2bc0c8e4836f99870fd69d",
+      "transformation": "unchanged"
+    },
+    "tests/test_structured.py": {
+      "original_sha256": "e87b5a8c85c7409a2e7e4b4e7c8a1f676ee204fb91b6e54a92996e9783151ed3",
+      "public_sha256": "e87b5a8c85c7409a2e7e4b4e7c8a1f676ee204fb91b6e54a92996e9783151ed3",
+      "transformation": "unchanged"
+    }
+  },
+  "note": "Original hashes identify private retained originals; public hashes identify distributed files. This record is an explicit provenance mapping, not cryptographic authorship authentication.",
+  "numeric_values_preserved": true,
+  "original_analysis_anchors": {
+    "analysis_manifest": "b75d3260ccb39ef73ba37085cd96255b73efe0f2d7215bb2b1c3351fc9cb0a71",
+    "completion_audit": "bc7d0d3c901ca21ecf002a92ac45bc6bda684e589389aa5106227edd0d655316",
+    "diagnostic_receipt": "215e884fb2d18821f95d5501b73fbbe84d86a8e5a86adaba4c79fe66f633303c",
+    "protocol": "c44ad7e7db6cc73ee80793d56b0b63424fd51d5e7e9f4036eed8986b481e9cde",
+    "report_manifest": "dcd0e7c0df9aac7d81738446055a3242a034cf79f1f9ebfc156336ed8512feb1"
+  },
+  "public_operational_adaptations": "Private infrastructure metadata and identity checks removed; roster test fixture contains no dispatcher. Workload metadata and reference-protocol document locator adapted. Model equations, numeric settings, optimization, probability guards and metric definitions unchanged; all source-byte differences are listed.",
+  "schema_version": "paper1-public-export-v1"
+}

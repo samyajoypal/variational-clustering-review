@@ -1,0 +1,493 @@
+{
+  "repository": "https://github.com/piiswrong/dec",
+  "commit": "e551e01f90a3d67d2ef9c90e968c8faf5d8f857d",
+  "archive_url": "https://codeload.github.com/piiswrong/dec/tar.gz/e551e01f90a3d67d2ef9c90e968c8faf5d8f857d",
+  "archive_sha256": "a18273122241642ca41771544bf93024fbcca82d9a4918d27aa3a0650067085c",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "178f4fa1260ac6eec406607e05cf4645e63a3402b76391886cab0f87ffda7345"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f674e7f2fd8a18b8aacf093c65c8f680fe9a407dd23386df4593e474f249c567"
+    },
+    {
+      "path": "caffe/CMakeLists.txt",
+      "sha256": "0928f4dd8f0ec348585c27fbe0d355256118bf8947a8ef2bffca1138b44d6cec"
+    },
+    {
+      "path": "caffe/CONTRIBUTORS.md",
+      "sha256": "578741853e79ff40e86293c21685c8f43d7986fb5e253ec2e062cfc5d19cdc4b"
+    },
+    {
+      "path": "caffe/INSTALL.md",
+      "sha256": "6b3492a67101c29ac7886cf3cb47289fcca519aa18277d241fea71e7b29a6fac"
+    },
+    {
+      "path": "caffe/LICENSE",
+      "sha256": "ec5f7272b9c2f6ddd6b7843688d8fa6efaca46b8abef2a8279263b11fe57202f"
+    },
+    {
+      "path": "caffe/README.md",
+      "sha256": "ed2e0c1da4d0434cf13bfa444d270d6837e3c8087d0bc8261c7e1ace35b68c70"
+    },
+    {
+      "path": "caffe/docs/README.md",
+      "sha256": "42c70515daa35e0c590094aa21f11e8bb957fb9411a88e730315df5985c31592"
+    },
+    {
+      "path": "caffe/docs/_config.yml",
+      "sha256": "a3a9d517df629f00c7e39983e56a105a02dff4b8cc15cbeb0fd792d36bad3887"
+    },
+    {
+      "path": "caffe/docs/development.md",
+      "sha256": "99d4f5b08e354e4a138a5431123140043a2245434c0b10fed71c491fe1dc7dde"
+    },
+    {
+      "path": "caffe/docs/index.md",
+      "sha256": "8f27b81ef14ce3e73177d1118bdc94991f039c74eeeecf4a037e4d8f7272e3e7"
+    },
+    {
+      "path": "caffe/docs/installation.md",
+      "sha256": "68bcd863b5d9fbb94b8d37a4e664df1332b632fbc19c5dcff8d3373c31584842"
+    },
+    {
+      "path": "caffe/docs/model_zoo.md",
+      "sha256": "083e848af3a5a2f9c6a25abfa3ba54cbb99c6468bddda85d69bfe0fc83ffc2e9"
+    },
+    {
+      "path": "caffe/docs/performance_hardware.md",
+      "sha256": "3d7bc373d58dc56ba89f6e63fd6052a72d2871fb91855412aa245a776c166e18"
+    },
+    {
+      "path": "caffe/docs/tutorial/convolution.md",
+      "sha256": "56490ee3ee742e72dccf8fb84eb22961b86601202ee2dcf416e795c4402c03c4"
+    },
+    {
+      "path": "caffe/docs/tutorial/data.md",
+      "sha256": "4358b88f25a707d0df83a0f9dc1d0f521a218f5257b363730da09e0820e06fb9"
+    },
+    {
+      "path": "caffe/docs/tutorial/forward_backward.md",
+      "sha256": "dbc479c2d4f8cc7da3b96628acf9d2845f4a47794332c0814998cb0344a1ec32"
+    },
+    {
+      "path": "caffe/docs/tutorial/index.md",
+      "sha256": "bf57433dedc272c3a469bf9fb8c7615a225d07e04e490b1c85cabe47befb9f84"
+    },
+    {
+      "path": "caffe/docs/tutorial/interfaces.md",
+      "sha256": "78251c5240d06fb458517b8690af83b8ac9f18bcfe06c0ce664b2d36ae3e203d"
+    },
+    {
+      "path": "caffe/docs/tutorial/layers.md",
+      "sha256": "d9e0ac68f19cf4cca7d5eebd6a7b21b90de123651857c8853a7ec409bd053b08"
+    },
+    {
+      "path": "caffe/docs/tutorial/loss.md",
+      "sha256": "c9c95e35e431063722cd728bdac50d313554ce3219992ac3166ebba9157b1f19"
+    },
+    {
+      "path": "caffe/docs/tutorial/net_layer_blob.md",
+      "sha256": "03cb22ba0dfaab9d4b311276d2e510a3bf1a06bfde5215072e35bfec89c880e9"
+    },
+    {
+      "path": "caffe/docs/tutorial/solver.md",
+      "sha256": "45a3a11e7d91f5ad88d05d23ac93a40f840c3fcd79a4e6e1f95f21058746ebcc"
+    },
+    {
+      "path": "caffe/examples/CMakeLists.txt",
+      "sha256": "a47a5221f961b7c74a9d03152889ba862cdee1ff3f979a5aca39bd3eb7fc5a20"
+    },
+    {
+      "path": "caffe/examples/cifar10/cifar10_full.prototxt",
+      "sha256": "9366b6d3fcf518d32cc65be0a3692e84260ae94b8d8eb301fb9e934cb68870ba"
+    },
+    {
+      "path": "caffe/examples/cifar10/cifar10_full_solver.prototxt",
+      "sha256": "e0fe57425ca4b63ee85dccbb4b6c6f5530704b193ce6c71dddd3805feb12f061"
+    },
+    {
+      "path": "caffe/examples/cifar10/cifar10_full_solver_lr1.prototxt",
+      "sha256": "0ae5cf5fee234e3ea7e890f72efb04229ccb0398f05b5ba3a7505a0477ba611f"
+    },
+    {
+      "path": "caffe/examples/cifar10/cifar10_full_solver_lr2.prototxt",
+      "sha256": "ef48c93f26886b69de5d0359eac27d2fd365d3d2d5092a420f0a9faf8bc46cfe"
+    },
+    {
+      "path": "caffe/examples/cifar10/cifar10_full_train_test.prototxt",
+      "sha256": "26495ef9847823e3630d83ac69f8b68821cfa233f6ded72a3ec49d5cdcd6d044"
+    },
+    {
+      "path": "caffe/examples/cifar10/cifar10_quick.prototxt",
+      "sha256": "b5744d25b837d81722230f5376f334d7f9d1287bf858d347d728d07396d553ed"
+    },
+    {
+      "path": "caffe/examples/cifar10/cifar10_quick_solver.prototxt",
+      "sha256": "eeb019dad120e73bc95003eb1de9462b86b50cd00793cede62522a72936f5308"
+    },
+    {
+      "path": "caffe/examples/cifar10/cifar10_quick_solver_lr1.prototxt",
+      "sha256": "ade249099169722d6967808890d365bca78cc6d34e94c154edf8691cacace453"
+    },
+    {
+      "path": "caffe/examples/cifar10/cifar10_quick_train_test.prototxt",
+      "sha256": "0eabb005b43b97bab52843ebadba0a18546acdbd27549b1aa5839d392fc346e8"
+    },
+    {
+      "path": "caffe/examples/cifar10/create_cifar10.sh",
+      "sha256": "04cd2f11e11b63131f89d6f566a0d9263707e01921c2408b20efb6d2636602f7"
+    },
+    {
+      "path": "caffe/examples/cifar10/readme.md",
+      "sha256": "e801f439f9c5045e2f3134c9faa7ec322c395477ca12a99b686b6da5d5b4725b"
+    },
+    {
+      "path": "caffe/examples/cifar10/train_full.sh",
+      "sha256": "08511562ea5a10d082d18f8f570cb8681abc802327c618d155de692635cca114"
+    },
+    {
+      "path": "caffe/examples/cifar10/train_quick.sh",
+      "sha256": "7acac5b38802ed98cdb8c20c59934c3f20a8720ee750269bc45416f9b6f73af5"
+    },
+    {
+      "path": "caffe/examples/feature_extraction/imagenet_val.prototxt",
+      "sha256": "e1a0286e63c6a5c134710056d0143b78e3ca3a413df906618c4970f3f4f18258"
+    },
+    {
+      "path": "caffe/examples/feature_extraction/readme.md",
+      "sha256": "b786eb103dc803dc2db4fe519c1e3d39125475e3943c4cfa1ba20a3cfd7cd753"
+    },
+    {
+      "path": "caffe/examples/finetune_flickr_style/assemble_data.py",
+      "sha256": "97ec610226f2b48078e46a99fc7dbd5a6fd084b1088e27596ceee3a5747c7789"
+    },
+    {
+      "path": "caffe/examples/finetune_flickr_style/readme.md",
+      "sha256": "661e0efcfc77b77eb44e3a9d6f3099beedc5a573a9bc5fc549c9f8598e30efa9"
+    },
+    {
+      "path": "caffe/examples/finetune_pascal_detection/pascal_finetune_solver.prototxt",
+      "sha256": "bef2866ca0f8b6daf2ae46693f99694cfe6d00e22d9a2da34258baa05546a3a5"
+    },
+    {
+      "path": "caffe/examples/finetune_pascal_detection/pascal_finetune_trainval_test.prototxt",
+      "sha256": "f1ac793bc29ab6cf7d52366fb86b00cbb0038a9b9417ccc8895f917bc4887d2a"
+    },
+    {
+      "path": "caffe/examples/hdf5_classification/solver.prototxt",
+      "sha256": "d90f00f45ac6544118433fd1b84ecfa80a42380cc7eaad76e2f29d5d361fbff8"
+    },
+    {
+      "path": "caffe/examples/hdf5_classification/solver2.prototxt",
+      "sha256": "534720997f6d0c62abe2beef29bdc2c510c46c16a51061ebe13bd7f3675fd3e5"
+    },
+    {
+      "path": "caffe/examples/hdf5_classification/train_val.prototxt",
+      "sha256": "959e14e16fdaf4dd3173868f1ca64a009613f39c3d9d7fbe366eb097ce1b6df9"
+    },
+    {
+      "path": "caffe/examples/hdf5_classification/train_val2.prototxt",
+      "sha256": "556ff9e37303b3f02007eb9fa7f1a5446d11f18c3aec8703a0dfff8b117764a8"
+    },
+    {
+      "path": "caffe/examples/imagenet/bvlc_caffenet_full_conv.prototxt",
+      "sha256": "f0764d1f8d5ad65d3445913e944ea91436ef6450894c4423053fb4ce88944a73"
+    },
+    {
+      "path": "caffe/examples/imagenet/create_imagenet.sh",
+      "sha256": "55083cb3c825283ff844448d56176721bf89dd19dd87fef4243a6d2fddc4a8a6"
+    },
+    {
+      "path": "caffe/examples/imagenet/make_imagenet_mean.sh",
+      "sha256": "ed1fed4623866ada8581c771cae9c125d300ffa4c364967ffa52f0a5ebe753c0"
+    },
+    {
+      "path": "caffe/examples/imagenet/readme.md",
+      "sha256": "2166bbf9d27fb96b52c74b640cdb4f8b19e60d8bfe60642f5644dbd64e5a0581"
+    },
+    {
+      "path": "caffe/examples/imagenet/resume_training.sh",
+      "sha256": "a953faa156db3a81e5f5c51b711ff44e719b81bde0d895df12b4754fc26c7012"
+    },
+    {
+      "path": "caffe/examples/imagenet/train_caffenet.sh",
+      "sha256": "2b814b86fbc90384f6d822f1dec148fc5c6648d21dbfb8fbea0dcbe8336201ce"
+    },
+    {
+      "path": "caffe/examples/mnist/create_mnist.sh",
+      "sha256": "c6f771a9a42a15d5c48bab8b497caeb3d6d244d0e423d195450c73b8ba388185"
+    },
+    {
+      "path": "caffe/examples/mnist/lenet.prototxt",
+      "sha256": "4e8abfcf50e205d4a85d00f27adc13691a3add5096a8cfeedf404790df522127"
+    },
+    {
+      "path": "caffe/examples/mnist/lenet_consolidated_solver.prototxt",
+      "sha256": "92939bcc59154d653bbf9f69df886dd5eb4539459e2dcbed67060c50343d4ccc"
+    },
+    {
+      "path": "caffe/examples/mnist/lenet_solver.prototxt",
+      "sha256": "e2d7d76a62eba8875a53591f69367c77041178ddd17555b52f6a0715fe9b8666"
+    },
+    {
+      "path": "caffe/examples/mnist/lenet_train_test.prototxt",
+      "sha256": "8b84dad7b82833a1129c8ddd63eda8b776b2736556c768a9b4fd1651fda3e2e4"
+    },
+    {
+      "path": "caffe/examples/mnist/mnist_autoencoder.prototxt",
+      "sha256": "c63dd4dc708163a5f74965d8d3c600223bbf0498416be53a01455e156fa3944f"
+    },
+    {
+      "path": "caffe/examples/mnist/mnist_autoencoder_solver.prototxt",
+      "sha256": "1ac64a3adf15df9667d9f9ee35d0b72721bd04a7c38088bac80d5454c03226f5"
+    },
+    {
+      "path": "caffe/examples/mnist/mnist_autoencoder_solver_adagrad.prototxt",
+      "sha256": "74b7c7f637b1d40ee5a6d265bd61405078dd76e4c1d8983480b746d01a9fc017"
+    },
+    {
+      "path": "caffe/examples/mnist/mnist_autoencoder_solver_nesterov.prototxt",
+      "sha256": "7e246b0b36542d33e5b64f3c855737628531a751e3be89fbae92c1428105aeb2"
+    },
+    {
+      "path": "caffe/examples/mnist/readme.md",
+      "sha256": "66da797b8e193573a6f01d22ea1d5416722ab9f0124625d2011a8bfbcbec1bf5"
+    },
+    {
+      "path": "caffe/examples/mnist/train_lenet.sh",
+      "sha256": "6dcc21dbca72f55920324955d1f5dda906285ca841abede20c567dc52401f140"
+    },
+    {
+      "path": "caffe/examples/mnist/train_lenet_consolidated.sh",
+      "sha256": "05c55a1f4c71351c330261a4b142c4c063692af93e2c216602a7ef07eb2b55ed"
+    },
+    {
+      "path": "caffe/examples/mnist/train_mnist_autoencoder.sh",
+      "sha256": "ac2e476c936ba5d410082e3ea3d238ae1d1f596e2632bad645f1214da09f1485"
+    },
+    {
+      "path": "caffe/examples/mnist/train_mnist_autoencoder_adagrad.sh",
+      "sha256": "e630abe570e8d41ca5cd10495a84427b9a088c86ed7ac30ab560a90988e1ab94"
+    },
+    {
+      "path": "caffe/examples/mnist/train_mnist_autoencoder_nesterov.sh",
+      "sha256": "86def51687273c9d9c863de7d3ccba3b0a047dc1e049378d6cfbc21198bfc283"
+    },
+    {
+      "path": "caffe/examples/siamese/create_mnist_siamese.sh",
+      "sha256": "af5d0d590499fd51fb42524c192ceb20eafbcab4e9e932247fa33ddd7acb9760"
+    },
+    {
+      "path": "caffe/examples/siamese/mnist_siamese.prototxt",
+      "sha256": "8bf2166a91f4926ad8c08c3113f9cc3de8d34ef9081cc116f9a6409a1dc2ffb3"
+    },
+    {
+      "path": "caffe/examples/siamese/mnist_siamese_solver.prototxt",
+      "sha256": "3c304055da848276bf43f902b39da5e22dadb12e06a71e9f2f904e245a4fbfa1"
+    },
+    {
+      "path": "caffe/examples/siamese/mnist_siamese_train_test.prototxt",
+      "sha256": "a45e854b82090a29b7e111dcf6a65791012da632a31365c98d504fcd985111d0"
+    },
+    {
+      "path": "caffe/examples/siamese/readme.md",
+      "sha256": "394643075d275c40aa860634d9eed3bf03ebea12d7113e6421dffd21bad95513"
+    },
+    {
+      "path": "caffe/examples/siamese/train_mnist_siamese.sh",
+      "sha256": "2f3773ac977e7b1ea256d9a4f46f3ee6c815997c065034d026274256f09b6756"
+    },
+    {
+      "path": "caffe/examples/web_demo/app.py",
+      "sha256": "f1c1e5ac5e781f9d370c2b40918a0bb48b572504078df28ba711f17b8f785f91"
+    },
+    {
+      "path": "caffe/examples/web_demo/exifutil.py",
+      "sha256": "b5810f144cc9864c1f604a32312a4d6dff0c4ff2b4a99b945d4bbcea3d67b0c1"
+    },
+    {
+      "path": "caffe/examples/web_demo/readme.md",
+      "sha256": "6d07807a16989a2fa8b8f6299fe2449e05815733c52ae1401a2ce4793b62aae2"
+    },
+    {
+      "path": "caffe/examples/web_demo/requirements.txt",
+      "sha256": "737ef1edb06007921cd19c07529f83291394127f8eeee9a11cc00034d7e4f221"
+    },
+    {
+      "path": "caffe/matlab/CMakeLists.txt",
+      "sha256": "001b967dd85ce5d750b7586ed0a6f43ed26e51fcb808e4b6066206e320649bc6"
+    },
+    {
+      "path": "caffe/python/CMakeLists.txt",
+      "sha256": "a084655c49b9be7f8d80ca937ee2003fe1931a30788514e28e8443e8472f0ff5"
+    },
+    {
+      "path": "caffe/python/caffe/__init__.py",
+      "sha256": "11b866c52ed899c6d8d1c41c5f36ee22c6cdff4ce1971f79ba17c372f84a5929"
+    },
+    {
+      "path": "caffe/python/caffe/classifier.py",
+      "sha256": "57aaf670668fcbcfbb0573715e401deb33b906ddc524d5866bff685f6e078267"
+    },
+    {
+      "path": "caffe/python/caffe/detector.py",
+      "sha256": "5445f294b69791969bd52e923aa1a6db336e82b42889e26a4fd65d9b44f1687b"
+    },
+    {
+      "path": "caffe/python/caffe/draw.py",
+      "sha256": "48ff2e503eccb55e6654a5f2acffea25cc00426296465824a551a8dd4df684e5"
+    },
+    {
+      "path": "caffe/python/caffe/io.py",
+      "sha256": "d1b4f3a3d4efb98329cfe96b2cd4853da1b259f1ae062d7ddd346fc7147ff5c8"
+    },
+    {
+      "path": "caffe/python/caffe/pycaffe.py",
+      "sha256": "918412b9cad2331fabe5413684ead5ef4acddeff236197ee7f9173cdfe2a89e7"
+    },
+    {
+      "path": "caffe/python/classify.py",
+      "sha256": "336f292d635b40168ed0bf84de89fd6358082b317ace6c6885733980e102bb12"
+    },
+    {
+      "path": "caffe/python/detect.py",
+      "sha256": "df99d5ffc6f11bc65503cdfba09f17be6d386c767bdea60158d4fefa8d8a2e37"
+    },
+    {
+      "path": "caffe/python/draw_net.py",
+      "sha256": "ccf65bac9e8f8006d234f258b522d0567646b537554ca5798b42ae7bd7f7572d"
+    },
+    {
+      "path": "caffe/python/requirements.txt",
+      "sha256": "3c69097bcd83939beccacff53b40bf4f6b69b54ead2ae890579094c7a193972c"
+    },
+    {
+      "path": "caffe/scripts/build_docs.sh",
+      "sha256": "668e82938c1404fed5f57ff3d4dfdc6ac4e3df148535521b3c4b4c514fdfcbaf"
+    },
+    {
+      "path": "caffe/scripts/copy_notebook.py",
+      "sha256": "eff8bb9e13c9f427a54813a2faafa611a29cd2f5851392f86447080e3ace7dc2"
+    },
+    {
+      "path": "caffe/scripts/cpp_lint.py",
+      "sha256": "f0dc64e71dd41564f4224e56c406db520fdef63b793e9c290f26632837dad5f3"
+    },
+    {
+      "path": "caffe/scripts/deploy_docs.sh",
+      "sha256": "e28cdb353e286c3ae295d6718a18d4f32e32d126c554984252117cbff662927c"
+    },
+    {
+      "path": "caffe/scripts/download_model_binary.py",
+      "sha256": "c0da31f2a0cebbda7efdac0196b1dbe6e2ef78ee585f4520da6b4ed198f5dc4f"
+    },
+    {
+      "path": "caffe/scripts/download_model_from_gist.sh",
+      "sha256": "270535ab7704afb4312bd74ae97644143fdfc98707d4e6e3b0918918dcc34ea6"
+    },
+    {
+      "path": "caffe/scripts/gather_examples.sh",
+      "sha256": "6c98387bb57119c74ac99d83644976d059fa1efc72261a14ef56f066c8b41661"
+    },
+    {
+      "path": "caffe/scripts/travis/travis_build_and_test.sh",
+      "sha256": "97cbbe04d1af1312d3a28628de9bda62e8355ec580052d39e915fe708bb5e648"
+    },
+    {
+      "path": "caffe/scripts/travis/travis_install.sh",
+      "sha256": "337befaae974bcb7d1b88f7d7ee267c8b343a352bc9c7b200acd08cbd8831a8d"
+    },
+    {
+      "path": "caffe/scripts/travis/travis_setup_makefile_config.sh",
+      "sha256": "ae5d54ee37404b73a28c94726aeff56bcc409bd329ba74a0d3a49c1279feb369"
+    },
+    {
+      "path": "caffe/scripts/upload_model_to_gist.sh",
+      "sha256": "886713a1e8ad4ce32bb2fe0537327c990cfac55e462f3150bca3eaeb73c33104"
+    },
+    {
+      "path": "caffe/src/caffe/CMakeLists.txt",
+      "sha256": "efe36e9fd1f7f9823d4272cb5fedcda3d5492f00eebb75ab12e7a8931951d634"
+    },
+    {
+      "path": "caffe/src/caffe/proto/CMakeLists.txt",
+      "sha256": "4cf8792198906d4e9d19a741c9afc57d27321821178138904acd431060ced5e7"
+    },
+    {
+      "path": "caffe/src/caffe/test/CMakeLists.txt",
+      "sha256": "a2b118e618b68091a2fff55b39ea0d64d8a584782393635553806ab4d082e3e6"
+    },
+    {
+      "path": "caffe/src/caffe/test/test_data/generate_sample_data.py",
+      "sha256": "4a0fe2c547caf5572fa8f960c50c94101ddc5f59159a8b74ab1d78a83a8f7b27"
+    },
+    {
+      "path": "caffe/src/caffe/test/test_data/sample_data_list.txt",
+      "sha256": "8b74de995d1cd124f2e36bca0be2c637e62edbdce438e68bf97324a503677662"
+    },
+    {
+      "path": "caffe/src/gtest/CMakeLists.txt",
+      "sha256": "c73b925c6c9aba48d416645b0df2c8df922e9d04625b0b099cc55b2d4049307f"
+    },
+    {
+      "path": "caffe/tools/CMakeLists.txt",
+      "sha256": "0a07d5e04554afd4c4bf67852ce386e469e6d0732762fac0eef7fc012799d179"
+    },
+    {
+      "path": "caffe/tools/extra/extract_seconds.py",
+      "sha256": "42db69f6e400e2e0a2e4a934cf6a3e4e0b068c7758a9f7bf3c86e6fd625771c8"
+    },
+    {
+      "path": "caffe/tools/extra/launch_resize_and_crop_images.sh",
+      "sha256": "6e637b929fbd168a85b5b939b5049007499279fde6bbf4d034608b7b4ca4ed0a"
+    },
+    {
+      "path": "caffe/tools/extra/parse_log.sh",
+      "sha256": "8fbc9d636916fe76da9c166bf46b46f7ef2e05b160165d642cf4e23742d64ec5"
+    },
+    {
+      "path": "caffe/tools/extra/resize_and_crop_images.py",
+      "sha256": "ae03ab2703a960d580c17034222dc47d6876558f6c80f86ce193464536641317"
+    },
+    {
+      "path": "dec/dec.py",
+      "sha256": "eb6ed719bdb8e9a5a06ec06c0ea82a2212f318b829d5800368e5981fee6d9cbb"
+    },
+    {
+      "path": "dec/make_mnist_data.py",
+      "sha256": "87a8df32ad798b791a6c2ab42769dc23cd1fed3b7ae7476955ea4ac861521ca3"
+    },
+    {
+      "path": "dec/make_reuters_data.py",
+      "sha256": "49e16a11442f8ad72546b8dfba6fc46a154e9a5d1902491ba13158c8b5923aac"
+    },
+    {
+      "path": "dec/make_stl_data.py",
+      "sha256": "fb945cbfa15cb549543b09d3b3b137e8b6f5c8650622ea0990b074977cfebed9"
+    },
+    {
+      "path": "dec/pretrain.py",
+      "sha256": "ef223444f7960a9a78af49a4c1fd6be718312eed7a724b682588083b943a2ee6"
+    },
+    {
+      "path": "dec/setup_features.py",
+      "sha256": "399f57d8e44656a1e931ffefde7009bce449c7d9e1c2bec13652fa6cfdf8464d"
+    },
+    {
+      "path": "mnist/get_data.sh",
+      "sha256": "54daed01911c616253da0256e7f38bf83daad23e2144654aa8f5a486f00a6a23"
+    },
+    {
+      "path": "reuters/get_data.sh",
+      "sha256": "5de7b32aeeba104089417d7fa5cdaa7109adb867823364ffd9a53ad583f2cc9f"
+    },
+    {
+      "path": "stl/get_data.sh",
+      "sha256": "707c245fc556b113f3a9ea32fd3ba854cbcb8828dd85538c09c4a55d7acd69c7"
+    }
+  ],
+  "external_code_executed": false
+}

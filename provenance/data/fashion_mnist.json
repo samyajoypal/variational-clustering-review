@@ -1,0 +1,160 @@
+{
+  "artifact_sha256": {
+    "evaluation/test_labels.npz": "02cce334af4f7512065792f1560497fc35298797854dac12f5fe6a8a7a49dd76",
+    "evaluation/train_labels.npz": "5ea12782ea4d206eb1201cef44f09ba7a04b6f775f6cbd457c02423cf4a45d55",
+    "evaluation/validation_labels.npz": "b2302bc80be89069ec05d8a372f7f85678eda0924376409c82a502c3c0f36b00",
+    "inputs/test.npz": "b0daa44cfb8ddb526ee5cd05e9278fc6e5db183df630221330ba4547996b540a",
+    "inputs/train.npz": "de003a5895280ea23c62e256ea69cc83f98a1f1ea167d8bab9d8f2e2e08744fa",
+    "inputs/validation.npz": "ca1e6fdfceedcf8e924ee6bec094062587869254a3b14aef56ee5ac125b312d1"
+  },
+  "created_utc": "2026-10-27T13:21:10.292983+00:00",
+  "dataset": "fashion_mnist",
+  "environment": {
+    "numpy": "1.25.2",
+    "python": "3.9.25",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.10.1"
+  },
+  "fresh_preparation": true,
+  "historical_transductive_reproduction": false,
+  "labels_role": "benchmark construction/integrity and evaluation only; never model fitting or selection",
+  "legacy_learned_features_used": false,
+  "n_clusters": 10,
+  "n_clusters_source": "predeclared_benchmark",
+  "n_features": 784,
+  "protocol_version": "paper1-review-inductive-data-v1",
+  "raw_sources": [
+    {
+      "bytes": 26421880,
+      "canonical_urls": [
+        "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-images-idx3-ubyte.gz",
+        "http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz"
+      ],
+      "download_receipt": {
+        "bytes": 26421880,
+        "resolved_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-images-idx3-ubyte.gz",
+        "retrieved_utc": "2026-10-27T13:21:00.245188+00:00",
+        "sha256": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84",
+        "source_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-images-idx3-ubyte.gz"
+      },
+      "expected_md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+      "file_id": "train-images-idx3-ubyte.gz",
+      "integrity": "published_md5_verified",
+      "path": "external-evidence/raw/fashion_mnist/train-images-idx3-ubyte.gz",
+      "sha256": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84"
+    },
+    {
+      "bytes": 29515,
+      "canonical_urls": [
+        "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-labels-idx1-ubyte.gz",
+        "http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-labels-idx1-ubyte.gz"
+      ],
+      "download_receipt": {
+        "bytes": 29515,
+        "resolved_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-labels-idx1-ubyte.gz",
+        "retrieved_utc": "2026-10-27T13:21:00.706588+00:00",
+        "sha256": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845",
+        "source_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-labels-idx1-ubyte.gz"
+      },
+      "expected_md5": "25c81989df183df01b3e8a0aad5dffbe",
+      "file_id": "train-labels-idx1-ubyte.gz",
+      "integrity": "published_md5_verified",
+      "path": "external-evidence/raw/fashion_mnist/train-labels-idx1-ubyte.gz",
+      "sha256": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845"
+    },
+    {
+      "bytes": 4422102,
+      "canonical_urls": [
+        "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-images-idx3-ubyte.gz",
+        "http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-images-idx3-ubyte.gz"
+      ],
+      "download_receipt": {
+        "bytes": 4422102,
+        "resolved_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-images-idx3-ubyte.gz",
+        "retrieved_utc": "2026-10-27T13:21:01.160611+00:00",
+        "sha256": "346e55b948d973a97e58d2351dde16a484bd415d4595297633bb08f03db6a073",
+        "source_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-images-idx3-ubyte.gz"
+      },
+      "expected_md5": "bef4ecab320f06d8554ea6380940ec79",
+      "file_id": "t10k-images-idx3-ubyte.gz",
+      "integrity": "published_md5_verified",
+      "path": "external-evidence/raw/fashion_mnist/t10k-images-idx3-ubyte.gz",
+      "sha256": "346e55b948d973a97e58d2351dde16a484bd415d4595297633bb08f03db6a073"
+    },
+    {
+      "bytes": 5148,
+      "canonical_urls": [
+        "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-labels-idx1-ubyte.gz",
+        "http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-labels-idx1-ubyte.gz"
+      ],
+      "download_receipt": {
+        "bytes": 5148,
+        "resolved_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-labels-idx1-ubyte.gz",
+        "retrieved_utc": "2026-10-27T13:21:01.387505+00:00",
+        "sha256": "67da17c76eaffca5446c3361aaab5c3cd6d1c2608764d35dfb1850b086bf8dd5",
+        "source_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-labels-idx1-ubyte.gz"
+      },
+      "expected_md5": "bb300cfdad3c16e7a12a480ee83cd310",
+      "file_id": "t10k-labels-idx1-ubyte.gz",
+      "integrity": "published_md5_verified",
+      "path": "external-evidence/raw/fashion_mnist/t10k-labels-idx1-ubyte.gz",
+      "sha256": "67da17c76eaffca5446c3361aaab5c3cd6d1c2608764d35dfb1850b086bf8dd5"
+    }
+  ],
+  "sample_counts": {
+    "test": 10000,
+    "train": 54000,
+    "validation": 6000
+  },
+  "schema_version": "paper1-review-dataset-v1",
+  "source_checked_on": "2026-10-27",
+  "source_record": "https://github.com/zalandoresearch/fashion-mnist",
+  "source_sha256": "871532217f4c8f9f462446b5f4b058fc015951a9659414520c97189375268003",
+  "split_selection": "label-independent RandomState permutation; no stratification or retries",
+  "splits": {
+    "test": {
+      "ids_sha256": "71ca0aeb6d891f85d6e69e4824f5d8435424154dd8346d71ba4f0d19525294c9",
+      "input_shape": [
+        10000,
+        1,
+        28,
+        28
+      ],
+      "inputs": "inputs/test.npz",
+      "labels": "evaluation/test_labels.npz",
+      "n_samples": 10000
+    },
+    "train": {
+      "ids_sha256": "bb8d5f9892dedcdcadafb7460ac39fd8381d5f751238581ed4d34fda7fd1e000",
+      "input_shape": [
+        54000,
+        1,
+        28,
+        28
+      ],
+      "inputs": "inputs/train.npz",
+      "labels": "evaluation/train_labels.npz",
+      "n_samples": 54000
+    },
+    "validation": {
+      "ids_sha256": "aa8ff8f51cade10e2a2e63d741094ae3fed7d03623582868faa6c5577b873424",
+      "input_shape": [
+        6000,
+        1,
+        28,
+        28
+      ],
+      "inputs": "inputs/validation.npz",
+      "labels": "evaluation/validation_labels.npz",
+      "n_samples": 6000
+    }
+  },
+  "status": "completed",
+  "transform": {
+    "kind": "fixed_pixel_scaling",
+    "normalization": "uint8/255; no binarization, resizing or learned transform",
+    "official_test_untouched": true,
+    "split_seed": 1234
+  },
+  "validation_fraction_of_training_pool": 0.1
+}

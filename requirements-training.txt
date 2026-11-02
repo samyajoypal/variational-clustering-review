@@ -1,0 +1,7 @@
+# Observed direct scientific dependencies; not a complete transitive lock.
+# Training/scoring used Python 3.9.25 and torch CUDA 12.8 build.
+numpy==1.25.2
+scipy==1.10.1
+scikit-learn==1.6.1
+torch==2.8.0
+matplotlib==3.9.4

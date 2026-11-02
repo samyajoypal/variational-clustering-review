@@ -1,0 +1,206 @@
+{
+  "artifact_sha256": {
+    "evaluation/test_labels.npz": "6e506bd7877a7b5f70613e463c7fe154f6ef0711b71ef96e2a0b805f49f92ec3",
+    "evaluation/train_labels.npz": "434e8d3d7255cf47f4ffc7367f5116adcc89db8f22510a1f0aa571f738d2e60e",
+    "evaluation/validation_labels.npz": "08c99cc469f7966a3f2a97a5418fbe575bf89722dec535b6074ce9c2394353dd",
+    "inputs/test.npz": "0ad5c8bfa3d09c05e3e062f770dd26ef8fbf7ec2c1f9960e93b854b2fc94becd",
+    "inputs/train.npz": "ef43b1449dbf55f62e9f542fa262e31135cd0e65580ed3a069ac6631f0787b8c",
+    "inputs/validation.npz": "c431564f3e25d0b72d3212a6c2ac4415d0238ba50425c3e1f8cc548d3e60bee2",
+    "transforms/idf.npy": "603d7293978210892003b4853d6df7a8fc0391e8fc206081ad482393f77664b1",
+    "transforms/selected_document_ids.json": "90e6c0c61457a4f78eff9a05b5572a41e36c8cf6e6a97685effb47227a30cdb5",
+    "transforms/vocabulary.json": "38834acef479ee089bba1546eed3dbf21ad455dbd0a3f485d3e0bb4c6fe25c53"
+  },
+  "created_utc": "2026-10-27T13:22:41.302319+00:00",
+  "dataset": "reuters10k",
+  "environment": {
+    "numpy": "1.25.2",
+    "python": "3.9.25",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.10.1"
+  },
+  "fresh_preparation": true,
+  "historical_transductive_reproduction": false,
+  "labels_role": "benchmark construction/integrity and evaluation only; never model fitting or selection",
+  "legacy_learned_features_used": false,
+  "n_clusters": 4,
+  "n_clusters_source": "predeclared_benchmark",
+  "n_features": 2000,
+  "protocol_version": "paper1-review-inductive-data-v1",
+  "raw_sources": [
+    {
+      "bytes": 44734992,
+      "canonical_urls": [
+        "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_test_pt0.dat.gz"
+      ],
+      "download_receipt": {
+        "bytes": 44734992,
+        "resolved_url": "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_test_pt0.dat.gz",
+        "retrieved_utc": "2026-10-27T13:21:11.176916+00:00",
+        "sha256": "bf991a915c2c4b4e561ab7f8a0df79424f13fd68cf4759bbe6af1e1a490a3a75",
+        "source_url": "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_test_pt0.dat.gz"
+      },
+      "expected_md5": null,
+      "file_id": "lyrl2004_tokens_test_pt0.dat.gz",
+      "integrity": "sha256_recorded_not_independently_authenticated",
+      "path": "external-evidence/raw/reuters10k/lyrl2004_tokens_test_pt0.dat.gz",
+      "sha256": "bf991a915c2c4b4e561ab7f8a0df79424f13fd68cf4759bbe6af1e1a490a3a75"
+    },
+    {
+      "bytes": 45595102,
+      "canonical_urls": [
+        "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_test_pt1.dat.gz"
+      ],
+      "download_receipt": {
+        "bytes": 45595102,
+        "resolved_url": "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_test_pt1.dat.gz",
+        "retrieved_utc": "2026-10-27T13:21:33.717495+00:00",
+        "sha256": "9803f682c50f81083f46e09e825cc4ed3dbba26a423663fe9701249ab9131f90",
+        "source_url": "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_test_pt1.dat.gz"
+      },
+      "expected_md5": null,
+      "file_id": "lyrl2004_tokens_test_pt1.dat.gz",
+      "integrity": "sha256_recorded_not_independently_authenticated",
+      "path": "external-evidence/raw/reuters10k/lyrl2004_tokens_test_pt1.dat.gz",
+      "sha256": "9803f682c50f81083f46e09e825cc4ed3dbba26a423663fe9701249ab9131f90"
+    },
+    {
+      "bytes": 44507510,
+      "canonical_urls": [
+        "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_test_pt2.dat.gz"
+      ],
+      "download_receipt": {
+        "bytes": 44507510,
+        "resolved_url": "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_test_pt2.dat.gz",
+        "retrieved_utc": "2026-10-27T13:21:46.034636+00:00",
+        "sha256": "7bba1e05c4245dac06eb33adf8db94623bb7cec73fa6dc141523802b921d5e56",
+        "source_url": "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_test_pt2.dat.gz"
+      },
+      "expected_md5": null,
+      "file_id": "lyrl2004_tokens_test_pt2.dat.gz",
+      "integrity": "sha256_recorded_not_independently_authenticated",
+      "path": "external-evidence/raw/reuters10k/lyrl2004_tokens_test_pt2.dat.gz",
+      "sha256": "7bba1e05c4245dac06eb33adf8db94623bb7cec73fa6dc141523802b921d5e56"
+    },
+    {
+      "bytes": 42052117,
+      "canonical_urls": [
+        "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_test_pt3.dat.gz"
+      ],
+      "download_receipt": {
+        "bytes": 42052117,
+        "resolved_url": "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_test_pt3.dat.gz",
+        "retrieved_utc": "2026-10-27T13:21:59.284980+00:00",
+        "sha256": "ae57e72242f77b9e0ccc176cad1cf21793ea2750e77a7d01732eaef1fcba29bf",
+        "source_url": "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_test_pt3.dat.gz"
+      },
+      "expected_md5": null,
+      "file_id": "lyrl2004_tokens_test_pt3.dat.gz",
+      "integrity": "sha256_recorded_not_independently_authenticated",
+      "path": "external-evidence/raw/reuters10k/lyrl2004_tokens_test_pt3.dat.gz",
+      "sha256": "ae57e72242f77b9e0ccc176cad1cf21793ea2750e77a7d01732eaef1fcba29bf"
+    },
+    {
+      "bytes": 5108963,
+      "canonical_urls": [
+        "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_train.dat.gz"
+      ],
+      "download_receipt": {
+        "bytes": 5108963,
+        "resolved_url": "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_train.dat.gz",
+        "retrieved_utc": "2026-10-27T13:22:13.157825+00:00",
+        "sha256": "8be48b803a74bf3b1988f0e4c470d0546a2ce0c4846944e37878065d85092cc1",
+        "source_url": "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a12-token-files/lyrl2004_tokens_train.dat.gz"
+      },
+      "expected_md5": null,
+      "file_id": "lyrl2004_tokens_train.dat.gz",
+      "integrity": "sha256_recorded_not_independently_authenticated",
+      "path": "external-evidence/raw/reuters10k/lyrl2004_tokens_train.dat.gz",
+      "sha256": "8be48b803a74bf3b1988f0e4c470d0546a2ce0c4846944e37878065d85092cc1"
+    },
+    {
+      "bytes": 7272130,
+      "canonical_urls": [
+        "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a08-topic-qrels/rcv1-v2.topics.qrels.gz"
+      ],
+      "download_receipt": {
+        "bytes": 7272130,
+        "resolved_url": "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a08-topic-qrels/rcv1-v2.topics.qrels.gz",
+        "retrieved_utc": "2026-10-27T13:22:15.595116+00:00",
+        "sha256": "2a98e5e5d8b770bded93afc8930d88299474317fe14181aee1466cc754d0d1c1",
+        "source_url": "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/a08-topic-qrels/rcv1-v2.topics.qrels.gz"
+      },
+      "expected_md5": null,
+      "file_id": "rcv1-v2.topics.qrels.gz",
+      "integrity": "sha256_recorded_not_independently_authenticated",
+      "path": "external-evidence/raw/reuters10k/rcv1-v2.topics.qrels.gz",
+      "sha256": "2a98e5e5d8b770bded93afc8930d88299474317fe14181aee1466cc754d0d1c1"
+    }
+  ],
+  "sample_counts": {
+    "test": 2000,
+    "train": 7200,
+    "validation": 800
+  },
+  "schema_version": "paper1-review-dataset-v1",
+  "source_checked_on": "2026-10-27",
+  "source_record": "http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/lyrl2004_rcv1v2_README.htm",
+  "source_sha256": "871532217f4c8f9f462446b5f4b058fc015951a9659414520c97189375268003",
+  "split_selection": "label-independent RandomState permutation; no stratification or retries",
+  "splits": {
+    "test": {
+      "ids_sha256": "610fdf45b71e71bf245efb85778dcaa6709e23ba8ec96eaaaf86247cfebadf59",
+      "input_shape": [
+        2000,
+        2000
+      ],
+      "inputs": "inputs/test.npz",
+      "labels": "evaluation/test_labels.npz",
+      "n_samples": 2000
+    },
+    "train": {
+      "ids_sha256": "dfc732c39e5b0a7e7e05980cf1a947810548a71742ece2bf64c04d87e9395cec",
+      "input_shape": [
+        7200,
+        2000
+      ],
+      "inputs": "inputs/train.npz",
+      "labels": "evaluation/train_labels.npz",
+      "n_samples": 7200
+    },
+    "validation": {
+      "ids_sha256": "2fa696ceebb5bb464359a3644c1be950e837d4cbbaacae772404f96296c9698c",
+      "input_shape": [
+        800,
+        2000
+      ],
+      "inputs": "inputs/validation.npz",
+      "labels": "evaluation/validation_labels.npz",
+      "n_samples": 800
+    }
+  },
+  "status": "completed",
+  "transform": {
+    "document_count": 804414,
+    "eligible_corpus_count": 685071,
+    "feature_multiplier": 44.721359549995796,
+    "fit_ids_sha256": "dfc732c39e5b0a7e7e05980cf1a947810548a71742ece2bf64c04d87e9395cec",
+    "fit_split": "train",
+    "idf_file": "transforms/idf.npy",
+    "kind": "training_only_tfidf",
+    "lowercase": true,
+    "max_features": 2000,
+    "norm": "l2",
+    "smooth_idf": true,
+    "split_seed": 1235,
+    "sublinear_tf": true,
+    "subset_selection_seed": 1234,
+    "token_pattern": "(?u)\\b\\w\\w+\\b",
+    "vocabulary_file": "transforms/vocabulary.json",
+    "zero_feature_rows": {
+      "test": 0,
+      "train": 0,
+      "validation": 0
+    }
+  },
+  "validation_fraction_of_training_pool": 0.1
+}

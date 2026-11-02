@@ -1,0 +1,3 @@
+# Run with the training requirements, or the separately recorded test environment.
+-r requirements-training.txt
+pytest>=8,<10

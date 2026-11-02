@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/piiswrong/dec",
+  "commit": "e551e01f90a3d67d2ef9c90e968c8faf5d8f857d",
+  "archive_sha256": "a18273122241642ca41771544bf93024fbcca82d9a4918d27aa3a0650067085c",
+  "retrieved_utc": "2026-10-28",
+  "files": [
+    {
+      "path": "caffe/src/caffe/solver.cpp",
+      "sha256": "df1333047b83c42b2100d9f4633012006b897a79e324d39b4d3231c37c4c5937"
+    },
+    {
+      "path": "caffe/src/caffe/layers/euclidean_loss_layer.cpp",
+      "sha256": "6a0c96873d31554aaaca582600dd4de2ae55d57c4dc2a995fb48edee6339173b"
+    },
+    {
+      "path": "caffe/src/caffe/layers/euclidean_loss_layer.cu",
+      "sha256": "422a6bb4c8b0039c218fd17c9478c2d8a3b38cfc02f00646edd4b60d2aaddd61"
+    },
+    {
+      "path": "caffe/src/caffe/layers/multi_t_loss_layer.cpp",
+      "sha256": "9b9758c371f166d7dc4d6766fac75904f5a6e716d9fd05fcf0a5cab0f5d16a51"
+    },
+    {
+      "path": "caffe/src/caffe/layers/multi_t_loss_layer.cu",
+      "sha256": "89b9625bf20463d62183e3caca780fcfab42e7a96e0e558a4ad180c30616647b"
+    }
+  ],
+  "executed": false
+}

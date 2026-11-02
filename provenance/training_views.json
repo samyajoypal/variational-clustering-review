@@ -1,0 +1,187 @@
+{
+  "binding": "Each original view SHA matches a final fit configuration whose complete bytes match the independently audited configuration SHA. Public receipt hashes identify portable derivatives; original array hashes remain original evidence references.",
+  "raw_or_prepared_data_included": false,
+  "receipts": [
+    {
+      "condition": "gaussian_training_sd0.3_ratio0.1",
+      "dataset": "fashion_mnist",
+      "original_manifest_sha256": "65e443060edb66272f30f519c27756bde8bbdb712dc48becfdb7185b9b07837a",
+      "public_receipt": "provenance/training_views/fashion_mnist/gaussian_training_sd0.3_ratio0.1/seed101.json",
+      "public_receipt_sha256": "06e06c95fd39dd210d61d9adb99395523a1a95d1741b0386e7143e35e14d05b5",
+      "seed": 101,
+      "verified_final_fit_config_sha256": "074bb9206e890253b050b0dcd4d99f72d0fc616dcc272c934d79d7e418e09401"
+    },
+    {
+      "condition": "gaussian_training_sd0.3_ratio0.1",
+      "dataset": "fashion_mnist",
+      "original_manifest_sha256": "44b4c2f7a9098995cf86a768cbf94c6e21b9f9c8c991ade3b86173fd67900b41",
+      "public_receipt": "provenance/training_views/fashion_mnist/gaussian_training_sd0.3_ratio0.1/seed102.json",
+      "public_receipt_sha256": "e2f030ab0eabe0870d2ea891b13871207e133f8368b0a3a9d44e22374f9f3342",
+      "seed": 102,
+      "verified_final_fit_config_sha256": "345727eb1d1b71a1d7d143dc54707d15944008ddd9481f59960b4a82f37ad4ac"
+    },
+    {
+      "condition": "gaussian_training_sd0.3_ratio0.1",
+      "dataset": "fashion_mnist",
+      "original_manifest_sha256": "b9bd3e298f842696290b8d71ee942b240df8043053b76e5ef845020f00bdacbb",
+      "public_receipt": "provenance/training_views/fashion_mnist/gaussian_training_sd0.3_ratio0.1/seed103.json",
+      "public_receipt_sha256": "ee032492ae01403fac6173c46a913a30afac2bc530a4f0104489fe15628127ba",
+      "seed": 103,
+      "verified_final_fit_config_sha256": "9e425da2f0469a9b240a8248c564ffafcc8e11600dec7c7e14d8e36db3c4692a"
+    },
+    {
+      "condition": "gaussian_training_sd0.3_ratio0.1",
+      "dataset": "fashion_mnist",
+      "original_manifest_sha256": "c13145730c9d4626e31fb216ba2c3e9aecd7492e5037c35097d2d91ee1bdb76a",
+      "public_receipt": "provenance/training_views/fashion_mnist/gaussian_training_sd0.3_ratio0.1/seed104.json",
+      "public_receipt_sha256": "981fc637cab99ba170c627d52461ee387eda95427860a6553c5b172a895886ed",
+      "seed": 104,
+      "verified_final_fit_config_sha256": "5ea3351df5ae7cb03ac781d6865ce304f2e6a99849c2dd5246a9c531ad580c8b"
+    },
+    {
+      "condition": "gaussian_training_sd0.3_ratio0.1",
+      "dataset": "fashion_mnist",
+      "original_manifest_sha256": "3fbaa5fd56061a0c0d7b30e4f5a3e8803a9beb9e67068ccb8f10ded22f6d19cc",
+      "public_receipt": "provenance/training_views/fashion_mnist/gaussian_training_sd0.3_ratio0.1/seed105.json",
+      "public_receipt_sha256": "a4b4b78f5abe53be2c238d0e55cd69ea5d85b5be0c8f8880031e1634a530c216",
+      "seed": 105,
+      "verified_final_fit_config_sha256": "3766f3796dde85f8bb7689a3c06f5bf9661bf9fc190dc87d61649acdf01e08b5"
+    },
+    {
+      "condition": "semantic_training_ratio0.1",
+      "dataset": "fashion_mnist",
+      "original_manifest_sha256": "f576a37c3cd160218db0df77db0cbe6c02b02c7820f0642c9bc41f065ae35cec",
+      "public_receipt": "provenance/training_views/fashion_mnist/semantic_training_ratio0.1/seed101.json",
+      "public_receipt_sha256": "8ec27649567e1777af62a997f3ccca03015df5b111243389744ca50afbf0d477",
+      "seed": 101,
+      "verified_final_fit_config_sha256": "e97d167c1d005d55593a5f392e82ce7859a403c63ffa2203193d021c9fcbaa22"
+    },
+    {
+      "condition": "semantic_training_ratio0.1",
+      "dataset": "fashion_mnist",
+      "original_manifest_sha256": "c05ec8f84686d2632a1b434a8880ef870c6a97a2e43f2fa5eb7f60fd7f30d489",
+      "public_receipt": "provenance/training_views/fashion_mnist/semantic_training_ratio0.1/seed102.json",
+      "public_receipt_sha256": "c0ac3fbc6935948842b72000890a91fb5fe85871b7fae8167f993664cb5095a2",
+      "seed": 102,
+      "verified_final_fit_config_sha256": "ca4ea951185502972a1a0d3e2a435f1c91b28a56ded6ee9e114f94bbe05a756e"
+    },
+    {
+      "condition": "semantic_training_ratio0.1",
+      "dataset": "fashion_mnist",
+      "original_manifest_sha256": "287a5ec837d2a6c97e1224555d5581322449d484de414e652b18e97929c30792",
+      "public_receipt": "provenance/training_views/fashion_mnist/semantic_training_ratio0.1/seed103.json",
+      "public_receipt_sha256": "06f2fd34d87c1aecb0a21c751746822b80f14c56af14a37e215db703249a6db7",
+      "seed": 103,
+      "verified_final_fit_config_sha256": "b0400ff209197a049a0f1265afb3b4c95ee82b671825bcedf742a0e6c19d4619"
+    },
+    {
+      "condition": "semantic_training_ratio0.1",
+      "dataset": "fashion_mnist",
+      "original_manifest_sha256": "b2aed1efead4cc8a5acd5ae1da3439bbb110aeb9826b5a85a3795c3786af4736",
+      "public_receipt": "provenance/training_views/fashion_mnist/semantic_training_ratio0.1/seed104.json",
+      "public_receipt_sha256": "ebf764c3f13530a41828a0d4339038f96412453761390343c16f295c19e8f5da",
+      "seed": 104,
+      "verified_final_fit_config_sha256": "0cc332f74d72c393a3b8c215d9499590ebedefc0383f86f03c471e9fbdd72aa7"
+    },
+    {
+      "condition": "semantic_training_ratio0.1",
+      "dataset": "fashion_mnist",
+      "original_manifest_sha256": "41604d3ce5ff4b88fdfae300eac6a4f4771ead15bc8a89e675bc31a747229d29",
+      "public_receipt": "provenance/training_views/fashion_mnist/semantic_training_ratio0.1/seed105.json",
+      "public_receipt_sha256": "375898ddf3abde58c7d720a7fd03ce7f02137a02acf642c04b09744006940b2a",
+      "seed": 105,
+      "verified_final_fit_config_sha256": "271797086431846a0f671daf836881caa78d0d283fbc77359bd274bb234f1a34"
+    },
+    {
+      "condition": "gaussian_training_sd0.3_ratio0.1",
+      "dataset": "mnist",
+      "original_manifest_sha256": "5624f1c0a54dc95dd708058c383e7f9c6e7c6ac7fa44bf047e769c879bfeb4e0",
+      "public_receipt": "provenance/training_views/mnist/gaussian_training_sd0.3_ratio0.1/seed101.json",
+      "public_receipt_sha256": "6a32126d57bd641b0f1a80950e7c841ea3ae541f5e394baf211ce7f91a940a5b",
+      "seed": 101,
+      "verified_final_fit_config_sha256": "a22063ebc8aeca1abf33f503c220c7d78eeec76694ed737161944a7ff080cdcb"
+    },
+    {
+      "condition": "gaussian_training_sd0.3_ratio0.1",
+      "dataset": "mnist",
+      "original_manifest_sha256": "ae8a2cb34df4bad73d5642e7cda24942abf2c5e7181248655c09418587707f26",
+      "public_receipt": "provenance/training_views/mnist/gaussian_training_sd0.3_ratio0.1/seed102.json",
+      "public_receipt_sha256": "34d4e5abe37e81f659d9c78acb1e3d33b13dd641df03b28a155449c253f44a62",
+      "seed": 102,
+      "verified_final_fit_config_sha256": "68c8df13899c9c9b450dc9704a9b1ff9a2205c17e8a69b3b3323682c9e1003ad"
+    },
+    {
+      "condition": "gaussian_training_sd0.3_ratio0.1",
+      "dataset": "mnist",
+      "original_manifest_sha256": "763e7348182e76dae3c95c65861295b59be707ca3d73aaad4b4254bc3ca86f84",
+      "public_receipt": "provenance/training_views/mnist/gaussian_training_sd0.3_ratio0.1/seed103.json",
+      "public_receipt_sha256": "4b554b5b5a14b135109f5faf8e26cc5edd1348eb746099567a6e19e3bf451c42",
+      "seed": 103,
+      "verified_final_fit_config_sha256": "0036b4c7364ede61d42789d622f6422ee1f9bcc7681bc25d3eadf7d94905c2c0"
+    },
+    {
+      "condition": "gaussian_training_sd0.3_ratio0.1",
+      "dataset": "mnist",
+      "original_manifest_sha256": "7939047f582b34cce5c66782b24af788aecb953949a6a3eba517021bc39043b2",
+      "public_receipt": "provenance/training_views/mnist/gaussian_training_sd0.3_ratio0.1/seed104.json",
+      "public_receipt_sha256": "2333e23b00aa99d755275b9dc7caba06066e5462bd3351a1068518191a0ee6b5",
+      "seed": 104,
+      "verified_final_fit_config_sha256": "0283be2045de609bfcc9fa91c8e9898fa0097a5703ad1d4ec8f2c1f8083cc288"
+    },
+    {
+      "condition": "gaussian_training_sd0.3_ratio0.1",
+      "dataset": "mnist",
+      "original_manifest_sha256": "7e0b7ad468028a1c94c444fd0732aa2f676ecb74e962b011db046a3375b9d625",
+      "public_receipt": "provenance/training_views/mnist/gaussian_training_sd0.3_ratio0.1/seed105.json",
+      "public_receipt_sha256": "a09a0ea72c52b555c00c0e626556938b92c4aea6d638ce083d55756de383e880",
+      "seed": 105,
+      "verified_final_fit_config_sha256": "7ea90611b22254f52f3851373ba0e3d453c6c9cec436e71f244094bba96ab1f6"
+    },
+    {
+      "condition": "semantic_training_ratio0.1",
+      "dataset": "mnist",
+      "original_manifest_sha256": "669c2800cd95f417cb9532773c81cdbf721f96bb0b5994c082f0582a1edff8cc",
+      "public_receipt": "provenance/training_views/mnist/semantic_training_ratio0.1/seed101.json",
+      "public_receipt_sha256": "6d1ef714afb63c433fc645742f62dd8b49d87a2894f0761c8c3dc22f4939d9e5",
+      "seed": 101,
+      "verified_final_fit_config_sha256": "6bfa3777b5052faf198e3acc5ca59081502a96144ac1442f9c4a6d3a51d84b49"
+    },
+    {
+      "condition": "semantic_training_ratio0.1",
+      "dataset": "mnist",
+      "original_manifest_sha256": "c04b824e207b5d028e32dab86e824fe96403e1ff4f1349cbb493d52ab5268927",
+      "public_receipt": "provenance/training_views/mnist/semantic_training_ratio0.1/seed102.json",
+      "public_receipt_sha256": "723015994330fc29e0d626c22ca911a487f72bbde99d370aa15e1e1c4b9eaed4",
+      "seed": 102,
+      "verified_final_fit_config_sha256": "11c0314e4c30d99c13e93a503e7c045a218e9ec52aabda711b5c04a25a360b5b"
+    },
+    {
+      "condition": "semantic_training_ratio0.1",
+      "dataset": "mnist",
+      "original_manifest_sha256": "b14070ff6f7ed7b8e2a88427aface2f76b4835190fec1f58809cc2ae96dfa246",
+      "public_receipt": "provenance/training_views/mnist/semantic_training_ratio0.1/seed103.json",
+      "public_receipt_sha256": "26449b4d3b603fd8ab7b96eec817ed22877d92c67d5e2a7fdb242c3fdaf061c1",
+      "seed": 103,
+      "verified_final_fit_config_sha256": "664e0daf32f2cc2d586ec8355050611ed8fdf5e4ed2bc994e41ff22a29fb5d4b"
+    },
+    {
+      "condition": "semantic_training_ratio0.1",
+      "dataset": "mnist",
+      "original_manifest_sha256": "817308429a5b5832e6d8425af6abf68ebc3b5173fdb45d1a349968be3bd70e45",
+      "public_receipt": "provenance/training_views/mnist/semantic_training_ratio0.1/seed104.json",
+      "public_receipt_sha256": "50fc953fdd17f6cc16abf4ec82262b3c3c74b93f9286d3239493cd69eeb1043b",
+      "seed": 104,
+      "verified_final_fit_config_sha256": "fe35c8711fd63f2de81b3603a83838fcb142c056a6911e79373d8f6047a53698"
+    },
+    {
+      "condition": "semantic_training_ratio0.1",
+      "dataset": "mnist",
+      "original_manifest_sha256": "a5813d5a4c2dd2176315cd35f8c4ad2d968c77d7350b92d5f232877ce76781f1",
+      "public_receipt": "provenance/training_views/mnist/semantic_training_ratio0.1/seed105.json",
+      "public_receipt_sha256": "e9e6a9f43ce89c5bc2f7aa759c6b018f78dfd302a6df02c44ef1b1e8a54b7664",
+      "seed": 105,
+      "verified_final_fit_config_sha256": "cb5111f7838ebc6d008e576a79340a9bcfe91f3977378e17a41b3a316dd90a20"
+    }
+  ],
+  "schema_version": "paper1-public-training-view-provenance-v1"
+}

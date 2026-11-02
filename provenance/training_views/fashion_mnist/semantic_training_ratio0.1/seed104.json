@@ -1,0 +1,73 @@
+{
+  "appended_to_clean_ratio": 0.1,
+  "artifact_sha256": {
+    "evaluation/train_origin.npz": "4f75f9710533dac76f7a26b7b916977cb41df41d524313bdd535e04899743697",
+    "evaluation/validation_origin.npz": "c3c834a6577f3ab9a4b72337ed8a995bb370fbd4353c6d09f6c246f11b9e6b95",
+    "inputs/train.npz": "7339c68b98ccc6b88882a793ba73f37a0019161aa47d2b897f0344e6669af283",
+    "inputs/validation.npz": "4d9d2af5282326abbd3d96094c42ccf7f0a98bdb5541eab6a6ec3e882765f7ca",
+    "source/contamination.py": "cac1b9e0abc188be672192f4ff71150454570939c2070eecb246d7e2077d1731",
+    "source/data.py": "871532217f4c8f9f462446b5f4b058fc015951a9659414520c97189375268003",
+    "source/provenance.py": "a92e106ca17498df2a01752492fe57d9dbed166fba28ab25ca47e9441b3dd91e"
+  },
+  "clean_manifest": "external-evidence/data_inductive_v1/fashion_mnist/manifest.json",
+  "clean_manifest_sha256": "5d514c069416d51af2623452cb31d1fb41a3b920103945b5065e7ccf59fdfcc1",
+  "clean_train_count": 54000,
+  "condition": "semantic_training_ratio0.1",
+  "created_utc": "2026-10-28T09:40:50.333324+00:00",
+  "dataset": "fashion_mnist",
+  "environment": {
+    "numpy": "1.25.2"
+  },
+  "labels_loaded": false,
+  "model_weights_loaded": false,
+  "n_clusters": 10,
+  "n_features": 784,
+  "partition_rule": "SHA256 of opaque augmentation ID, threshold 0.1; original clean partitions retained",
+  "protocol_version": "paper1-review-training-contamination-v1",
+  "realized_counts": {
+    "train": {
+      "clean": 54000,
+      "contaminants": 5428,
+      "contamination_fraction": 0.09133741670592986
+    },
+    "validation": {
+      "clean": 6000,
+      "contaminants": 572,
+      "contamination_fraction": 0.08703590992087644
+    }
+  },
+  "sampling": "source training split only, without replacement; independent NumPy seed streams",
+  "schema_version": "paper1-review-training-view-v1",
+  "seed": 104,
+  "source_dataset": "mnist",
+  "source_manifest": "external-evidence/data_inductive_v1/mnist/manifest.json",
+  "source_manifest_sha256": "52d9d0f6ddaa65088ed881c9787a7c025e41ad3e999a772a233cec7412cdf008",
+  "source_split": "train",
+  "splits": {
+    "train": {
+      "ids_sha256": "ef468d2473d0f68b683e1e732349be2f38e8b8ec1eabc38d5ccffdb61ffd3fc9",
+      "input_shape": [
+        59428,
+        1,
+        28,
+        28
+      ],
+      "inputs": "inputs/train.npz",
+      "n_samples": 59428
+    },
+    "validation": {
+      "ids_sha256": "5c0310e947585725d832484d30f60e710cae77824bcc45eefed035e111fffdd8",
+      "input_shape": [
+        6572,
+        1,
+        28,
+        28
+      ],
+      "inputs": "inputs/validation.npz",
+      "n_samples": 6572
+    }
+  },
+  "status": "completed",
+  "test_inputs_loaded": false,
+  "validation_note": "Gaussian validation contaminants can be noisy copies of clean training images; validation is for diagnostics only, never checkpoint selection or reported test accuracy."
+}

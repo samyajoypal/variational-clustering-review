@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "variational-clustering-review"
+version = "0.2.0"
+description = "Reproducible diagnostic studies for priors, approximate inference and robustness in variational deep clustering."
+readme = "README.md"
+requires-python = ">=3.9,<3.12"
+license = {text = "MIT"}
+authors = [{name = "Samyajoy Pal"}]
+dependencies = ["numpy>=1.24,<1.26", "scipy>=1.10,<1.11", "scikit-learn>=1.6,<1.8", "torch>=2.8", "matplotlib>=3.9,<4"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.urls]
+Repository = "https://github.com/samyajoypal/variational-clustering-review"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["experiments.paper1_review", "experiments.paper1_structured_inference"]
+namespaces = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]

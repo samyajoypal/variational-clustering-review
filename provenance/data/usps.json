@@ -1,0 +1,120 @@
+{
+  "artifact_sha256": {
+    "evaluation/test_labels.npz": "5bace3bc541418b6ebb42a8c0380d22c2fdd4b9c9e9d377d84a31bb6b0f2c0b5",
+    "evaluation/train_labels.npz": "a1bdfa3bd0a34efcde8901ce42de0a37db651d9ef4d8e8582854a32030281e8c",
+    "evaluation/validation_labels.npz": "20187da53b7b882b42b502caba487002d865de031a9b14459bbecb900fcfd8ed",
+    "inputs/test.npz": "e6355a92aff4263aa3d3827fd04fa3f269389f2c188ae9af0709a41e35fb2292",
+    "inputs/train.npz": "aab6cb33dd1c93e176880d5237c79f0fd791a1845feec941ec37a86d08f1d93b",
+    "inputs/validation.npz": "0a0fcc2f9480002e85a8296658d842ea8045a0ef838833d7055d00707aef0de8"
+  },
+  "created_utc": "2026-10-27T13:21:21.621934+00:00",
+  "dataset": "usps",
+  "environment": {
+    "numpy": "1.25.2",
+    "python": "3.9.25",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.10.1"
+  },
+  "fresh_preparation": true,
+  "historical_transductive_reproduction": false,
+  "labels_role": "benchmark construction/integrity and evaluation only; never model fitting or selection",
+  "legacy_learned_features_used": false,
+  "n_clusters": 10,
+  "n_clusters_source": "predeclared_benchmark",
+  "n_features": 256,
+  "protocol_version": "paper1-review-inductive-data-v1",
+  "raw_sources": [
+    {
+      "bytes": 6579383,
+      "canonical_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/usps.bz2"
+      ],
+      "download_receipt": {
+        "bytes": 6579383,
+        "resolved_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/usps.bz2",
+        "retrieved_utc": "2026-10-27T13:21:14.336271+00:00",
+        "sha256": "3771e9dd6ba685185f89867b6e249233dd74652389f263963b3b741e994b034f",
+        "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/usps.bz2"
+      },
+      "expected_md5": "ec16c51db3855ca6c91edd34d0e9b197",
+      "file_id": "usps.bz2",
+      "integrity": "published_md5_verified",
+      "path": "external-evidence/raw/usps/usps.bz2",
+      "sha256": "3771e9dd6ba685185f89867b6e249233dd74652389f263963b3b741e994b034f"
+    },
+    {
+      "bytes": 1831726,
+      "canonical_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/usps.t.bz2"
+      ],
+      "download_receipt": {
+        "bytes": 1831726,
+        "resolved_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/usps.t.bz2",
+        "retrieved_utc": "2026-10-27T13:21:17.653631+00:00",
+        "sha256": "a9c0164e797d60142a50604917f0baa604f326e9a689698763793fa5d12ffc4e",
+        "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/usps.t.bz2"
+      },
+      "expected_md5": "8ea070ee2aca1ac39742fdd1ef5ed118",
+      "file_id": "usps.t.bz2",
+      "integrity": "published_md5_verified",
+      "path": "external-evidence/raw/usps/usps.t.bz2",
+      "sha256": "a9c0164e797d60142a50604917f0baa604f326e9a689698763793fa5d12ffc4e"
+    }
+  ],
+  "sample_counts": {
+    "test": 2007,
+    "train": 6562,
+    "validation": 729
+  },
+  "schema_version": "paper1-review-dataset-v1",
+  "source_checked_on": "2026-10-27",
+  "source_record": "https://raw.githubusercontent.com/pytorch/vision/main/torchvision/datasets/usps.py",
+  "source_sha256": "871532217f4c8f9f462446b5f4b058fc015951a9659414520c97189375268003",
+  "split_selection": "label-independent RandomState permutation; no stratification or retries",
+  "splits": {
+    "test": {
+      "ids_sha256": "762a80d8ee189a26eb8f099685172ea85788b8be316273bfc9eb489ac8a49d48",
+      "input_shape": [
+        2007,
+        1,
+        16,
+        16
+      ],
+      "inputs": "inputs/test.npz",
+      "labels": "evaluation/test_labels.npz",
+      "n_samples": 2007
+    },
+    "train": {
+      "ids_sha256": "de1b533249bc40388e95456211f54f9b90a992bc44d54fc8b90d50042281d1bb",
+      "input_shape": [
+        6562,
+        1,
+        16,
+        16
+      ],
+      "inputs": "inputs/train.npz",
+      "labels": "evaluation/train_labels.npz",
+      "n_samples": 6562
+    },
+    "validation": {
+      "ids_sha256": "1a044f4887bf92690db73cdecfe601b1979b7679dbac1d69658adcf05c21f405",
+      "input_shape": [
+        729,
+        1,
+        16,
+        16
+      ],
+      "inputs": "inputs/validation.npz",
+      "labels": "evaluation/validation_labels.npz",
+      "n_samples": 729
+    }
+  },
+  "status": "completed",
+  "transform": {
+    "kind": "fixed_pixel_scaling",
+    "normalization": "(raw_float_pixel+1)/2; no quantization, resizing or learned transform",
+    "official_test_untouched": true,
+    "split_seed": 1234
+  },
+  "validation_fraction_of_training_pool": 0.1
+}
